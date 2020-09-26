@@ -1,23 +1,9 @@
 /*****Bootstrap_Media_Queries*****/
 @media (max-width:1500px) {
 }
-@media (max-width:1240px) {
-	.navbar-expand-lg .navbar-nav .nav-link { font-size:13px; font-weight:500; padding:0 8px; }
-	.nav-item.active a { font-weight:500 !important; }
-	.navbar-brand img { height:54px; }
-	.head_button { margin-left:5px; }
-	.head_button span { font-size:13px; letter-spacing:1px; vertical-align:top; }
-	
-	.head_button a.btn_hb { padding:2px 10px; }
-	.head_button i { display:none; font-size:13px; margin-right:5px; }
-	
+@media (max-width:1240px) {	
 }
 @media (max-width:991px) {
-	.navbar { padding:10px 10px; }
-	.head_buttons { float:right;}
-	.head_button { margin-left:0; display:inline-block; }
-	.head_button a.btn_hb { padding:0; width:30px; height:30px; text-align:center; }
-	.head_button i { display:block; padding:7px 0; margin:0; font-size:16px; }
 }
 @media (max-width:767px){
 }
