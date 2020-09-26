@@ -9,8 +9,6 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	
 	<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700;900&display=swap" rel="stylesheet">
@@ -65,12 +63,10 @@
 								<div class="hp_login_register">
 									<h4>Login to your HomePLAY account to access your virtual events!</h4>
 									<div class="hp_login_regi_tab">
-										<label>Email <span class="star">*</span></label>
-										<input type="text" name="email">
+										<input type="text" name="email" placeholder="Email *">
 									</div>
 									<div class="hp_login_regi_tab">
-										<label>Password <span class="star">*</span></label>
-										<input type="text" name="password">
+										<input type="text" name="password" placeholder="Password *">
 									</div>
 									<div class="hp_login_regi_tab">
 										<p>Don't have view account <a href="#"><u>Create One!</u></a></p>
@@ -84,12 +80,10 @@
 								<div class="hp_login_register">
 									<h4>Login to your HomePLAY account to access your Artist Login!</h4>
 									<div class="hp_login_regi_tab">
-										<label>Email <span class="star">*</span></label>
-										<input type="text" name="email">
+										<input type="text" name="email" placeholder="Email *">
 									</div>
 									<div class="hp_login_regi_tab">
-										<label>Password <span class="star">*</span></label>
-										<input type="text" name="password">
+										<input type="text" name="password" placeholder="Password *">
 									</div>
 									<div class="hp_login_regi_tab">
 										<p>Don't have view account <a href="#"><u>Artist One!</u></a></p>
@@ -107,16 +101,12 @@
 		</div>
 	</div>
 	<!--Web_Login_BG-->
-
-	
-
-	
 	
 	<!--Web_Footer-->
     <div class="web_footer">
         <div class="container">
 			<div class="row">
-				<div class="col-lg-3">	
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="footer_info">
 						<a href="#" class="footer_logo"><img src="images/logo_white_without_glow.png" class="logo_white" class="img-fluid"></a>
 						<div class="footer_mail">
@@ -132,7 +122,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3">	
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="footer_tab">
 						<h3>Useful Links</h3>							
 						<ul>
@@ -144,7 +134,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3">	
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="footer_tab">
 						<h3>Support</h3>							
 						<ul>
@@ -155,7 +145,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3">	
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="footer_tab">
 						<h3>Genres</h3>							
 						<div class="genres_tab">
@@ -169,15 +159,18 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="socialsquared">
-						<p>socialsquared.</p>
+			
+			<div class="footer_link">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="socialsquared">
+							<p>socialsquared.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-lg-8">
-					<div class="copyright">
-						<p> <a href="#">Terms and Conditions</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | Do Not Sell My Personal Information <a href="#"><u>Powered By iSi LIVE Technologies</u></a> Copyright HomePlay LIVE 2020. All Rights Reserved.</p>
+					<div class="col-lg-9">
+						<div class="copyright">
+							<p> <a href="#">Terms and Conditions</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | Do Not Sell My Personal Information <a href="#"><u>Powered By iSi LIVE Technologies</u></a> Copyright HomePlay LIVE 2020. All Rights Reserved.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -190,27 +183,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.js"></script>
-
-    <script>
-		$(document).ready(function() {
-			var owl = $('.owl-carousel');
-			owl.owlCarousel({
-				items: 3,
-				loop: true,
-				margin: 10,
-				autoplay: true,
-				autoplayTimeout: 2000,
-				autoplayHoverPause: true
-			});
-			$('.play').on('click', function() {
-				owl.trigger('play.owl.autoplay', [1000])
-			})
-			$('.stop').on('click', function() {
-				owl.trigger('stop.owl.autoplay')
-			})
-		})
-	</script>
 	<script>
 		$(window).on("scroll", function() {
 			if($(window).scrollTop() > 150) {
