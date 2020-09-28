@@ -98,6 +98,10 @@
 
 	.login_register_box { padding-top:70px; }
 	.register_bg { padding:25px 15px; }
+	
+	.top_bar_right { text-align:center; }
+	.top_bar_right ul li { border-right:1px solid #FFF; line-height:12px; }
+	.top_bar_right ul li a { font-size:14px; padding:0 6px; }
 }
 @media (max-width:480px) {
 }
