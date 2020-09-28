@@ -1,25 +1,26 @@
 <?php include("header.php");?>
 
 <!--Web_Artist_Landing_BG-->
-<div class="web_artist_landing_bg">
-	<div class="container">
-		<div class="main_bg">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="hp_artist_landing_profile">
-						<a href="#" class="alp_profile_edit">Edit</a>
-						<img src="images/profile_edit.jpg" alt=""/>
-					</div>
+<div class="web_artist_landing_bg"></div>
+
+<div class="container">
+	<div class="artist_landing_bg">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="hp_artist_landing_profile">
+					<a href="#" class="alp_profile_edit">Edit</a>
+					<img src="images/profile_edit.jpg" alt=""/>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="hp_artist_landing_info">
-						<a href="#" class="alp_tag">Country / Pop</a>
-						<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="hp_artist_landing_info">
+					<a href="#" class="alp_tag">Country / Pop</a>
+					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="hp_al_social_btn">
 						<div class="hp_artist_landing_btn">
-							<a href="#"><img src="images/upcoming_events_icon.png" class="img-fluid">Upcoming Events</a>
-							<a href="#"><img src="images/featured_event_icon.png" class="img-fluid">Featured Events</a>
-							<a href="#"><img src="images/all_events_icon.png" class="img-fluid">All Events</a>
+							<a href="#"><img src="images/upcoming_events_icon.png" class="img-fluid">Biography</a>
+							<a href="#"><img src="images/featured_event_icon.png" class="img-fluid">Event Archive</a>
 						</div>
 						<div class="hp_artist_landing_social">
 							<ul>
@@ -27,6 +28,78 @@
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							</ul>
+						</div>
+					</div>
+					<div class="hp_artist_landing_icons">
+						<ul>
+							<li><img src="images/icon1.png" class="img-fluid"></li>
+							<li><img src="images/icon2.png" class="img-fluid"></li>
+							<li><img src="images/icon3.png" class="img-fluid"></li>
+							<li><img src="images/icon4.png" class="img-fluid"></li>
+							<li><img src="images/icon5.png" class="img-fluid"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="hp_al_bio">
+					<h3>Biography</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="hp_al_upcoming_event">
+					<h3>Upcoming Events</h3>
+					<div class="al_upcoming_events_tabs">
+						<div class="al_upcoming_events_tab">
+							<div class="row">
+								<div class="col-lg-2 col-md-2">
+									<img src="images/blank_thum.jpg" alt=""/>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+									<p>01/02/2020</p>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="al_ue_button">
+										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="al_upcoming_events_tab">
+							<div class="row">
+								<div class="col-lg-2 col-md-2">
+									<img src="images/blank_thum.jpg" alt=""/>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+									<p>01/02/2020</p>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="al_ue_button">
+										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="al_upcoming_events_tab">
+							<div class="row">
+								<div class="col-lg-2 col-md-2">
+									<img src="images/blank_thum.jpg" alt=""/>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+									<p>01/02/2020</p>
+								</div>
+								<div class="col-lg-4 col-md-4">
+									<div class="al_ue_button">
+										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

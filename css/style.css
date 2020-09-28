@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 { font-family:'Mukta', sans-serif; color:#000; font-weigh
 
 a { text-decoration:none; color:#09b7f7; transition:0.5s; }
 a:focus, a:hover { text-decoration:none; color:#09b7f7; transition:0.9s; }
-
+.clear { clear:both; }
 
 /*****Common*****/
 .common_title { width:100%; text-align:center; }
@@ -71,7 +71,7 @@ span.hp_line { position:absolute; left:-72px; background:rgba(3,3,3,0.4); top:12
 .main_bg { padding:140px 0 0 0; }
 
 .hp_main_text {}
-.hp_main_text h2 { font-size:60px; color:#FFF; font-weight:600; margin:0 0 20px 0; }
+.hp_main_text h2 { font-size:56px; color:#FFF; font-weight:600; margin:0 0 20px 0; }
 .hp_main_text h3 { font-size:36px; color:#FFF; font-weight:400; margin:0 0 20px 0; }
 .hp_main_text p { font-size:18px; color:#FFF; line-height:30px; margin:20px 0; }
  
@@ -191,17 +191,17 @@ span.hp_line { position:absolute; left:-72px; background:rgba(3,3,3,0.4); top:12
 .footer_tab h3::after { content:''; position:absolute; background:linear-gradient(90deg,#139cef,#00d1ff); width:80px; height:6px; left:auto; display:block; border-radius:15px; margin-top:10px; }
 .footer_tab ul { }
 .footer_tab ul li { display:block; margin:10px 0; }
-.footer_tab ul li a { display:block; font-size:20px; color:#858585; padding:0 6px; }
+.footer_tab ul li a { display:block; font-size:18px; color:#858585; padding:0 6px; }
 .footer_tab ul li a:hover { color:rgba(255,255,255,0.8);}
 
 .footer_social { margin-top:25px; }
 .footer_social ul { }
-.footer_social ul li { display:inline-block; margin:0 15px 0 0; }
+.footer_social ul li { display:inline-block; margin:0 10px 0 0; }
 .footer_social ul li a { display:block; font-size:18px; color:#fff; border-radius:10px; border:2px solid #fff; width:38px; height:38px; text-align:center; padding:4px 0; }
 .footer_social ul li a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 
 .genres_tab {}
-.genres_tab a { display:inline-block; font-size:17px; font-weight:700; color:#FFF; background:#3b3b3b; padding:4px 15px; border-radius:50px; margin:5px 2px; }
+.genres_tab a { display:inline-block; font-size:15px; font-weight:600; color:#FFF; background:#3b3b3b; padding:4px 15px; border-radius:50px; margin:5px 2px; }
 .genres_tab a.active { background:linear-gradient(90deg,#139cef,#00d1ff); }
 .genres_tab a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 
@@ -243,28 +243,34 @@ span.hp_line { position:absolute; left:-72px; background:rgba(3,3,3,0.4); top:12
 /*****Web_Login_BG*****/
 
 /*****Artist_Landing*****/
-.web_artist_landing_bg { width:100%; background:url(../images/find_events_bg.jpg) no-repeat; background-size:cover; height:700px; margin-top:-114px; }
-.hp_artist_landing_profile { }
-.hp_artist_landing_profile a.alp_profile_edit { }
-.hp_artist_landing_profile img { }
+.web_artist_landing_bg { width:100%; background:url(../images/find_events_bg.jpg) no-repeat; background-size:cover; height:600px; margin-top:-114px; }
+
+.artist_landing_bg { margin-top:-370px; }
+.hp_artist_landing_profile {border:10px solid #FFF;box-shadow:0 0 30px rgba(0,0,0,.1);}
+.hp_artist_landing_profile a.alp_profile_edit {position:absolute;right:50px;top:20px;font-size:18px;color:#FFF;font-weight:600;border-bottom:1px solid #FFF;line-height:23px;}
+.hp_artist_landing_profile img {width:100%;}
 
 .hp_artist_landing_info { }
-.hp_artist_landing_info a.alp_tag { }
-.hp_artist_landing_info h2 { }
-.hp_artist_landing_info p { }
+.hp_artist_landing_info a.alp_tag {font-size:17px;font-weight:700;color:#FFF;background:linear-gradient(90deg,#139cef,#00d1ff);padding:4px 15px;border-radius:50px;margin:0 0 15px 0;display:inline-block;}
+.hp_artist_landing_info h2 {font-size:56px;color:#FFF;}
+.hp_artist_landing_info p {font-size:20px;color:#FFF;line-height:30px;}
+.hp_artist_landing_info a.alp_edit { font-size:18px; border-bottom:1px solid; display:inline-block; vertical-align:middle; }
 
-.hp_artist_landing_btn {}
+.hp_al_social_btn { margin:20px 0; display:block; }
+.hp_artist_landing_btn { display:inline-block; }
 .hp_artist_landing_btn img { width:auto; height:auto; display:inline-block; padding-right:10px; }
-.hp_artist_landing_btn a { background:rgba(255,255,255,0.25); font-size:20px; color:#FFF; margin-right:15px; padding:8px 25px; display:inline-block; border-radius:50px; }
+.hp_artist_landing_btn a { background:rgba(255,255,255,0.25); font-size:18px; color:#FFF; margin-right:15px; padding:8px 25px; display:inline-block; border-radius:50px; }
 .hp_artist_landing_btn a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 
-.hp_artist_landing_social { }
+.hp_artist_landing_social { display:inline-block;  }
 .hp_artist_landing_social ul { }
-.hp_artist_landing_social ul li { display:inline-block; margin:0 15px 0 0; }
+.hp_artist_landing_social ul li { display:inline-block; margin:0 8px 0 0; }
 .hp_artist_landing_social ul li a { display:block; font-size:18px; color:#fff; border-radius:10px; border:2px solid #fff; width:38px; height:38px; text-align:center; padding:4px 0; }
 .hp_artist_landing_social ul li a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 
-
+.hp_artist_landing_icons { margin:90px 0 10px 0; }
+.hp_artist_landing_icons ul { margin:0; }
+.hp_artist_landing_icons li { list-style:none; display:inline-block; margin:0 10px 0 0; }
 
 .event_video_tabs { margin:20px 0; }
 .event_video_tab { box-shadow:0 0 30px rgba(0,0,0,.1); border-radius:30px; margin:30px 15px; overflow:hidden; }
@@ -274,6 +280,21 @@ span.hp_line { position:absolute; left:-72px; background:rgba(3,3,3,0.4); top:12
 .evt_text { padding:20px 15px; }
 .evt_text h4 {}
 .evt_text p {}
-.evt_text span.evt_date { display:block; border-top:1px solid #DDD; font-size:18px; color:#129ff0; padding:10px 0 0 0; font-weight:500;}
+.evt_text span.evt_date { display:block; border-top:1px solid #DDD; font-size:18px; color:#129ff0; padding:10px 0 0 0; font-weight:500; }
+
+.hp_al_bio { margin-top:50px; }
+.hp_al_upcoming_event { margin-top:60px; border:1px solid #c2c2c2; border-radius:30px; padding:30px 20px; box-shadow:0 0 30px rgba(0,0,0,.1); }
+.hp_al_upcoming_event h3 { border-bottom:1px solid #DDD; padding:0 0 10px 0; }
+
+.al_upcoming_events_tabs { margin:20px 0 0; }
+.al_upcoming_events_tab { border-bottom:1px solid #DDD; padding:10px 0 5px 0; }
+.al_upcoming_events_tab img { } 
+.al_upcoming_events_tab h4 { font-size:16px; font-weight:600; margin:0; }
+.al_upcoming_events_tab p { font-size:16px; color:#129ff0; margin:0; }
+
+.al_ue_button { }
+.al_ue_button a { display:inline-block; border:1px solid #DDD; padding:6px 15px; border-radius:50px; margin:0; }
+.al_ue_button img { display:inline-block; vertical-align:middle; padding-right:10px; }
+.al_ue_button span { display:inline-block; font-size:16px; color:#000; font-weight:700; vertical-align:middle; }
 /*****Artist_Landing*****/
 
