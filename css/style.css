@@ -51,7 +51,7 @@ a:focus, a:hover { text-decoration:none; color:#09b7f7; transition:0.9s; }
 
 .navbar-toggler { padding:4px 8px;}
 .navbar-light .navbar-toggler { outline:none; border-color:rgba(18,158,239,1); color:#FFF;  }
-.navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18,158,239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+.navbar-light .navbar-toggler-icon { background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18,158,239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 .head_button { display:inline-block; margin-left:20px;}
 .head_button a.btn_hb_text { font-size:23px; color:#fff; text-transform:capitalize; background:linear-gradient(90deg,#139cef,#00d1ff); padding:8px 35px; border-radius:50px; display:inline-block; transition:0.9s; }
@@ -68,7 +68,7 @@ span.hp_line { position:absolute; left:-72px; background:rgba(3,3,3,0.4); top:12
 .slider_buttons a { background:rgba(255,255,255,0.25); font-size:20px; color:#FFF; margin-right:15px; padding:8px 25px; display:inline-block; border-radius:50px; }
 .slider_buttons a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 
-.main_bg { padding:300px 0 0 0; }
+.main_bg { padding:140px 0 0 0; }
 
 .hp_main_text {}
 .hp_main_text h2 { font-size:60px; color:#FFF; font-weight:600; margin:0 0 20px 0; }
@@ -241,4 +241,39 @@ span.hp_line { position:absolute; left:-72px; background:rgba(3,3,3,0.4); top:12
 .hp_login_regi_button a:hover { color:#FFF; background:linear-gradient(90deg,#00d1ff,#139cef); }
 .nav-tabs-login { border-bottom:none; }
 /*****Web_Login_BG*****/
+
+/*****Artist_Landing*****/
+.web_artist_landing_bg { width:100%; background:url(../images/find_events_bg.jpg) no-repeat; background-size:cover; height:700px; margin-top:-114px; }
+.hp_artist_landing_profile { }
+.hp_artist_landing_profile a.alp_profile_edit { }
+.hp_artist_landing_profile img { }
+
+.hp_artist_landing_info { }
+.hp_artist_landing_info a.alp_tag { }
+.hp_artist_landing_info h2 { }
+.hp_artist_landing_info p { }
+
+.hp_artist_landing_btn {}
+.hp_artist_landing_btn img { width:auto; height:auto; display:inline-block; padding-right:10px; }
+.hp_artist_landing_btn a { background:rgba(255,255,255,0.25); font-size:20px; color:#FFF; margin-right:15px; padding:8px 25px; display:inline-block; border-radius:50px; }
+.hp_artist_landing_btn a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
+
+.hp_artist_landing_social { }
+.hp_artist_landing_social ul { }
+.hp_artist_landing_social ul li { display:inline-block; margin:0 15px 0 0; }
+.hp_artist_landing_social ul li a { display:block; font-size:18px; color:#fff; border-radius:10px; border:2px solid #fff; width:38px; height:38px; text-align:center; padding:4px 0; }
+.hp_artist_landing_social ul li a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
+
+
+
+.event_video_tabs { margin:20px 0; }
+.event_video_tab { box-shadow:0 0 30px rgba(0,0,0,.1); border-radius:30px; margin:30px 15px; overflow:hidden; }
+.evt_video {}
+.evt_video img {}
+.evt_video a.evt_tag { position:absolute; top:50px; right:30px; font-size:16px; color:#FFF; font-weight:700; background:linear-gradient(90deg,#139cef,#00d1ff); padding:2px 20px; border-radius:40px; }
+.evt_text { padding:20px 15px; }
+.evt_text h4 {}
+.evt_text p {}
+.evt_text span.evt_date { display:block; border-top:1px solid #DDD; font-size:18px; color:#129ff0; padding:10px 0 0 0; font-weight:500;}
+/*****Artist_Landing*****/
 

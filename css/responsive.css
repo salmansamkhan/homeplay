@@ -7,7 +7,7 @@
 	.nav-link { font-size:20px; padding:0 25px !important; }
 	.head_button a.btn_hb_text { font-size:20px; padding:6px 25px; }
 	.head_button a.btn_hb_search { font-size:20px; }
-	.main_bg { padding:200px 0 0 0; }
+	.main_bg { padding:130px 0 0 0; }
 	.hp_main_text h2 { font-size:50px; margin:0 0 15px 0; }
 	.hp_main_text h3 { font-size:30px; margin:0 0 15px 0; }
 	.main_box h3 { font-size:24px; }
@@ -44,7 +44,7 @@
 	.web_main_bg { margin-top:0; }
 	.web_find_events_bg { margin-top:0; }
 	.web_login_bg { margin-top:0; }
-	.main_bg { padding:120px 0 0 0; }
+	.main_bg { padding:100px 0 0 0; }
 	.login_register_box { padding-top:120px; }
 	.head_button { margin-left:0; }
 	.hp_main_text h2 { font-size:40px; }

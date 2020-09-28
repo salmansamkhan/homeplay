@@ -1,18 +1,32 @@
 <?php include("header.php");?>
 
-<!--Web_Find_Events_BG-->
-<div class="web_find_events_bg">
+<!--Web_Artist_Landing_BG-->
+<div class="web_artist_landing_bg">
 	<div class="container">
 		<div class="main_bg">
 			<div class="row">
-				<div class="col-md-8">
-					<div class="hp_main_text">
-						<h2>Find Live Events<span class="blink_homeplay">.</span></h2>
-						<h3>Stream your favourite artists <span class="blink_homeplay">LIVE</span> from home.</h3>
-						<p>HomePlay is the live streaming platform to get your special events viewed by thousands of people at once. We put artists on your TV at home so you don’t have to leave the house to see the world’s absolute best.</p>
-						<div class="hp_main_search">
-							<input type="text" name="email" placeholder="Search Events...">
-							<input type="submit" name="Search" value="Search" >
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="hp_artist_landing_profile">
+						<a href="#" class="alp_profile_edit">Edit</a>
+						<img src="images/profile_edit.jpg" alt=""/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="hp_artist_landing_info">
+						<a href="#" class="alp_tag">Country / Pop</a>
+						<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<div class="hp_artist_landing_btn">
+							<a href="#"><img src="images/upcoming_events_icon.png" class="img-fluid">Upcoming Events</a>
+							<a href="#"><img src="images/featured_event_icon.png" class="img-fluid">Featured Events</a>
+							<a href="#"><img src="images/all_events_icon.png" class="img-fluid">All Events</a>
+						</div>
+						<div class="hp_artist_landing_social">
+							<ul>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -20,57 +34,133 @@
 		</div>
 	</div>
 </div>
-<!--Web_Find_Events_BG-->
+<!--Web_Artist_Landing_BG-->
 
 <!--Web_Featured_Events-->
 <div class="web_featured_events" >
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="common_title ct_left">
+				<div class="common_title">
 					<h2>EVENTS ARCHIVE</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
 					<span class="ct_line"></span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				<div class="event_video_tab">
-					<div class="evt_video">
-						<a href="#" class="evt_tag">New</a>
-						<img src="images/event_video1.jpg" alt=""/>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="owl-carousel owl-theme event_video_tabs">
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<a href="#" class="evt_tag">New</a>
+								<img src="images/event_video1.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
 					</div>
-					<div class="evt_text">
-						<h4>Event Title Goes Here</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-						<span class="evt_date">12/30/2020</span>
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<img src="images/event_video2.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				<div class="event_video_tab">
-					<div class="evt_video">
-						<a href="#" class="evt_tag">New</a>
-						<img src="images/event_video1.jpg" alt=""/>
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<img src="images/event_video3.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
 					</div>
-					<div class="evt_text">
-						<h4>Event Title Goes Here</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-						<span class="evt_date">12/30/2020</span>
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<a href="#" class="evt_tag">New</a>
+								<img src="images/event_video1.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-				<div class="event_video_tab">
-					<div class="evt_video">
-						<a href="#" class="evt_tag">New</a>
-						<img src="images/event_video1.jpg" alt=""/>
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<img src="images/event_video2.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
 					</div>
-					<div class="evt_text">
-						<h4>Event Title Goes Here</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-						<span class="evt_date">12/30/2020</span>
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<img src="images/event_video3.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<a href="#" class="evt_tag">New</a>
+								<img src="images/event_video1.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<img src="images/event_video2.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="event_video_tab">
+							<div class="evt_video">
+								<img src="images/event_video3.jpg" alt=""/>
+							</div>
+							<div class="evt_text">
+								<h4>Event Title Goes Here</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<span class="evt_date">12/30/2020</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
