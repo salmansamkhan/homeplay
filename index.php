@@ -29,13 +29,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="hp_main_bottom">
-							<a href="#featured_events"><img src="images/main_scroll.png" class="img-fluid"></a>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
     </div>
@@ -44,6 +37,13 @@
 	<!--Web_Main_Box-->
 	<div class="web_main_box">
         <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="hp_main_bottom">
+						<a href="#featured_events"><img src="images/main_scroll.png" class="img-fluid"></a>
+					</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="main_box">

@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 				<div class="footer_info">
-					<a href="#" class="footer_logo"><img src="images/logo_white_without_glow.png" class="logo_white" class="img-fluid"></a>
+					<a href="#" class="footer_logo"><img src="images/footer_logo_without_glow.png" class="logo_white" class="img-fluid"><img src="images/footer_logo_with_glow.png" class="logo_white_glow" class="img-fluid"></a>
 					<div class="footer_mail">
 						<label>Contact</label>
 						<a href="mailto:info@homeplay.live">info@homeplay.live</a>
@@ -45,7 +45,7 @@
 				<div class="footer_tab">
 					<h3>Genres</h3>							
 					<div class="genres_tab">
-						<a href="#" class="active">Hip-Hop/Rap</a>
+						<a href="#">Hip-Hop/Rap</a>
 						<a href="#">Country</a>
 						<a href="#">Pop</a>
 						<a href="#">R&B/soul</a>

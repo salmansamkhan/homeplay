@@ -41,8 +41,10 @@
 				</a>
 				<div class="form-inline-mobile d-lg-none d-md-block d-sm-block">
 					<div class="head_button">
-						<a href="#" class="btn_hb_text">Are You An Artist?</a>
-						<a href="#" class="btn_hb_search"><i class="fa fa-search"></i></a>
+						<ul>
+							<li><a href="#" class="btn_hb_text">Are You An Artist?</a></li>
+							<li><a href="#" class="btn_hb_search"><i class="fa fa-search"></i></a></li>
+						</ul>
 					</div>
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -54,8 +56,16 @@
 					</ul>
 					<div class="form-inline-desktop d-lg-block d-md-none d-sm-none">
 						<div class="head_button">
-							<a href="#" class="btn_hb_text">Are You An Artist?</a>
-							<a href="#" class="btn_hb_search"><i class="fa fa-search"></i></a>
+							<ul>
+								<li><a href="#" class="btn_hb_text">Are You An Artist?</a></li>
+								<li><a href="#" class="btn_hb_search"><i class="fa fa-search"></i></a></li>
+								<li class="dropdown">
+									<a class="btn btn-secondary dropdown-toggle btn_hb_profile" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i></a>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										<a class="dropdown-item" href="#">My Artist Profile</a>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
