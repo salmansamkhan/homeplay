@@ -223,7 +223,7 @@ span.hp_line { position:absolute; left:-72px; background:rgba(3,3,3,0.4); top:12
 /*****Web_Footer*****/
 
 /*****Web_Login_BG*****/
-.web_login_bg { width:100%; background:url(../images/homepage_slider1.jpg) no-repeat; background-size:cover; height:100vh; margin-top:-114px; }
+.web_login_bg { width:100%; background:url(../images/homepage_slider1.jpg) no-repeat; background-size:cover; height:750px; margin-top:-114px; }
 
 .login_register_box { padding-top:200px; }
 .login_register_box .nav-tabs { border-bottom:0; }
