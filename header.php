@@ -6,7 +6,7 @@
 
 	<title>Home Play</title>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -27,7 +27,7 @@
 				<div class="top_bar_right">
 					<ul>
 						<li><a href="#">Create an Artist Account</a></li>
-						<li><a href="#">Create an Viewer Account</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#mp_viewer_account">Create an Viewer Account</a></li>
 						<li><a href="login.php">Login</a></li>
 					</ul>
 				</div>
@@ -62,7 +62,7 @@
 								<li class="dropdown">
 									<a class="btn btn-secondary dropdown-toggle btn_hb_profile" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i></a>
 									<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-										<a class="dropdown-item" href="#">My Artist Profile</a>
+										<a class="dropdown-item" href="#" data-toggle="modal" data-target="#my_artist_profile">My Artist Profile</a>
 									</div>
 								</li>
 							</ul>

@@ -6,13 +6,13 @@
 <div class="container">
 	<div class="artist_landing_bg">
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_profile">
 					<a href="#" class="alp_profile_edit">Edit</a>
 					<img src="images/profile_edit.jpg" alt=""/>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
 					<a href="#" class="alp_tag">Country / Pop</a>
 					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
@@ -43,26 +43,26 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_al_bio">
 					<h3>Biography</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_al_upcoming_event">
 					<h3>Upcoming Events</h3>
 					<div class="al_upcoming_events_tabs">
 						<div class="al_upcoming_events_tab">
 							<div class="row">
-								<div class="col-lg-2 col-md-2">
+								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-6 col-md-6">
+								<div class="col-lg-6 col-md-6 col-sm-6">
 									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-4 col-md-4">
+								<div class="col-lg-4 col-md-4 col-sm-4">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>
@@ -71,14 +71,14 @@
 						</div>
 						<div class="al_upcoming_events_tab">
 							<div class="row">
-								<div class="col-lg-2 col-md-2">
+								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-6 col-md-6">
+								<div class="col-lg-6 col-md-6 col-sm-6">
 									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-4 col-md-4">
+								<div class="col-lg-4 col-md-4 col-sm-4">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>
@@ -87,14 +87,14 @@
 						</div>
 						<div class="al_upcoming_events_tab">
 							<div class="row">
-								<div class="col-lg-2 col-md-2">
+								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-6 col-md-6">
+								<div class="col-lg-6 col-md-6 col-sm-6">
 									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-4 col-md-4">
+								<div class="col-lg-4 col-md-4 col-sm-4">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>
@@ -247,13 +247,13 @@
 	<div class="container">
 		<div class="video_section_bg">
 			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 					<div class="video_section_text">
 						<h3>Join thousands of people</h3>
 						<p>HomePlay.LIVE is building a strong viewership base where you have the ability to get your performance, your music, your show in front of thousands of people at once. Professionally presenting artists is an incredibly important task. Designed for your big screen at home, our focus is on the highest level of production quality for our artists, and viewers.</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
 					<div class="video_section_button">
 						<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Start Watching</span></a>
 					</div>
@@ -263,5 +263,4 @@
 	</div>
 </div>
 <!--Web_Video_Section-->
-
 <?php include("footer.php");?>

@@ -22,7 +22,7 @@
 									<input type="text" name="password" placeholder="Password *">
 								</div>
 								<div class="hp_login_regi_tab">
-									<p>Don't have view account <a href="#"><u>Create One!</u></a></p>
+									<p>Don't have view account <a href="#">Create One!</a></p>
 								</div>
 								<div class="hp_login_regi_button">
 									<a href="#">Login</a>
@@ -39,7 +39,7 @@
 									<input type="text" name="password" placeholder="Password *">
 								</div>
 								<div class="hp_login_regi_tab">
-									<p>Don't have view account <a href="#"><u>Artist One!</u></a></p>
+									<p>Don't have view account <a href="#">Artist One!</a></p>
 								</div>
 								<div class="hp_login_regi_button">
 									<a href="#">Login</a>

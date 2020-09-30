@@ -23,7 +23,6 @@
 					<h3>Useful Links</h3>							
 					<ul>
 						<li><a href="#">Support</a></li>
-						<li><a href="#">Services</a></li>
 						<li><a href="#">Find Events</a></li>
 						<li><a href="#">HomePlay For Venues</a></li>
 						<li><a href="#">HomePlay For Artists</a></li>
@@ -42,7 +41,7 @@
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-				<div class="footer_tab">
+				<div class="footer_tab last">
 					<h3>Genres</h3>							
 					<div class="genres_tab">
 						<a href="#">Hip-Hop/Rap</a>
@@ -60,7 +59,7 @@
 			<div class="row">
 				<div class="col-lg-3">
 					<div class="socialsquared">
-						<p>socialsquared.</p>
+						<img src="images/socialsquared.png" alt=""/>
 					</div>
 				</div>
 				<div class="col-lg-9">
@@ -74,11 +73,161 @@
 </div>
 <!--Web_Footer-->
 
+<!--Web_Model_Popup_Artist_Profile-->
+<div class="modal fade bd-example-modal-lg my_artist_profile_main" id="my_artist_profile" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="my_artist_profile">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="my_ap_title">
+								<h2>Profile</h2>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="my_ap_tab">
+								<input type="file" id="avatar" name="avatar" placeholder="Upload Profile Photo +">
+							</div>
+							<div class="my_ap_tab">
+								<textarea placeholder="Biography" class="biography"></textarea>
+							</div>
+							<div class="my_ap_title">
+								<h2>Social Media</h2>
+							</div>
+							<div class="my_ap_tab">
+								<input type="text" name="facebook" placeholder="Facebook">
+							</div>
+							<div class="my_ap_tab">
+								<input type="text" name="instagram" placeholder="Instagram">
+							</div>
+							<div class="my_ap_tab">
+								<input type="text" name="linkedin" placeholder="LinkedIn">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="my_ap_tab">
+								<input type="text" name="name" placeholder="Name">
+							</div>
+							<div class="my_ap_tab">
+								<select placeholder="Genre">
+									<option value="Male">Male</option> 
+									<option value="Female">Female</option> 
+								</select> 
+							</div>
+							<div class="my_ap_tab">
+								<textarea placeholder="Short Bio"></textarea>
+							</div>
+							<div class="my_ap_title">
+								<h2>Streaming Links</h2>
+							</div>
+							<div class="my_ap_tab">
+								<input type="text" name="applemusic" placeholder="Apple Music">
+							</div>
+							<div class="my_ap_tab">
+								<input type="text" name="spotify" placeholder="Spotify">
+							</div>
+							<div class="my_ap_tab">
+								<input type="text" name="soundcloud" placeholder="Soundcloud">
+							</div>
+							<div class="my_ap_tab">
+								<input type="text" name="youtube" placeholder="Youtube">
+							</div>
+							<div class="my_ap_tab">
+								<input type="text" name="googleplaymusic" placeholder="Google Play Music">
+							</div>
+							<div class="my_ap_button">
+								<a href="#" class="btn_popup_save">Save</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Web_Model_Popup_Artist_Profile-->
+
+<!--Web_Model_Popup_Viewer_Account-->
+<div class="modal fade bd-example-modal-lg mp_viewer_account_main" id="mp_viewer_account" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="mp_viewer_account">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="my_ap_head">
+								<img src="images/user_profile.png" alt=""/>
+								<h2>Event Name Here</h2>
+								<p>kathleen Edwards</p>
+								<span class="ct_line"></span>
+								<ul>
+									<li><a href="#">CREATE ACCOUNT</a></li>
+									<li><img src="images/arrow_icon.png" alt=""/></li>
+									<li>PAYMENT INFO</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="my_ap_title">
+								<h3>Create Your Viewer Account</h3>
+							</div>
+							<div class="mp_va_tab">
+								<input type="text" name="name" placeholder="Email*">
+							</div>
+							<div class="mp_va_tab">
+								<input type="text" name="password" placeholder="Password *">
+							</div>
+							<div class="mp_va_tab">
+								<input type="text" name="password" placeholder="Confirm Password *">
+							</div>
+							<div class="mp_va_check">
+								<input type="radio" id="male" name="gender" value="male">
+								<span for="male">I agree to HomePLAYs <a href="#"><u>terms of services.</u></a></span>
+							</div>
+							<div class="mp_va_button">
+								<a href="#" class="btn_popup_save">Continue</a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 yo_bg">
+							<div class="my_ap_title">
+								<h3>Your Order</h3>
+							</div>
+							<div class="my_ap_your_order">
+								<p>Wednesday, January 1st, 2020</p>
+								<ul>
+									<li>2 x Event Name Here <span class="theme_color">CA$10.86</span></li>
+									<li><hr></li>
+									<li>Subtotal <span>CA$21.72</span></li>
+									<li>Service Fee <span>CA$2.28</span></li>
+									<li><hr></li>
+									<li><strong>Total <span>$24.00</span></strong></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Web_Model_Popup_Viewer_Account-->
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/smooth-scroll.js"></script>
 
 <script>
@@ -102,8 +251,20 @@
 			margin: 20,
 			autoplay: true,
 			autoplayTimeout: 2000,
-			autoplayHoverPause: true
+			autoplayHoverPause: true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				1000:{
+					items:3
+				}
+			}
 		});
+		
 		$('.play').on('click', function() {
 			owl.trigger('play.owl.autoplay', [1000])
 		})
