@@ -106,7 +106,6 @@ a:focus, a:hover { text-decoration:none; color:#09b7f7; transition:0.9s; }
 .hp_main_nav ul li a:hover {  }
 
 span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.3); font-size:16px; line-height:25px; color:#FFF; text-transform:capitalize; padding:0 15px; border-radius:30px; }
-
 /*****Web_Main_BG*****/
 
 /*****Web_Find_Events_BG*****/
@@ -422,4 +421,16 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .my_ap_your_isi_live span { color:#dbdbdb; display:inline-block; vertical-align:middle; }
 .my_ap_your_isi_live img { display:inline-block; vertical-align:middle; }
 /*****All_Popup*****/
+
+/*****Web_Our_Process*****/
+.web_our_process {}
+.our_process { width:76%; margin:20px auto; }
+.our_process_tab { box-shadow:0 0 30px rgba(0,0,0,.1); background:#FFF; padding:15px 20px; border-radius:30px; margin:20px 20px; }
+.our_process_tab span.number { position:absolute; font-size:70px; font-weight:800; color:#ececec; left:0; top:23px; z-index:-1; }
+.our_pt_img { display:inline-block; width:15%; vertical-align:top; }
+.our_pt_img img {}
+.our_pt_text { display:inline-block; width:80%; vertical-align:top; }
+.our_pt_text h4 { font-size:26px; margin:0 0 5px 0; }
+.our_pt_text p { margin:0; font-size:18px; line-height:28px; }
+/*****Web_Our_Process*****/
 
