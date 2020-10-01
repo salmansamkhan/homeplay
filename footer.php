@@ -92,7 +92,8 @@
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<div class="my_ap_tab">
-								<input type="file" id="avatar" name="avatar" placeholder="Upload Profile Photo +">
+								<input type="file" id="file" />
+								<label for="file" />Upload Profile Photo +</label>
 							</div>
 							<div class="my_ap_tab">
 								<textarea placeholder="Biography" class="biography"></textarea>
@@ -165,7 +166,7 @@
 					<div class="row">
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<div class="my_ap_head">
-								<img src="images/user_profile.png" alt=""/>
+								<img src="images/profile_img.png" alt=""/>
 								<h2>Event Name Here</h2>
 								<p>kathleen Edwards</p>
 								<span class="ct_line"></span>
@@ -179,7 +180,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12">
-							<div class="my_ap_title">
+							<div class="my_va_title">
 								<h3>Create Your Viewer Account</h3>
 							</div>
 							<div class="mp_va_tab">
@@ -200,19 +201,25 @@
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 yo_bg">
-							<div class="my_ap_title">
-								<h3>Your Order</h3>
-							</div>
-							<div class="my_ap_your_order">
-								<p>Wednesday, January 1st, 2020</p>
-								<ul>
-									<li>2 x Event Name Here <span class="theme_color">CA$10.86</span></li>
-									<li><hr></li>
-									<li>Subtotal <span>CA$21.72</span></li>
-									<li>Service Fee <span>CA$2.28</span></li>
-									<li><hr></li>
-									<li><strong>Total <span>$24.00</span></strong></li>
-								</ul>
+							<div class="yo_bg_main">
+								<div class="my_va_title">
+									<h3>Your Order</h3>
+								</div>
+								<div class="my_ap_your_order">
+									<p>Wednesday, January 1st, 2020</p>
+									<ul>
+										<li>2 x Event Name Here <span class="theme_color">CA$10.86</span></li>
+										<li><hr></li>
+										<li>Subtotal <span>CA$21.72</span></li>
+										<li>Service Fee <span>CA$2.28</span></li>
+										<li><hr></li>
+										<li><strong>Total <span>$24.00</span></strong></li>
+									</ul>
+								</div>
+								<div class="my_ap_your_isi_live">
+									<span>Powered By :</span>
+									<img src="images/isi_live.jpg" alt="" />
+								</div>
 							</div>
 						</div>
 					</div>
@@ -273,6 +280,13 @@
 		})
 	})
 </script>
-	
+<script>
+	$(document).ready(function() {
+		$(".fa-search").click(function() {
+		   $(".togglesearch").toggle();
+		   $("input[type='text']").focus();
+		 });
+	});
+</script>
 </body>
 </html>

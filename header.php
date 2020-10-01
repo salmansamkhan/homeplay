@@ -58,9 +58,17 @@
 						<div class="head_button">
 							<ul>
 								<li><a href="#" class="btn_hb_text">Are You An Artist?</a></li>
-								<li><a href="#" class="btn_hb_search"><i class="fa fa-search"></i></a></li>
+								<li>
+									<a href="#" class="btn_hb_search">
+										<i class="fa fa-search"></i>
+										<div class="togglesearch">
+											<input type="text" placeholder=""/>
+											<input type="button" value="Search"/>
+										</div>
+									</a>
+								</li>
 								<li class="dropdown">
-									<a class="btn btn-secondary dropdown-toggle btn_hb_profile" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i></a>
+									<a class="btn btn-secondary dropdown-toggle btn_hb_profile" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/user_profile.png" alt=""></a>
 									<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 										<a class="dropdown-item" href="#" data-toggle="modal" data-target="#my_artist_profile">My Artist Profile</a>
 									</div>
