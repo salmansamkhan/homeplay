@@ -43,7 +43,15 @@
 					<div class="head_button">
 						<ul>
 							<li><a href="#" class="btn_hb_text">Are You An Artist?</a></li>
-							<li><a href="#" class="btn_hb_search"><i class="fa fa-search"></i></a></li>
+							<li>
+								<a href="#" class="btn_hb_search">
+									<i class="fa fa-search"></i>
+									<div class="togglesearch">
+										<input type="text" placeholder=""/>
+										<input type="button" value="Search"/>
+									</div>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>

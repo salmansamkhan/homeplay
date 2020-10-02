@@ -116,9 +116,15 @@
 								<input type="text" name="name" placeholder="Name">
 							</div>
 							<div class="my_ap_tab">
-								<select placeholder="Genre">
-									<option value="Male">Male</option> 
-									<option value="Female">Female</option> 
+								<select>
+									<option default>Genre</option>
+									<option value="">Male</option>
+									<option value="">Hip-Hop/Rap</option>
+									<option value="">Country</option>
+									<option value="">Pop</option>
+									<option value="">R&B/soul</option>
+									<option value="">Classical</option>
+									<option value="">Rock</option>
 								</select> 
 							</div>
 							<div class="my_ap_tab">
@@ -180,40 +186,43 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-12">
-							<div class="my_va_title">
-								<h3>Create Your Viewer Account</h3>
-							</div>
-							<div class="mp_va_tab">
-								<input type="text" name="name" placeholder="Email*">
-							</div>
-							<div class="mp_va_tab">
-								<input type="text" name="password" placeholder="Password *">
-							</div>
-							<div class="mp_va_tab">
-								<input type="text" name="password" placeholder="Confirm Password *">
-							</div>
-							<div class="mp_va_check">
-								<input type="radio" id="male" name="gender" value="male">
-								<span for="male">I agree to HomePLAYs <a href="#"><u>terms of services.</u></a></span>
-							</div>
-							<div class="mp_va_button">
-								<a href="#" class="btn_popup_save">Continue</a>
+							<div class="yo_bg_one">
+								<div class="my_va_title">
+									<h3>Create Your Viewer Account</h3>
+									<hr/>
+								</div>
+								<div class="mp_va_tab">
+									<input type="text" name="name" placeholder="Email*">
+								</div>
+								<div class="mp_va_tab">
+									<input type="text" name="password" placeholder="Password *">
+								</div>
+								<div class="mp_va_tab">
+									<input type="text" name="password" placeholder="Confirm Password *">
+								</div>
+								<div class="mp_va_check">
+									<input type="radio" id="male" name="gender" value="male">
+									<span for="male">I agree to HomePLAYs <a href="#"><u>terms of services.</u></a></span>
+								</div>
+								<div class="mp_va_button">
+									<a href="#" class="btn_popup_save">Continue</a>
+								</div>
 							</div>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 yo_bg">
-							<div class="yo_bg_main">
+							<div class="yo_bg_two">
 								<div class="my_va_title">
 									<h3>Your Order</h3>
 								</div>
 								<div class="my_ap_your_order">
 									<p>Wednesday, January 1st, 2020</p>
 									<ul>
-										<li>2 x Event Name Here <span class="theme_color">CA$10.86</span></li>
+										<li><strong>2 x Event Name Here <span class="theme_color">CA$10.86</span></strong></li>
 										<li><hr></li>
 										<li>Subtotal <span>CA$21.72</span></li>
 										<li>Service Fee <span>CA$2.28</span></li>
 										<li><hr></li>
-										<li><strong>Total <span>$24.00</span></strong></li>
+										<li class="total"><strong>Total <span>$24.00</span></strong></li>
 									</ul>
 								</div>
 								<div class="my_ap_your_isi_live">

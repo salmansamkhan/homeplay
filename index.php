@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="main_bg">
 				<div class="row align-items-center">
-					<div class="col-lg-10 col-md-10 col-sm-10">
+					<div class="col-lg-8 col-md-10 col-sm-10">
 						<div class="hp_main_text">
 							<h2>Your Go-To Live Event Platform<span class="blink_homeplay">.</span></h2>
 							<h3>Stream your favourite artists <span class="blink_homeplay">LIVE</span> from home.</h3>
@@ -17,7 +17,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-2 col-md-2 col-sm-2">
+					<div class="col-lg-4 col-md-2 col-sm-2">
 						<div class="hp_main_nav">
 							<ul>
 								<li><a href="#"><span class="hp_line">home</span><img src="images/ringc.png" alt=""/></a></li>

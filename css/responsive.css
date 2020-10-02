@@ -96,6 +96,7 @@
 	.artist_landing_bg { margin-top:20px; }
 	.al_ue_button { display:block; }
 	.al_ue_button a { display:block; }
+	.head_button li a.btn_hb_search { color:#000; }
 }
 @media (max-width:600px) {
 	.web_find_events_bg { height:540px; }

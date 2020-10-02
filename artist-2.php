@@ -32,7 +32,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="hp_main_bottom">
-						<a href="#featured_events"><img src="images/main_scroll.png" class="img-fluid"></a>
+						<a href="#our_process"><img src="images/main_scroll.png" class="img-fluid"></a>
 					</div>
 				</div>
 			</div>
@@ -63,7 +63,7 @@
     </div >
 	<!--Web_Main_Box-->
 	
-	<div class="spacer" id="featured_events"></div>
+	<div class="spacer" id="our_process"></div>
 	
 	<!--Web_Our_Process-->
 	<div class="web_our_process">
