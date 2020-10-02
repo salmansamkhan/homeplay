@@ -20,11 +20,11 @@
 					<div class="col-lg-4 col-md-2 col-sm-2">
 						<div class="hp_main_nav">
 							<ul>
-								<li><a href="#"><span class="hp_line">home</span><img src="images/ringc.png" alt=""/></a></li>
-								<li><a href="#featured_events"><img src="images/ringb.png" alt=""/></a></li>
-								<li><a href="#"><img src="images/ringa.png" alt=""/></a></li>
-								<li><a href="#"><img src="images/ringa.png" alt=""/></a></li>
-								<li><a href="#"><img src="images/ringa.png" alt=""/></a></li>
+								<li><a href="javascript:void(0)"><span class="hp_line">home</span><img src="images/ringc.png" alt=""/></a></li>
+								<li><a href="javascript:void(0)" class="goto" section_name="featured_events" data-toggle="tooltip" data-placement="left" title="Featured Events"><img src="images/ringb.png" alt=""/></a></li>
+								<li><a href="javascript:void(0)" class="goto" section_name="upcoming_events" data-toggle="tooltip" data-placement="left" title="Upcoming Events"><img src="images/ringa.png" alt=""/></a></li>
+								<li><a href="javascript:void(0)"><img src="images/ringa.png" alt=""/></a></li>
+								<li><a href="javascript:void(0)"><img src="images/ringa.png" alt=""/></a></li>
 							</ul>
 						</div>
 					</div>
@@ -33,7 +33,7 @@
 		</div>
     </div>
 	<!--Web_Main_BG-->
-	
+
 	<!--Web_Main_Box-->
 	<div class="web_main_box">
         <div class="container">
@@ -70,11 +70,9 @@
 		</div>
     </div >
 	<!--Web_Main_Box-->
-	
-	<div class="spacer" id="featured_events"></div>
-	
+
 	<!--Web_Featured_Events-->
-	<div class="web_featured_events">
+	<div class="web_featured_events" id="featured_events">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -145,9 +143,9 @@
 		</div>
 	</div>
 	<!--Web_Featured_Events-->
-	
+
 	<!--Web_Featured_Events-->
-	<div class="web_featured_events">
+	<div class="web_featured_events" id="upcoming_events">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -234,7 +232,7 @@
 		</div>
 	</div>
 	<!--Web_Featured_Events-->
-	
+
 	<!--Web_Video_Section-->
 	<div class="web_video_section">
         <div class="container">
@@ -256,5 +254,5 @@
 		</div>
 	</div>
 	<!--Web_Video_Section-->
-	
+
 <?php include("footer.php");?>

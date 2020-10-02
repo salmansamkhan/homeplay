@@ -20,7 +20,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 				<div class="footer_tab">
-					<h3>Useful Links</h3>							
+					<h3>Useful Links</h3>
 					<ul>
 						<li><a href="#">Support</a></li>
 						<li><a href="#">Find Events</a></li>
@@ -31,7 +31,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 				<div class="footer_tab">
-					<h3>Support</h3>							
+					<h3>Support</h3>
 					<ul>
 						<li><a href="#">Support</a></li>
 						<li><a href="#">Contact Us</a></li>
@@ -42,7 +42,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 				<div class="footer_tab last">
-					<h3>Genres</h3>							
+					<h3>Genres</h3>
 					<div class="genres_tab">
 						<a href="#">Hip-Hop/Rap</a>
 						<a href="#">Country</a>
@@ -54,7 +54,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="footer_link">
 			<div class="row">
 				<div class="col-lg-3">
@@ -125,7 +125,7 @@
 									<option value="">R&B/soul</option>
 									<option value="">Classical</option>
 									<option value="">Rock</option>
-								</select> 
+								</select>
 							</div>
 							<div class="my_ap_tab">
 								<textarea placeholder="Short Bio"></textarea>
@@ -241,7 +241,7 @@
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/smooth-scroll.js"></script>
@@ -259,6 +259,19 @@
 <script src="js/owl.carousel.js"></script>
 <script>
 	$(document).ready(function() {
+		// toggle tooltips
+		$('[data-toggle="tooltip"]').tooltip();
+
+		$('.goto').on('click', function(e) {
+			e.preventDefault();
+			let _section = $(this).attr('section_name');
+			var position = $('#'+_section).offset().top;
+	        var _pos = position - 110;
+	        $("body, html").animate({
+	            scrollTop: _pos
+	        }, 2000 );
+		});
+
 		var owl = $('.owl-carousel');
 		owl.owlCarousel({
 			items: 3,
@@ -280,7 +293,7 @@
 				}
 			}
 		});
-		
+
 		$('.play').on('click', function() {
 			owl.trigger('play.owl.autoplay', [1000])
 		})
