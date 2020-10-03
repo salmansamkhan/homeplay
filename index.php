@@ -72,7 +72,7 @@
 	<!--Web_Main_Box-->
 
 	<!--Web_Featured_Events-->
-	<div class="web_featured_events" id="featured_events">
+	<div class="web_featured_events_home" id="featured_events">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -145,7 +145,7 @@
 	<!--Web_Featured_Events-->
 
 	<!--Web_Featured_Events-->
-	<div class="web_featured_events" id="upcoming_events">
+	<div class="web_featured_events_home" id="upcoming_events">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

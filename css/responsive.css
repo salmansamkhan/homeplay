@@ -114,23 +114,22 @@
 	.faq_accordion .faq_accordion_link { font-size:18px; }
 	.web_get_in_touch { padding:30px 0; }
 	.get_in_touch { padding:30px 15px; margin-right:0; }
-
-.get_in_touch h3 { font-size:30px; margin-bottom:10px; }
-.get_in_touch_tab { margin:15px 0; }
-.git_contect h2 { font-size:34px; margin-bottom:10px; }
-.web_main_bg { height:auto; }
-.main_bg { height:auto; }
-.hp_main_text p { font-size:18px; margin:10px 0; }
-.ver_title ul { margin:0; }
-.ver_title ul li { margin:0; }
-.ver_title ul li a { font-size:14px; }
-.ver_title ul li img { width:14px; }
-.event_register_tab { margin:8px 0; }
-.event_register_tab input[type="text"] { height:46px; }
-.hp_main_buttons { margin-top:15px; margin-bottom:15px; }
-.ver_title h3 { font-size:30px; }
-.web_main_box { margin:0; padding:40px 0; }
-.hp_main_bottom { display:none; }
+	.get_in_touch h3 { font-size:30px; margin-bottom:10px; }
+	.get_in_touch_tab { margin:15px 0; }
+	.git_contect h2 { font-size:34px; margin-bottom:10px; }
+	.web_main_bg { height:auto; }
+	.main_bg { height:auto; }
+	.hp_main_text p { font-size:18px; margin:10px 0; }
+	.ver_title ul { margin:0; }
+	.ver_title ul li { margin:0; }
+	.ver_title ul li a { font-size:14px; }
+	.ver_title ul li img { width:14px; }
+	.event_register_tab { margin:8px 0; }
+	.event_register_tab input[type="text"] { height:46px; }
+	.hp_main_buttons { margin-top:15px; margin-bottom:15px; }
+	.ver_title h3 { font-size:30px; }
+	.web_main_box { margin:0; padding:40px 0; }
+	.hp_main_bottom { display:none; }
 }
 @media (max-width:600px) {
 	.web_find_events_bg { height:540px; }

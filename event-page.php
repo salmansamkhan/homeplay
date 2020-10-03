@@ -31,65 +31,16 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<div class="hp_al_bio">
-					<h3>Biography</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div class="hp_artist_landing_buttons">
+					<ul>
+						<li><a href="#">Event Info</a></li>
+						<li><a href="#">Artist Info</a></li>
+						<li><a href="#" class="active">Past Events</a></li>
+					</ul> 
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<div class="hp_al_upcoming_event">
-					<h3>Upcoming Events</h3>
-					<div class="al_upcoming_events_tabs">
-						<div class="al_upcoming_events_tab">
-							<div class="row">
-								<div class="col-lg-2 col-md-2 col-sm-2">
-									<img src="images/blank_thum.jpg" alt=""/>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6">
-									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-									<p>01/02/2020</p>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="al_ue_button">
-										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="al_upcoming_events_tab">
-							<div class="row">
-								<div class="col-lg-2 col-md-2 col-sm-2">
-									<img src="images/blank_thum.jpg" alt=""/>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6">
-									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-									<p>01/02/2020</p>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="al_ue_button">
-										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="al_upcoming_events_tab">
-							<div class="row">
-								<div class="col-lg-2 col-md-2 col-sm-2">
-									<img src="images/blank_thum.jpg" alt=""/>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6">
-									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-									<p>01/02/2020</p>
-								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
-									<div class="al_ue_button">
-										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -97,14 +48,14 @@
 <!--Web_Artist_Landing_BG-->
 
 <!--Web_Featured_Events-->
-<div class="web_featured_events" >
+<div class="web_featured_events">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<div class="common_title">
-					<h2>EVENTS ARCHIVE</h2>
+				<div class="common_title ct_left">
+					<h2>Past EVENTS</h2>
 					<span class="ct_line"></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 			</div>
 		</div>
@@ -228,6 +179,81 @@
 	</div>
 </div>
 <!--Web_Featured_Events-->
+<div class="container">
+<hr>
+</div>
+<!--Web_Featured_Events-->
+	<div class="web_featured_events" id="featured_events">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="common_title">
+						<h2>FEATURED EVENTS</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
+						<span class="ct_line"></span>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="event_common_tab">
+						<img src="images/event_img1.jpg" alt=""/>
+						<div class="event_ct_date">
+							<span class="ct_one">DEC</span>
+							<span class="ct_two">30-2020</span>
+						</div>
+						<h4>Event Title Goes Here</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<a href="#" class="event_ct_btn">Pop / R&amp;B</a>
+						<div class="event_ct_bottom">
+							<label><a href="#">Get Ticket</a></label>
+							<span class="ct_price">$89.99</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="event_common_tab">
+						<img src="images/event_img2.jpg" alt=""/>
+						<div class="event_ct_date">
+							<span class="ct_one">DEC</span>
+							<span class="ct_two">30-2020</span>
+						</div>
+						<h4>Event Title Goes Here</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<a href="#" class="event_ct_btn">Pop / R&amp;B</a>
+						<div class="event_ct_bottom">
+							<label><a href="#">Get Ticket</a></label>
+							<span class="ct_price">$89.99</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<div class="event_common_tab">
+						<img src="images/event_img3.jpg" alt=""/>
+						<div class="event_ct_date">
+							<span class="ct_one">DEC</span>
+							<span class="ct_two">30-2020</span>
+						</div>
+						<h4>Event Title Goes Here</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<a href="#" class="event_ct_btn">Pop / R&amp;B</a>
+						<div class="event_ct_bottom">
+							<label><a href="#">Get Ticket</a></label>
+							<span class="ct_price">$89.99</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<div class="event_button">
+						<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>All Events</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Web_Featured_Events-->
 
 <!--Web_Video_Section-->
 <div class="web_video_section">

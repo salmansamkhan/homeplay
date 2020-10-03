@@ -317,6 +317,21 @@ $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
     .find("i:last-child")
     .toggleClass("fa-minus fa-plus");
 });
+$("#accordion2").on("hide.bs.collapse show.bs.collapse", e => {
+  $(e.target)
+    .prev()
+    .find("i:last-child")
+    .toggleClass("fa-minus fa-plus");
+});
+(function() {
+  $(".card").on("show.bs.collapse hide.bs.collapse", function(e) {
+    if (e.type=='show'){
+      $(this).addClass('active');
+    }else{
+      $(this).removeClass('active');
+    }
+  });  
+}).call(this);
 </script>
 
 </body>
