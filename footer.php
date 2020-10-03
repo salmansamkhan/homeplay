@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 				<div class="footer_info">
-					<a href="#" class="footer_logo"><img src="images/footer_logo_without_glow.png" class="logo_white" class="img-fluid"><img src="images/footer_logo_with_glow.png" class="logo_white_glow" class="img-fluid"></a>
+					<a href="index.php" class="footer_logo"><img src="images/footer_logo_without_glow.png" class="logo_white" class="img-fluid"><img src="images/footer_logo_with_glow.png" class="logo_white_glow" class="img-fluid"></a>
 					<div class="footer_mail">
 						<label>Contact</label>
 						<a href="mailto:info@homeplay.live">info@homeplay.live</a>
@@ -22,10 +22,10 @@
 				<div class="footer_tab">
 					<h3>Useful Links</h3>
 					<ul>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">Find Events</a></li>
+						<li><a href="support.php">Support</a></li>
+						<li><a href="find-events.php">Find Events</a></li>
 						<li><a href="#">HomePlay For Venues</a></li>
-						<li><a href="#">HomePlay For Artists</a></li>
+						<li><a href="artist-landing.php">HomePlay For Artists</a></li>
 					</ul>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 				<div class="footer_tab">
 					<h3>Support</h3>
 					<ul>
-						<li><a href="#">Support</a></li>
+						<li><a href="support.php">Support</a></li>
 						<li><a href="#">Contact Us</a></li>
 						<li><a href="#">FAQs</a></li>
 						<li><a href="#">Register Your Event</a></li>
@@ -330,7 +330,7 @@ $("#accordion2").on("hide.bs.collapse show.bs.collapse", e => {
     }else{
       $(this).removeClass('active');
     }
-  });  
+  });
 }).call(this);
 </script>
 

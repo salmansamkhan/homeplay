@@ -55,14 +55,14 @@
 		</div>
     </div>
 	<!--Web_Main_BG-->
-	
+
 	<!--Web_Main_Box-->
 	<div class="web_main_box">
         <div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="hp_main_bottom">
-						<a href="#our_process"><img src="images/main_scroll.png" class="img-fluid"></a>
+						<a href="javascript:void(0)" class="goto" section_name="our_process"><img src="images/main_scroll.png" class="img-fluid"></a>
 					</div>
 				</div>
 			</div>
@@ -92,11 +92,9 @@
 		</div>
     </div >
 	<!--Web_Main_Box-->
-	
-	<div class="spacer" id="our_process"></div>
-	
+
 	<!--Web_Our_Process-->
-	<div class="web_our_process">
+	<div class="web_our_process" id="our_process">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -190,7 +188,7 @@
 		</div>
 	</div>
 	<!--Web_Our_Process-->
-	
+
 	<!--Web_FAQ-->
 	<div class="web_faq">
 		<div class="container">
@@ -296,7 +294,7 @@
 		</div>
 	</div>
 	<!--Web_FAQ-->
-	
+
 	<!--Web_Get_In_Touch-->
 	<div class="web_get_in_touch">
 		<div class="container">
@@ -333,5 +331,5 @@
 		</div>
 	</div>
 	<!--Web_Get_In_Touch-->
-	
+
 <?php include("footer.php");?>
