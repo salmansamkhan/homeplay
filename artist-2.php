@@ -21,7 +21,7 @@
 						<div class="virtual_event_register">
 							<div class="ver_title">
 								<p>Lorem ipsum dolor sit amet</p>
-								<h3>Register Your Live <br/>Virtual Event</h3>
+								<h3>Register Your Live Virtual Event</h3>
 								<span class="ct_line"></span>
 								<ul>
 									<li><a href="#">Personal Info</a></li>

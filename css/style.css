@@ -497,10 +497,10 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .git_contect ul li img { display:inline-block; margin-right:15px; }
 .git_contect ul li span { font-size:23px; font-weight:700; color:#000; }
 
-.virtual_event_register { background:rgba(255,255,255,0.3); border-radius:20px; padding:20px 30px; margin:0 30px; }
+.virtual_event_register { background:rgba(255,255,255,0.3); border-radius:20px; padding:10px 15px; margin:0 15px; }
 .ver_title { text-align:center; }
-.ver_title p {font-size:20px;color:#00c5fc;margin:0;}
-.ver_title h3 {font-size:36px;color:#FFF;text-transform:uppercase;margin:0;}
+.ver_title p {font-size:18px;color:#00c5fc;margin:0;}
+.ver_title h3 {font-size:32px;color:#FFF;text-transform:uppercase;margin:0 25%;}
 .ver_title span.ct_line { display:inline-block; width:100px; height:7px; background:linear-gradient(90deg,#139cef,#00d1ff); border-radius:30px; }
 .ver_title ul { margin:5px 0; }
 .ver_title ul li { display:inline-block; vertical-align:middle; margin:0 10px; }
@@ -509,8 +509,8 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 
 .event_register_tabs {}
 .event_register_tab { margin:14px 0; }
-.event_register_tab input[type="text"] { width:100%; padding:10px 16px; font-size:18px; background:rgba(255,255,255,0.15);color:#FFF; border:0; border-radius:60px; font-weight:500; height:46px; }
-.event_register_tab textarea { width:100%; background:rgba(255,255,255,0.15); border:0; height:110px; padding:12px 25px; border-radius:20px; font-size:18px; color:#FFF; resize:none; }
+.event_register_tab input[type="text"] { width:100%; padding:10px 16px; font-size:18px; background:rgba(255,255,255,0.15);color:#FFF; border:0; border-radius:60px; font-weight:500; height:44px; }
+.event_register_tab textarea { width:100%; background:rgba(255,255,255,0.15); border:0; height:90px; padding:12px 25px; border-radius:20px; font-size:18px; color:#FFF; resize:none; }
 
 .event_register_button { text-align:center; }
 .event_register_button a { display:inline-block; font-size:20px; color:#fff; letter-spacing:1px; font-weight:600; text-transform:capitalize; background:linear-gradient(90deg,#139cef,#00d1ff); padding:10px 15px; border-radius:40px; width:260px; text-align:center; }

@@ -1,4 +1,16 @@
 /*****Bootstrap_Media_Queries*****/
+@media (max-width:1400px) {
+	.hp_main_text h2 { font-size: 46px;}
+	.hp_main_text h3 { font-size: 30px;}
+	.ver_title h3 { margin:0; font-size: 30px; }
+	.ver_title ul { margin:0;  }
+.event_register_tab {
+    margin: 8px 0;
+}
+.event_register_tab input[type="text"] { height:38px;}
+.event_register_tab textarea { height:70px;}
+.event_register_button a {     width: 190px; padding:8px 15px;    font-size: 18px;}
+}
 @media (max-width:1300px) {
 	.container { max-width:98%; }
 }
