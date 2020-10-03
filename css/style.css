@@ -284,6 +284,11 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .hp_artist_landing_profile a.alp_profile_edit {position:absolute;right:50px;top:20px;font-size:18px;color:#FFF;font-weight:600;border-bottom:1px solid #FFF;line-height:23px;}
 .hp_artist_landing_profile img {width:100%;}
 
+.hp_artist_profile_plus {}
+.hp_artist_profile_plus span {}
+.hp_artist_profile_plus span i {}
+.hp_artist_profile_plus img {}
+
 .hp_artist_landing_info { }
 .hp_artist_landing_info a.alp_tag {font-size:17px;font-weight:700;color:#FFF;background:linear-gradient(90deg,#139cef,#00d1ff);padding:4px 15px;border-radius:50px;margin:0 0 15px 0;display:inline-block;}
 .hp_artist_landing_info h2 {font-size:56px;color:#FFF;}
@@ -331,6 +336,15 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .al_ue_button a { display:inline-block; border:1px solid #DDD; padding:6px 15px; border-radius:50px; margin:0; }
 .al_ue_button img { display:inline-block; vertical-align:middle; padding-right:10px; }
 .al_ue_button span { display:inline-block; font-size:16px; color:#000; font-weight:700; vertical-align:middle; }
+
+.hp_al_date_time {}
+.hp_al_date_time i { font-size:32px; color:#FFF; font-weight:normal; }
+.hp_al_date_time span { display:inline-block; font-size:26px; color:#FFF; padding:0 10px; font-weight:800; }
+.hp_al_get_tickets { margin-top:40px; border-radius:30px; padding:30px 20px; box-shadow:0 0 30px rgba(0,0,0,.1); background:#FFF; }
+.hp_al_get_tickets h3 { border-bottom:1px solid #bcbcbc; padding:0px 0 20px 0; }
+.hp_al_get_tickets span { font-size:23px; color:#fff; text-transform:capitalize; background:linear-gradient(90deg,#139cef,#00d1ff); padding:5px 20px; border-radius:50px; display:inline-block; transition:0.9s; float:right; }
+.hp_al_get_tickets a { font-size:24px; color:#fff; text-transform:capitalize; background:linear-gradient(90deg,#139cef,#00d1ff); padding:16px 35px; border-radius:50px; display:block; transition:0.9s; text-align:center; font-weight:800; margin-top:25px; }
+.hp_al_get_tickets a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 /*****Artist_Landing*****/
 
 /*****All_Popup*****/
