@@ -24,7 +24,7 @@
 					</div>
 					<div class="hp_al_get_tickets">
 						<h3>Price: <span class="gl_price">$109.99</span></h3>
-						<a href="#">Get Tickets</a>
+						<a href="#" class="alp_tag">Get Tickets</a>
 					</div>
 				</div>
 			</div>

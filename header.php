@@ -26,7 +26,7 @@
 			<div class="container">
 				<div class="top_bar_right">
 					<ul>
-						<li><a href="javascript:void(0)">Create an Artist Account</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#mp_event_checkout">Create an Artist Account</a></li>
 						<li><a href="#" data-toggle="modal" data-target="#mp_viewer_account">Create an Viewer Account</a></li>
 						<li><a href="login.php">Login</a></li>
 					</ul>

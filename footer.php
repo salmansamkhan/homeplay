@@ -50,6 +50,7 @@
 						<a href="#">R&B/soul</a>
 						<a href="#">Classical</a>
 						<a href="#">Rock</a>
+						<a href="#" data-toggle="modal" data-target="#mp_get_notified">Rock</a>
 					</div>
 				</div>
 			</div>
@@ -238,6 +239,119 @@
 	</div>
 </div>
 <!--Web_Model_Popup_Viewer_Account-->
+
+<!--Web_Model_Popup_Event_Checkout-->
+<div class="modal fade bd-example-modal-lg mp_viewer_account_main" id="mp_event_checkout" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="mp_event_checkout">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="my_ap_head">
+								<img src="images/profile_img.png" alt=""/>
+								<h2>Event Name Here</h2>
+								<p>kathleen Edwards</p>
+								<span class="ct_line"></span>
+								<ul>
+									<li><a href="#">SELECT Tickets</a></li>
+									<li><img src="images/arrow_icon.png" alt=""/></li>
+									<li>Tickets INFO</li>
+									<li><img src="images/arrow_icon.png" alt=""/></li>
+									<li>Payment INFO</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="yo_bg_one">
+								<div class="my_va_title">
+									<h3>Choose Your Tickets</h3>
+									<hr/>
+								</div>
+								<div class="mp_checkout_tab">
+									<label>Date</label>
+									<span class="date">01/02/2020</span>
+								</div>
+								<div class="mp_checkout_tab">
+									<label>Event Name Here</label>
+									<div class="mp_price_tav">
+										<h5>CA$12.00</h5>
+										<p>( CA$10.86 + CA$1.14 fees, including taxed )</p>
+									</div>
+									<div class="mp_quntity">
+										<select>
+											<option default>1</option>
+											<option value="">1</option>
+											<option value="">2</option>
+											<option value="">3</option>
+											<option value="">4</option>
+											<option value="">5</option>
+										</select>
+									</div>
+								</div>
+								<br/><br/>
+								<div class="mp_va_button">
+									<a href="#" class="btn_popup_save">Continue</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 yo_bg">
+							<div class="yo_bg_two">
+								<div class="my_va_title">
+									<h3>Your Order</h3>
+								</div>
+								<div class="my_ap_your_order">
+									<p>Wednesday, January 1st, 2020</p>
+									<ul>
+										<li><strong>2 x Event Name Here <span class="theme_color">CA$10.86</span></strong></li>
+										<li><hr></li>
+										<li>Subtotal <span>CA$21.72</span></li>
+										<li>Service Fee <span>CA$2.28</span></li>
+										<li><hr></li>
+										<li class="total"><strong>Total <span>$24.00</span></strong></li>
+									</ul>
+								</div>
+								<div class="my_ap_your_isi_live">
+									<span>Powered By :</span>
+									<img src="images/isi_live.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Web_Model_Popup_Event_Checkout-->
+
+<!--Web_Model_Popup_Get_Notified-->
+<div class="modal fade mp_get_notified_main" id="mp_get_notified" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-md modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="mp_get_notified">
+					<img src="images/get_notified.jpg" alt=""/>
+					<div class="mp_get_notified_box">
+						<h2>Get Notified!</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+						<input type="text" name="name" placeholder="Email*">
+						<a href="#">submit</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Web_Model_Popup_Event_Checkout-->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

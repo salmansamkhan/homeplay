@@ -86,6 +86,7 @@
 	.hp_al_bio { margin-top:15px; }
 	.hp_artist_landing_social { margin:15px 0; }
 	.hp_al_upcoming_event { margin-top:15px; }
+	.modal-lg { max-width:94%; }
 }
 @media (max-width:767px){
 	.web_main_bg { height:600px; }
