@@ -20,7 +20,7 @@
 						</div>
 						<div class="hp_login_regi_check">
 							<input type="radio" id="male" name="gender" value="male">
-							<span for="male">I agree to HomePLAYs <a href="#">terms of services.</a></span>
+							<span for="male">I agree to HomePlays <a href="#">terms of services.</a></span>
 						</div>
 						<div class="hp_login_regi_button">
 							<a href="#">Login</a>
@@ -33,5 +33,5 @@
 	</div>
 </div>
 <!--Web_Login_BG-->
-	
+
 <?php include("footer.php");?>

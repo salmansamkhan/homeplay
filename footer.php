@@ -50,7 +50,6 @@
 						<a href="#">R&B/soul</a>
 						<a href="#">Classical</a>
 						<a href="#">Rock</a>
-						<a href="#" data-toggle="modal" data-target="#mp_get_notified">Rock</a>
 					</div>
 				</div>
 			</div>
@@ -203,7 +202,7 @@
 								</div>
 								<div class="mp_va_check">
 									<input type="radio" id="male" name="gender" value="male">
-									<span for="male">I agree to HomePLAYs <a href="#"><u>terms of services.</u></a></span>
+									<span for="male">I agree to HomePlays <a href="#"><u>terms of services.</u></a></span>
 								</div>
 								<div class="mp_va_button">
 									<a href="#" class="btn_popup_save">Continue</a>
@@ -372,6 +371,25 @@
 
 <script src="js/owl.carousel.js"></script>
 <script>
+	function addEvent(obj, evt, fn) {
+	    if (obj.addEventListener) {
+	        obj.addEventListener(evt, fn, false);
+	    }
+	    else if (obj.attachEvent) {
+	        obj.attachEvent("on" + evt, fn);
+	    }
+	}
+
+	addEvent(document, "mouseout", function(e) {
+	    e = e ? e : window.event;
+	    var from = e.relatedTarget || e.toElement;
+	    if (!from || from.nodeName == "HTML") {
+	        // stop your drag event here
+	        // for now we can just use an alert
+	        $('#mp_get_notified').modal('show');
+	    }
+	});
+
 	$(document).ready(function() {
 		// toggle tooltips
 		$('[data-toggle="tooltip"]').tooltip();
@@ -380,10 +398,11 @@
 			e.preventDefault();
 			let _section = $(this).attr('section_name');
 			var position = $('#'+_section).offset().top;
+			$('[data-toggle=tooltip]').tooltip("hide");
 	        var _pos = position - 110;
 	        $("body, html").animate({
 	            scrollTop: _pos
-	        }, 2000 );
+	        }, 1500 );
 		});
 
 		var owl = $('.owl-carousel');

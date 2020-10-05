@@ -14,7 +14,7 @@
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="viewer_login">
 							<div class="hp_login_register">
-								<h4>Login to your HomePLAY account to access your virtual events!</h4>
+								<h4>Login to your HomePlay account to access your virtual events!</h4>
 								<div class="hp_login_regi_tab">
 									<input type="text" name="email" placeholder="Email *">
 								</div>
@@ -31,7 +31,7 @@
 						</div>
 						<div role="tabpanel" class="tab-pane" id="artist_login">
 							<div class="hp_login_register">
-								<h4>Login to your HomePLAY account to access your Artist Login!</h4>
+								<h4>Login to your HomePlay account to access your Artist Login!</h4>
 								<div class="hp_login_regi_tab">
 									<input type="text" name="email" placeholder="Email *">
 								</div>

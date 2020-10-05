@@ -7,7 +7,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="hp_main_text">
-							<h2>HomePLAY Support<span class="blink_homeplay">.</span></h2>
+							<h2>HomePlay Support<span class="blink_homeplay">.</span></h2>
 							<p>Looking to boost your viewership, listeners, followers, and more? Look no further than the HomePlay platform to prop you up and put you infront of thousands of paying viewers!</p>
 							<div class="hp_main_buttons">
 								<a href="#"><img src="images/upcoming_events_icon.png" class="img-fluid">Contact Support</a>
@@ -22,7 +22,7 @@
 		</div>
     </div>
 	<!--Web_Main_BG-->
-	
+
 	<!--Web_Get_In_Touch-->
 	<div class="web_get_in_touch">
 		<div class="container">
@@ -59,7 +59,7 @@
 		</div>
 	</div>
 	<!--Web_Get_In_Touch-->
-	
+
 	<!--Web_FAQ-->
 	<div class="web_faq">
 		<div class="container">
@@ -165,7 +165,7 @@
 		</div>
 	</div>
 	<!--Web_FAQ-->
-	
+
 	<!--Web_Featured_Events-->
 	<div class="web_featured_events" >
 		<div class="container">
@@ -231,7 +231,7 @@
 		</div>
 	</div>
 	<!--Web_Featured_Events-->
-	
+
 	<!--Web_Video_Section-->
 	<div class="web_video_section">
         <div class="container">
@@ -253,5 +253,5 @@
 		</div>
 	</div>
 	<!--Web_Video_Section-->
-	
+
 <?php include("footer.php");?>
