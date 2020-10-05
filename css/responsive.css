@@ -1,18 +1,19 @@
 /*****Bootstrap_Media_Queries*****/
 @media (max-width:1400px) {
-	.hp_main_text h2 { font-size: 46px;}
-	.hp_main_text h3 { font-size: 30px;}
-	.ver_title h3 { margin:0; font-size: 30px; }
+	.hp_main_text h2 { font-size:46px;}
+	.hp_main_text h3 { font-size:30px;}
+	.ver_title h3 { margin:0; font-size:30px; }
 	.ver_title ul { margin:0;  }
 .event_register_tab {
-    margin: 8px 0;
+    margin:8px 0;
 }
 .event_register_tab input[type="text"] { height:38px;}
 .event_register_tab textarea { height:70px;}
-.event_register_button a {     width: 190px; padding:8px 15px;    font-size: 18px;}
+.event_register_button a {     width:190px; padding:8px 15px;    font-size:18px;}
 }
 @media (max-width:1300px) {
 	.container { max-width:98%; }
+	.evc_chat_box { height:350px; }
 }
 @media (max-width:1240px) {
 	.container { max-width:100%; }
@@ -52,6 +53,11 @@
 	.hp_al_social_btn { margin:10px 0; }
 	.hp_artist_landing_btn { display:block;}
 	.hp_artist_landing_social { display:block; margin:10px 0 0 0; }
+	
+	.evc_chat { padding:0 15px; margin-top:20px; }
+	.evc_chat_box { height:250px; }
+	.evc_send input[type="text"] { font-size:14px; }
+	.evc_send a { float:right; width:30px; height:30px; font-size:14px; padding:0; margin:10px 10px 0 0; }
 }
 @media (max-width:991px) {
 	.navbar { padding:2px 0; }
@@ -143,6 +149,8 @@
 	.ver_title h3 { font-size:30px; }
 	.web_main_box { margin:0; padding:40px 0; }
 	.hp_main_bottom { display:none; }
+	.evc_user_name { display:block; width:100%; }
+	.evc_artist_profile { float:none; width:100%; text-align:right; }
 }
 @media (max-width:600px) {
 	.web_find_events_bg { height:540px; }

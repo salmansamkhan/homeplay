@@ -6,13 +6,13 @@
 <div class="container">
 	<div class="artist_landing_bg">
 		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_profile">
 					<img src="images/profile_edit.jpg" alt=""/>
 					<a href="#" class="hp_artist_profile_plus"><span>Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
 					<a href="#" class="alp_red_tag">live</a>
 					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
@@ -54,7 +54,7 @@
 <div class="web_event_video_chat">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+			<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
 				<div class="evc_video">
 					<img src="images/video_img.jpg" alt=""/>
 				</div>
@@ -73,7 +73,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 				<div class="evc_chat">
 					<span class="evc_chat_shape"></span>
 					<h3>Chat</h3>

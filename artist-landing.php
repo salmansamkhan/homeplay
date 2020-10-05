@@ -6,13 +6,13 @@
 <div class="container">
 	<div class="artist_landing_bg">
 		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_profile">
 					<a href="#" class="alp_profile_edit">Edit</a>
 					<img src="images/profile_edit.jpg" alt=""/>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
 					<a href="#" class="alp_tag">Country / Pop</a>
 					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
@@ -43,13 +43,13 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_al_bio">
 					<h3>Biography</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_al_upcoming_event">
 					<h3>Upcoming Events</h3>
 					<div class="al_upcoming_events_tabs">
@@ -58,11 +58,11 @@
 								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6">
-									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+								<div class="col-lg-7 col-md-7 col-sm-7">
+									<h4>Lorem ipsum dolor sit amet</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
+								<div class="col-lg-3 col-md-3 col-sm-3 text-right">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>
@@ -74,11 +74,11 @@
 								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6">
-									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+								<div class="col-lg-7 col-md-7 col-sm-7">
+									<h4>Lorem ipsum dolor sit amet</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
+								<div class="col-lg-3 col-md-3 col-sm-3 text-right">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>
@@ -90,11 +90,11 @@
 								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6">
-									<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+								<div class="col-lg-7 col-md-7 col-sm-7">
+									<h4>Lorem ipsum dolor sit amet</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-4 col-md-4 col-sm-4">
+								<div class="col-lg-3 col-md-3 col-sm-3 text-right">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>

@@ -65,7 +65,7 @@
 				</div>
 				<div class="col-lg-9">
 					<div class="copyright">
-						<p> <a href="#">Terms and Conditions</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | Do Not Sell My Personal Information <a href="#"><u>Powered By iSi LIVE Technologies</u></a> Copyright HomePlay LIVE 2020. All Rights Reserved.</p>
+						<p> <a href="#">Terms and Conditions</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | Do Not Sell My Personal Information <a href="#" class="theme_color"><u>Powered By iSi LIVE Technologies</u></a> Copyright HomePlay LIVE 2020. All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
