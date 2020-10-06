@@ -11,7 +11,7 @@
 							<p>Looking to boost your viewership, listeners, followers, and more? Look no further than the HomePlay platform to prop you up and put you infront of thousands of paying viewers!</p>
 							<div class="hp_main_buttons">
 								<a href="#"><img src="images/upcoming_events_icon.png" class="img-fluid">Contact Support</a>
-								<a href="#"><img src="images/featured_event_icon.png" class="img-fluid">frequently asked questions</a>
+								<a href="#"><img src="images/featured_event_icon.png" class="img-fluid">Frequently Asked Questions</a>
 							</div>
 						</div>
 					</div>
