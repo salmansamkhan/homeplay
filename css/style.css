@@ -78,7 +78,7 @@ a:focus, a:hover { text-decoration:none; color:#09b7f7; }
 
 .navbar-toggle .icon-bar { background-color:#FFF; }
 .navbar-toggle:focus, .navbar-toggle:hover { outline:none; background:linear-gradient(90deg,#00d1ff,#139cef); padding:0 10px; }
- 
+
 
 .navbar-toggle .icon-bar { display:block; width:28px; height:2px; border-radius:1px; }
 .navbar-toggle .top-bar { transform:rotate(45deg); transform-origin:17% 10%; }
@@ -106,7 +106,7 @@ a:focus, a:hover { text-decoration:none; color:#09b7f7; }
 .hp_main_text h2 { font-size:46px; color:#FFF; font-weight:600; margin:0 0 0 0; }
 .hp_main_text h3 { font-size:26px; color:#FFF; font-weight:400; margin:0 0 25px 0; }
 .hp_main_text p { font-size:18px; color:#FFF; line-height:30px; margin:20px 0; }
- 
+
 .hp_main_buttons { margin-top:35px; }
 .hp_main_buttons img { width:auto; height:auto; display:inline-block; padding-right:10px; }
 .hp_main_buttons a { background:rgba(255,255,255,0.25); font-size:17px; color:#FFF; margin-right:15px; padding:5px 15px; display:inline-block; border-radius:50px; }
@@ -133,12 +133,12 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .find_events_bg { display:flex; height:700px;}
 
 .hp_main_search { width:500px; background:rgba(255,255,255,0.3); border-radius:50px; padding:6px 6px 6px 20px; }
-.hp_main_search input[type="text"] { width:79%; font-size:20px; color:#FFF; background:transparent; border:0;  }
+.hp_main_search input[type="text"] { width:70%; font-size:20px; color:#FFF; background:transparent; border:0;  }
 .hp_main_search input[type="text"]::-webkit-input-placeholder { color:#FFF; }
 .hp_main_search input[type="text"]::-moz-placeholder { color:#FFF; }
 .hp_main_search input[type="text"]:-ms-input-placeholder { color:#FFF; }
 .hp_main_search input[type="text"]:-moz-placeholder { color:#FFF; }
-.hp_main_search input[type="submit"] { width:20%; font-size:20px; font-weight:700; color:#FFF;  background:linear-gradient(90deg,#139cef,#00d1ff); border:0; border-radius:50px; padding:5px 5px; }
+.hp_main_search input[type="submit"] { width:29%; font-size:20px; font-weight:700; color:#FFF;  background:linear-gradient(90deg,#139cef,#00d1ff); border:0; border-radius:50px; padding:5px 5px;cursor: pointer; }
 
 .filter_event_by { margin:30px 0; }
 .filter_event_by h5 {}
@@ -376,7 +376,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 
 .al_upcoming_events_tabs { margin:0; }
 .al_upcoming_events_tab { border-bottom:1px solid #DDD; padding:10px 0; }
-.al_upcoming_events_tab img { } 
+.al_upcoming_events_tab img { }
 .al_upcoming_events_tab h4 { font-size:16px; font-weight:600; margin:0; }
 .al_upcoming_events_tab p { font-size:16px; color:#00c1fb; margin:0; }
 
@@ -482,7 +482,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .my_ap_your_order {}
 .my_ap_your_order p { font-size:16px; color:#a4a4a4; margin:0; }
 .my_ap_your_order ul { margin:0; }
-.my_ap_your_order ul li { list-style:none; font-size:18px; color:#a4a4a4; } 
+.my_ap_your_order ul li { list-style:none; font-size:18px; color:#a4a4a4; }
 .my_ap_your_order ul li span { float:right; }
 .my_ap_your_order ul li.total { color:#474747; }
 .my_ap_your_order ul li.total span { color:#474747; }
@@ -500,7 +500,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .mp_quntity { display:inline-block; vertical-align:middle; width:15%; }
 .mp_quntity select { width:100%; border:1px solid #c9c9c9; border-radius:10px; height:40px; padding:0 10px; }
 
-.mp_get_notified_main { background:rgba(0,0,0,0.5); } 
+.mp_get_notified_main { background:rgba(0,0,0,0.5); }
 .mp_get_notified_main .modal-content { overflow:hidden; border:0; }
 .mp_get_notified_main .modal-body { padding:0; }
 .mp_get_notified {}
@@ -607,7 +607,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .evc_artist_profile span i { color:#129eef; padding-left:10px; }
 .evc_artist_profile img { width:60px; display:inline-block; }
 
-.evc_chat { border:1px solid #c7c7c7; padding:0px 30px; border-radius:20px; } 
+.evc_chat { border:1px solid #c7c7c7; padding:0px 30px; border-radius:20px; }
 span.evc_chat_shape { width:150px; background:#f3f3f3; height:14px; display:block; border-left:1px solid #e3e3e3; border-right:1px solid #e3e3e3; border-bottom:1px solid #e3e3e3; border-radius:0 0 10px 10px; margin:0 auto; }
 .evc_chat h3 { font-size:32px; margin:15px 0; }
 .evc_chat_box { border:1px solid #DDD; background:#f7f7f7; height:420px; }

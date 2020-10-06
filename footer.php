@@ -386,7 +386,10 @@
 	    if (!from || from.nodeName == "HTML") {
 	        // stop your drag event here
 	        // for now we can just use an alert
-	        $('#mp_get_notified').modal('show');
+	        if( !localStorage.getItem("mp_get_notified") ) {
+	        	$('#mp_get_notified').modal('show');
+	        	localStorage.setItem('mp_get_notified', true);
+	        }
 	    }
 	});
 
