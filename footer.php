@@ -329,7 +329,7 @@
 </div>
 <!--Web_Model_Popup_Event_Checkout-->
 
-<!--Web_Model_Popup_Get_Notified-->
+<!--Web_Model_Popup_Get_Notified
 <div class="modal fade mp_get_notified_main" id="mp_get_notified" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-md modal-dialog-centered" role="document">
 		<div class="modal-content">
@@ -350,7 +350,7 @@
 		</div>
 	</div>
 </div>
-<!--Web_Model_Popup_Event_Checkout-->
+Web_Model_Popup_Event_Checkout-->
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

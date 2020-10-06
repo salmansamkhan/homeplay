@@ -1,9 +1,9 @@
 <?php include("header.php");?>
 
-	<!--Web_Find_Events_BG-->
-	<div class="web_find_events_bg">
+	<!--Web_Thank_You_BG-->
+	<div class="web_thank_you_bg">
 		<div class="container">
-			<div class="find_events_bg">
+			<div class="thank_you_bg">
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="hp_main_text">
@@ -25,6 +25,6 @@
 			</div>
 		</div>
     </div>
-	<!--Web_Main_BG-->
+	<!--Web_Thank_You_BG-->
 
 <?php include("footer.php");?>

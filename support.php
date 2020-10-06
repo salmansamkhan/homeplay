@@ -4,7 +4,7 @@
 	<div class="web_find_events_bg">
 		<div class="container">
 			<div class="find_events_bg">
-				<div class="row align-items-center">
+				<div class="row align-items-center col-12">
 					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="hp_main_text">
 							<h2>HomePlay Support<span class="blink_homeplay">.</span></h2>

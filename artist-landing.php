@@ -8,15 +8,15 @@
 		<div class="row">
 			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_profile">
-					<a href="#" class="alp_profile_edit">Edit</a>
+					<a href="#" data-toggle="modal" data-target="#my_artist_profile" class="alp_profile_edit">Edit</a>
 					<img src="images/profile_edit.jpg" alt=""/>
 				</div>
 			</div>
 			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
-					<a href="#" class="alp_tag">Country / Pop</a>
+					<a href="#" class="alp_country_tag">Country / Pop</a>
 					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua labore et dolore magna aliqua.</p>
 					<div class="hp_al_social_btn">
 						<div class="hp_artist_landing_btn">
 							<a href="#"><img src="images/upcoming_events_icon.png" class="img-fluid">Biography</a>
@@ -30,13 +30,22 @@
 							</ul>
 						</div>
 					</div>
-					<div class="hp_artist_landing_icons">
+					<div class="hp_artist_li_desktop">
 						<ul>
 							<li><img src="images/icon1.png" class="img-fluid"></li>
 							<li><img src="images/icon2.png" class="img-fluid"></li>
 							<li><img src="images/icon3.png" class="img-fluid"></li>
 							<li><img src="images/icon4.png" class="img-fluid"></li>
 							<li><img src="images/icon5.png" class="img-fluid"></li>
+						</ul>
+					</div>
+					<div class="hp_artist_li_mobile">
+						<ul>
+							<li><img src="images/spotify_icon.png" class="img-fluid"></li>
+							<li><img src="images/google_play_music_icon.png" class="img-fluid"></li>
+							<li><img src="images/apple_icon.png" class="img-fluid"></li>
+							<li><img src="images/soundcloud_icon.png" class="img-fluid"></li>
+							<li><img src="images/youtube_icon.png" class="img-fluid"></li>
 						</ul>
 					</div>
 				</div>
@@ -58,11 +67,11 @@
 								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-7 col-md-7 col-sm-7">
+								<div class="col-lg-6 col-md-6 col-sm-6">
 									<h4>Lorem ipsum dolor sit amet</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-3 text-right">
+								<div class="col-lg-4 col-md-4 col-sm-4 text-right">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>
@@ -74,11 +83,11 @@
 								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-7 col-md-7 col-sm-7">
+								<div class="col-lg-6 col-md-6 col-sm-6">
 									<h4>Lorem ipsum dolor sit amet</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-3 text-right">
+								<div class="col-lg-4 col-md-4 col-sm-4 text-right">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>
@@ -90,11 +99,11 @@
 								<div class="col-lg-2 col-md-2 col-sm-2">
 									<img src="images/blank_thum.jpg" alt=""/>
 								</div>
-								<div class="col-lg-7 col-md-7 col-sm-7">
+								<div class="col-lg-6 col-md-6 col-sm-6">
 									<h4>Lorem ipsum dolor sit amet</h4>
 									<p>01/02/2020</p>
 								</div>
-								<div class="col-lg-3 col-md-3 col-sm-3 text-right">
+								<div class="col-lg-4 col-md-4 col-sm-4 text-right">
 									<div class="al_ue_button">
 										<a href="#"><img src="images/arrow_icon.png" alt=""/> <span>Get Tickets</span></a>
 									</div>

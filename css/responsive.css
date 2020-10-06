@@ -3,13 +3,11 @@
 	.hp_main_text h2 { font-size:46px;}
 	.hp_main_text h3 { font-size:30px;}
 	.ver_title h3 { margin:0; font-size:30px; }
-	.ver_title ul { margin:0;  }
-.event_register_tab {
-    margin:8px 0;
-}
-.event_register_tab input[type="text"] { height:38px;}
-.event_register_tab textarea { height:70px;}
-.event_register_button a {     width:190px; padding:8px 15px;    font-size:18px;}
+	.ver_title ul { margin:0; }
+	.event_register_tab { margin:8px 0; }
+	.event_register_tab input[type="text"] { height:38px;}
+	.event_register_tab textarea { height:70px;}
+	.event_register_button a { width:190px; padding:8px 15px; font-size:18px; }
 }
 @media (max-width:1300px) {
 	.container { max-width:98%; }
@@ -18,7 +16,7 @@
 @media (max-width:1240px) {
 	.container { max-width:100%; }
 	.nav-link { font-size:20px; padding:0 25px !important; }
-	.head_button li a.btn_hb_text { font-size:20px; padding:6px 25px; }
+	.head_button li a.btn_hb_text { font-size:20px; }
 	.head_button li a.btn_hb_search { font-size:20px; }
 	.hp_main_text h2 { font-size:50px; margin:0 0 15px 0; }
 	.hp_main_text h3 { font-size:30px; margin:0 0 15px 0; }
@@ -26,7 +24,8 @@
 	.main_box p { font-size:16px; line-height:30px; }
 	
 	.hp_artist_landing_info h2 { font-size:42px; }
-	.hp_artist_landing_btn a { font-size:15px; padding:8px 25px; margin-right:10px; }
+	.hp_artist_landing_btn a { font-size:15px; margin-right:10px; }
+	.hp_artist_li_desktop { margin:90px 0 10px 0; }
 }
 @media (max-width:1024px) {
 	.hp_main_text h2 { font-size:46px; }
@@ -47,7 +46,14 @@
 	.event_common_tab p { font-size:18px; }
 
 	.artist_landing_bg { margin-top:-400px; }
-	.hp_artist_landing_info a.alp_tag { font-size:15px; font-weight:600; }
+	
+	.hp_artist_landing_info a.alp_tag { font-size:18px; font-weight:600; padding:10px 15px; }
+	.hp_al_get_tickets a.alp_tag { font-size:18px; font-weight:600; padding:10px 15px; }
+	.hp_al_get_tickets a.alp_red_tag { font-size:18px; font-weight:600; padding:10px 15px; }
+	
+	.hp_artist_landing_info a.alp_country_tag { font-size:15px; font-weight:600; margin:15px 0; }
+	.hp_artist_landing_info a.alp_red_country_tag { font-size:15px; font-weight:600; margin:15px 0; }
+	
 	.hp_artist_landing_info h2 { font-size:36px; }
 	.hp_artist_landing_info p { font-size:18px; }
 	.hp_al_social_btn { margin:10px 0; }
@@ -60,19 +66,22 @@
 	.evc_send a { float:right; width:30px; height:30px; font-size:14px; padding:0; margin:10px 10px 0 0; }
 }
 @media (max-width:991px) {
+	.web_featured_events { padding:30px 0; }
+	.web_featured_events_home { padding:30px 0; }
+	
 	.navbar { padding:2px 0; }
 	.navbar-expand-lg>.container { padding-left:15px; padding-right:15px; }
 	.navbar .navbar-brand img.logo_white { display:none; }
 	.navbar .navbar-brand img.logo_black { display:block; } 
 	.navbar, .navbar.active { background-color:rgba(255, 255, 255, 1); box-shadow:0 0 20px 1px rgba(0,0,0,0.09); }
 	.nav-item.active a { color:#000 !important; }
-	.nav-item { border-top:1px solid #DDD; padding:8px 0; }
+	.nav-item { padding:8px 0; }
 	.nav-tabs .nav-item { border-top:0; padding:0; }
 	.nav-link { color:#000 !important; font-size:18px; padding:5px 15px !important; }
 	.web_main_bg { margin-top:0; }
 	.web_find_events_bg { margin-top:0; }
 	.web_login_bg { margin-top:0; }
-	.main_bg { padding:70px 0 0; align-items:start; }
+	.main_bg { padding:70px 0 0; }
 	.login_register_box { padding-top:120px; }
 	.head_button { margin-left:0; }
 	.hp_main_text h2 { font-size:40px; }
@@ -88,14 +97,37 @@
 	.hp_artist_landing_info p { color:#000; }
 	.hp_artist_landing_btn a { background:rgb(25 25 25); }
 	.hp_artist_landing_social ul li a { background:rgb(25 25 25); }
-	.hp_artist_landing_icons { margin:15px 0; }
+	.hp_artist_li_desktop { display:none; }
+	.hp_artist_li_mobile { display:block; margin:20px 0 0 0; }
+	.hp_artist_li_mobile ul { margin:0; }
+	.hp_artist_li_mobile li { list-style:none; display:inline-block; margin-right:15px; }
+	.hp_artist_li_mobile li img { height:40px; }
 	.hp_al_bio { margin-top:15px; }
 	.hp_artist_landing_social { margin:15px 0; }
 	.hp_al_upcoming_event { margin-top:15px; }
 	.modal-lg { max-width:94%; }
+	.hp_artist_landing_buttons { margin-top:20px; }
+	.hp_artist_landing_info h3 { color:#000; }
+	.hp_al_streaming_now span { color:#000; }
+	
+	.web_thank_you_bg { height:auto; margin-top:0; padding:40px 0; }
+	.thank_you_bg { display:block; height:auto; }
+	.on_mobile { display:block; } 
+	
+	.togglesearch { width:90%; right:auto; }
+	.togglesearch:before { left:13px; right:auto; }
+	.head_button li a.btn_hb_search { color:#000; }
+	
+	.web_find_events_bg { height:auto; padding:40px 0; }
+	.find_events_bg { display:block; height:auto; }
+	
+	.web_main_bg { height:auto; padding:40px 0; }
+	.main_bg { display:block; height:auto; }
+}
+@media (min-width:992px){
+.navbar-toggle { display:none; }
 }
 @media (max-width:767px){
-	.web_main_bg { height:600px; }
 	.main_bg { padding:15px 0 0 0; }
 	.hp_main_bottom { margin-top:0; }
 	.hp_main_nav ul li img { width:40px; }
@@ -112,10 +144,9 @@
 	.video_section_button { margin:0 auto; }
 	
 	.web_artist_landing_bg { height:300px; }
-	.artist_landing_bg { margin-top:20px; }
-	.al_ue_button { display:block; }
-	.al_ue_button a { display:block; }
-	.head_button li a.btn_hb_search { color:#000; }
+	.artist_landing_bg { margin-top:-100px; }
+	.al_ue_button { display:block; text-align:center; }
+	
 	.spacer { padding:0; }
 
 	.web_our_process { padding:50px 0 0 0; }
@@ -136,8 +167,7 @@
 	.get_in_touch h3 { font-size:30px; margin-bottom:10px; }
 	.get_in_touch_tab { margin:15px 0; }
 	.git_contect h2 { font-size:34px; margin-bottom:10px; }
-	.web_main_bg { height:auto; }
-	.main_bg { height:auto; }
+	
 	.hp_main_text p { font-size:18px; margin:10px 0; }
 	.ver_title ul { margin:0; }
 	.ver_title ul li { margin:0; }
@@ -151,11 +181,21 @@
 	.hp_main_bottom { display:none; }
 	.evc_user_name { display:block; width:100%; }
 	.evc_artist_profile { float:none; width:100%; text-align:right; }
+	.hp_artist_landing_profile img { min-height:auto; }
+	
+	.hp_artist_landing_info a.alp_country_tag { font-size:15px; font-weight:600; margin:15px 0; }
+	.hp_artist_landing_info a.alp_red_country_tag { font-size:15px; font-weight:600; margin:15px 0; }
+	
+	.hp_artist_landing_info a.alp_tag { font-size:16px; font-weight:600; padding:8px 15px; }
+	
+	.hp_al_get_tickets span { font-size:15px; }
+	.hp_al_get_tickets a.alp_tag { font-size:16px; font-weight:600; padding:8px 15px; margin:10px 0 0; }
+	.hp_al_get_tickets a.alp_red_tag { font-size:16px; font-weight:600; padding:8px 15px; margin:10px 0 0; }
 }
 @media (max-width:600px) {
-	.web_find_events_bg { height:540px; }
+	
 	.head_button li a.btn_hb_text { font-size:14px; padding:6px 18px; }
-	.head_button li a.btn_hb_search { font-size:16px; padding:10px 0; margin:0 10px; display:inline-block; }
+	.head_button li a.btn_hb_search { padding:10px 0; margin:0 10px; display:inline-block; }
 	.hp_main_nav { display:none; }
 	.navbar .navbar-brand img { height:80px; }
 	.form-inline-desktop { display:none; }
@@ -182,18 +222,19 @@
 	
 	.top_bar_right { text-align:center; }
 	.top_bar_right ul li { border-right:1px solid #FFF; line-height:12px; }
-	.top_bar_right ul li a { font-size:12px; padding:0 4px; }
+	.top_bar_right ul li a { font-size:14px; padding:0 4px; }
 	
 	.al_upcoming_events_tab img { margin:0 auto; }
 	.al_upcoming_events_tab h4 { margin:15px 0; }
 	.al_upcoming_events_tab { text-align:center; }
-	.hp_artist_landing_info h2 { font-size:30px; }
+	.hp_artist_landing_info h2 { font-size:22px; margin:0; font-weight:600; }
 
-	.hp_artist_landing_icons ul { display:block; }
-	.hp_artist_landing_icons li { display:inline-block; margin:10px 1%; width:47%; }
-}
-@media (max-width:480px) {
-}
-@media (max-width:320px) {
+	.hp_artist_li_desktop ul { display:block; }
+	.hp_artist_li_desktop li { display:inline-block; margin:10px 1%; width:47%; }
+	
+	.hp_artist_landing_buttons ul { text-align:center; }
+	.hp_artist_landing_buttons ul li { margin-right:5px; }
+	.hp_artist_landing_buttons ul li a { font-size:16px; padding:4px 15px; font-weight:500; }
+	.evc_chat h3 { font-size:28px; margin:10px 0; } 
 }
 /*****Bootstrap_Media_Queries*****/

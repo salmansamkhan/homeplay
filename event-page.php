@@ -11,12 +11,19 @@
 					<img src="images/profile_edit.jpg" alt=""/>
 					<a href="#" class="hp_artist_profile_plus"><span>Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>
 				</div>
+				<div class="hp_artist_landing_buttons">
+					<ul>
+						<li><a href="#">Event Info</a></li>
+						<li><a href="#">Artist Info</a></li>
+						<li><a href="#" class="active">Past Events</a></li>
+					</ul> 
+				</div>
 			</div>
 			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
-					<a href="#" class="alp_tag">Country / Pop</a>
+					<a href="#" class="alp_country_tag">Country / Pop</a>
 					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua labore et dolore magna aliqua.</p>
 					<div class="hp_al_date_time">
 						<i class="fa fa-calendar"></i>
 						<span>01/02/2020</span>
@@ -29,20 +36,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<div class="hp_artist_landing_buttons">
-					<ul>
-						<li><a href="#">Event Info</a></li>
-						<li><a href="#">Artist Info</a></li>
-						<li><a href="#" class="active">Past Events</a></li>
-					</ul> 
-				</div>
-			</div>
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				
-			</div>
-		</div>
+		
 	</div>
 </div>
 <!--Web_Artist_Landing_BG-->
