@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_profile">
-					<img src="images/profile_edit.jpg" alt=""/>
+					<div class="hp_alp_box"></div>
 					<a href="#" class="hp_artist_profile_plus"><span>Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>
 				</div>
 				<div class="hp_artist_landing_buttons">
@@ -22,10 +22,10 @@
 			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
 					<a href="#" class="alp_red_country_tag">live</a>
-					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
+					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" data-toggle="modal" data-target="#my_artist_profile" class="alp_edit">Edit</a></h2>
 					<h3>Show Name Here</h3>
 					<span class="ct_line"></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus. Praesent pharetra rutrum massa in accumsan. Vivamus consectetur ex, eu malesuada leo tempus et. Fusce tempus, enim eget vestibulum viverra, justo eros auctor felis, et auctor est turpis ac ipsum. </p>
 					<div class="hp_al_streaming_now">
 						<span class="blink_homeplay">.</span>
 						<span>Streaming Now</span>

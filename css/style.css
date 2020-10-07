@@ -220,7 +220,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .event_button a { display:inline-block; border:1px solid #DDD; padding:8px 15px; border-radius:50px; margin:10px auto; }
 .event_button img { display:inline-block; vertical-align:middle; padding-right:10px; }
 .event_button span { display:inline-block; font-size:18px; color:#000; font-weight:800; vertical-align:middle; }
-.event_button a:hover, .event_button a:focus { border:1px solid #139cef; transition:0.9s; } 
+.event_button a:hover, .event_button a:focus { border:1px solid #139cef; transition:0.9s; box-shadow:0 0 30px rgba(0,0,0,.1); } 
 .event_button a:hover span, .event_button a:focus span { color:#139cef; transition:0.9s; } 
 .event_pagination { text-align:center; }
 
@@ -251,6 +251,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 
 .video_section_button {  margin:0 auto; text-align:right; }
 .video_section_button a { display:inline-block; border:1px solid #DDD; background:#FFF; padding:12px 25px; border-radius:50px; margin:0 auto; }
+.video_section_button a:hover, .video_section_button a:focus { border:1px solid #139cef; }
 .video_section_button img { display:inline-block; vertical-align:middle; padding-right:10px; }
 .video_section_button span { display:inline-block; font-size:18px; color:#000; font-weight:800; vertical-align:middle; }
 /*****Web_Video_Section*****/
@@ -349,6 +350,8 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .hp_artist_landing_profile a.alp_profile_edit { position:absolute;right:50px;top:20px;font-size:18px;color:#FFF;font-weight:600;border-bottom:1px solid #FFF;line-height:23px; }
 .hp_artist_landing_profile img { width:auto; min-height:450px; margin:0 auto; }
 
+.hp_alp_box { width:100%; background:url(../images/profile_edit.jpg) no-repeat center center; background-size:cover; height:450px; }
+
 .hp_artist_profile_plus { position:absolute; right:15px;  margin-top:-30px; }
 .hp_artist_profile_plus span { background:#FFF; box-shadow:0 0 30px rgba(0,0,0,.1); padding:4px 35px 4px 15px; border-radius:50px; font-size:20px; color:#000; font-weight:700; margin-right:-20px; display:inline-block; vertical-align:middle; }
 .hp_artist_profile_plus span i { color:#129eef; padding-left:10px; }
@@ -370,7 +373,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .hp_artist_landing_info h2 { font-size:36px;color:#FFF;}
 .hp_artist_landing_info h3 { font-size:28px; color:#FFF; margin:0;}
 .hp_artist_landing_info p { font-size:18px;color:#FFF;line-height:30px;}
-.hp_artist_landing_info a.alp_edit { font-size:18px; border-bottom:1px solid; display:inline-block; vertical-align:middle; }
+.hp_artist_landing_info a.alp_edit { font-size:18px; border-bottom:1px solid; display:inline-block; vertical-align:middle; margin-left:15px; }
 
 .hp_al_streaming_now {}
 .hp_al_streaming_now .blink_homeplay { font-size:80px; color:#ef1413; font-weight:700; text-shadow:0 0 5px #ef1413, 0 0 7px #fe4040; line-height:0; }
@@ -405,6 +408,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 
 .hp_al_bio { margin-top:70px; }
 .hp_al_bio h3 { font-size:28px; text-transform:uppercase; }
+.hp_al_bio h3 a.alp_edit_info { font-size:18px; border-bottom:1px solid; display:inline-block; vertical-align:middle; margin-left:15px; }
 .hp_al_bio p { font-size:18px; line-height:30px; color:#8f8f8f; }
 .hp_al_upcoming_event { margin-top:50px; border:1px solid #c2c2c2; border-radius:30px; padding:15px 30px; box-shadow:0 0 30px rgba(0,0,0,.1); }
 .hp_al_upcoming_event h3 { font-size:28px; text-transform:uppercase; border-bottom:1px solid #DDD; padding:0 0 15px 0; margin:0; }

@@ -8,7 +8,7 @@
 		<div class="row">
 			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_profile">
-					<img src="images/profile_edit.jpg" alt=""/>
+					<div class="hp_alp_box"></div>
 					<a href="#" class="hp_artist_profile_plus"><span>Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>
 				</div>
 				<div class="hp_artist_landing_buttons">
@@ -22,8 +22,8 @@
 			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
 					<a href="#" class="alp_country_tag">Country / Pop</a>
-					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" class="alp_edit">Edit</a></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua labore et dolore magna aliqua.</p>
+					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" data-toggle="modal" data-target="#my_artist_profile" class="alp_edit">Edit</a></h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus maximus varius. Praesent pharetra rutrum massa in accumsan. Vivamus tempor consectetur ex, eu malesuada leo tempus et. Fusce tempus, enim eget vestibulum viverra, justo eros auctor felis, et auctor est turpis ac ipsum. Phasellus sodales eleifend arcu sit amet vehicula. Mauris et libero sit amet quam vehicula aliquet.</p>
 					<div class="hp_al_date_time">
 						<i class="fa fa-calendar"></i>
 						<span>01/02/2020</span>

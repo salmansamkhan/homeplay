@@ -12,6 +12,19 @@
 @media (max-width:1300px) {
 	.container { max-width:98%; }
 	.evc_chat_box { height:350px; }
+	.common_title p { margin:5px 0; }
+	.video_section_button a { padding:10px 15px; }
+	.video_section_button span { font-size:16px; }
+	.event_ct_date { width:80px; height:80px;  margin-top:-60px; padding:15px 0; }
+	.event_ct_date .ct_one { font-size:16px; line-height:24px; }
+	.event_ct_date .ct_one { font-size:16px; line-height:24px; }
+	.event_common_tab { margin:15px 0; }
+	.event_common_tab h4 { margin:10px 20px; }
+	.event_common_tab p { font-size:16px; line-height:28px; margin-bottom:5px; }
+	.event_common_tab a.event_ct_btn { font-size:14px; padding:0 15px; }
+	.event_ct_bottom { margin:6px 20px; padding:5px 0; }
+	.hp_artist_landing_buttons ul li { margin-right: 12px; }
+	.hp_artist_landing_buttons ul li a { font-size:18px; padding:6px 15px; }
 }
 @media (max-width:1240px) {
 	.container { max-width:100%; }
@@ -37,7 +50,7 @@
 	.video_section_text h3 { font-size:32px; }
 	.video_section_text p { font-size:18px; }
 	.footer_tab h3 { font-size:24px; font-weight:600; }
-	.footer_tab h3::after { width:50px; height:4px; } 
+	.footer_tab h3::after { width:50px; height:4px; margin-top:5px; } 
 	.footer_tab ul li a { font-size:18px;}
 	.event_ct_date { width:80px; height:80px; padding:22px 0;}
 	.event_ct_date .ct_one { font-size:16px; line-height:16px; }
@@ -89,7 +102,15 @@
 	.main_box h3 { font-size:20px; }
 	.main_box p { font-size:16px; line-height:28px; margin:0; }
 	.web_footer { padding:40px 0; }
-	.footer_tab h3 { font-size:22px; margin-top:30px; }
+	.footer_logo { margin-bottom:10px; }
+	.footer_tab h3 { font-size:22px; margin-top:15px; margin-bottom:25px; }
+	.footer_tab ul li { margin:6px 0; }
+	.footer_tab ul li a { padding:0;}
+	.socialsquared img { margin:0 auto; }
+	.copyright { text-align:center; }
+	.copyright p { margin:15px 0 0; line-height:20px; }
+	.hp_alp_box { height:350px; }
+	
 	.hp_artist_landing_info { margin-top:20px; }
 	.hp_artist_landing_info h2 { color:#000; }
 	.hp_artist_landing_info p { color:#000; }
@@ -105,7 +126,7 @@
 	.hp_al_upcoming_event { margin-top:15px; }
 	.modal-lg { max-width:94%; }
 	.hp_artist_profile_plus span { font-size:16px; }
-	.hp_artist_profile_plus img { width:50px; }
+	.hp_artist_profile_plus img { width:50px; min-height:50px; }
 	.hp_artist_landing_buttons { margin-top:40px; }
 	.hp_artist_landing_info h3 { color:#000; }
 	.hp_al_streaming_now span { color:#000; }
@@ -131,6 +152,8 @@
 	.video_section_button { text-align:center; }
 	
 	.hp_al_get_tickets { padding:20px 20px; }
+	
+	
 }
 @media (min-width:992px){
 .navbar-toggle { display:none; }
@@ -151,7 +174,7 @@
 	.hp_main_text h2 { font-size:34px; }
 	.hp_main_text h3 { font-size:22px; }
 	.video_section_button { margin:0 auto; }
-	
+	.event_common_tab img { height:auto; }
 	.web_artist_landing_bg { height:300px; }
 	.artist_landing_bg { margin-top:-100px; }
 	.al_ue_button { display:block; text-align:center; }
