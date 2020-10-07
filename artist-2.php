@@ -1,10 +1,10 @@
 <?php include("header.php");?>
 
 	<!--Web_Main_BG-->
-    <div class="web_main_bg">
+    <div class="web_book_your_show_bg">
 		<div class="container">
-			<div class="main_bg">
-				<div class="row align-items-lg-center col">
+			<div class="book_your_show_bg">
+				<div class="row align-items-lg-center">
 					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="hp_main_text">
 							<h2>Book Your Show Now<span class="blink_homeplay">.</span></h2>

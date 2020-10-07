@@ -108,7 +108,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
 						<a href="#" class="event_ct_btn">Pop / R&amp;B</a>
 						<div class="event_ct_bottom">
-							<label><a href="#">Get Ticket</a></label>
+							<label><a href="#" data-toggle="modal" data-target="#mp_event_checkout">Get Ticket</a></label>
 							<span class="ct_price">$89.99</span>
 						</div>
 					</div>
@@ -124,7 +124,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
 						<a href="#" class="event_ct_btn">Pop / R&amp;B</a>
 						<div class="event_ct_bottom">
-							<label><a href="#">Get Ticket</a></label>
+							<label><a href="#" data-toggle="modal" data-target="#mp_event_checkout">Get Ticket</a></label>
 							<span class="ct_price">$89.99</span>
 						</div>
 					</div>
@@ -140,7 +140,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
 						<a href="#" class="event_ct_btn">Pop / R&amp;B</a>
 						<div class="event_ct_bottom">
-							<label><a href="#">Get Ticket</a></label>
+							<label><a href="#" data-toggle="modal" data-target="#mp_event_checkout">Get Ticket</a></label>
 							<span class="ct_price">$89.99</span>
 						</div>
 					</div>

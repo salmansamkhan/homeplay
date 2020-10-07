@@ -202,7 +202,7 @@
 								</div>
 								<div class="mp_va_check">
 									<input type="radio" id="male" name="gender" value="male">
-									<span for="male">I agree to HomePlays <a href="#"><u>terms of services.</u></a></span>
+									<label for="male">I agree to HomePlays <a href="#"><u>terms of services.</u></a></label>
 								</div>
 								<div class="mp_va_button">
 									<a href="#" class="btn_popup_save">Continue</a>

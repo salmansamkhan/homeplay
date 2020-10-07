@@ -67,7 +67,7 @@
 						<li class="nav-item active"><a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a></li>
 						<li class="nav-item"><a class="nav-link" href="find-events.php">Find Events</a></li>
 						<li class="nav-item"><a class="nav-link" href="support.php">Support</a></li>
-						<li class="nav-item on_mobile"><a class="nav-link" href="#">Are You An Artist?</a></li>
+						<li class="nav-item on_mobile"><a class="nav_button" href="#">Are You An Artist?</a></li>
 					</ul>
 					<div class="form-inline-desktop d-lg-block d-md-none d-sm-none">
 						<div class="head_button">

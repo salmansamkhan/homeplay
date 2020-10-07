@@ -20,7 +20,7 @@
 						</div>
 						<div class="hp_login_regi_check">
 							<input type="radio" id="male" name="gender" value="male">
-							<span for="male">I agree to HomePlays <a href="#">terms of services.</a></span>
+							<label for="male">I agree to HomePlays <a href="#">terms of services.</a></label>
 						</div>
 						<div class="hp_login_regi_button">
 							<a href="#">Login</a>
