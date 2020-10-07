@@ -304,13 +304,19 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 /*****Web_Login_BG*****/
 .web_login_bg { width:100%; background:url(../images/homepage_slider1.jpg) no-repeat; background-size:cover; height:750px; margin-top:-114px; }
 
-.login_register_box { padding-top:200px; }
+.login_register_box { }
+.lrb { padding-top:200px; }
 .login_register_box .nav-tabs { border-bottom:0; }
 .login_register_box .nav-tabs .nav-link { border:1px solid transparent; border-top-left-radius:30px; border-top-right-radius:30px; font-size:20px; padding:12px 30px !important; font-weight:700; color:#b1b1b1 !important; background-color:#DDD; border-color:#ffffff #ffffff #ffffff; font-weight:800; }
-.login_register_box .nav-tabs .nav-link.nav-link-last { margin-left:-10px; }
+.login_register_box .nav-tabs .nav-link.nav-link-last { margin-left:5px; }
 .login_register_box .nav-tabs .nav-item:hover a::after{  display:none; }
 .login_register_box .nav-tabs .nav-item.show .nav-link, .login_register_box .nav-tabs .nav-link.active { color:#363636 !important; background-color:#fff; border-color:#ffffff #ffffff #ffffff; z-index:999; position:relative; }
-.login_register_box .tab-content { background:#FFF; padding:40px 30px; border-radius:0 30px 30px 30px; }
+.login_register_box .tab-content { background:#FFF; padding:40px 30px; border-radius:0 0 30px 30px; }
+
+.login_register_top_box { background:rgba(255,255,255,0.3); width:max-content; margin:140px auto 30px; padding:8px 25px; border-radius:60px; }
+.login_register_top_box p { font-size:20px; color:#FFF; text-align:center; margin:0; font-weight:500; }
+.login_register_top_box .blink_login { color:#00cffe; font-weight:700;  }
+.login_register_top_box a { }
 
 .hp_login {}
 .register_bg { background:#FFF; border-radius:20px; padding:20px 30px 40px 30px; }
@@ -388,7 +394,7 @@ span.hp_line { position:absolute; top:-3px; left:-80px; background:rgba(3,3,3,0.
 .hp_artist_landing_social { display:inline-block;  }
 .hp_artist_landing_social ul { margin:0; }
 .hp_artist_landing_social ul li { display:inline-block; margin:0 8px 0 0; }
-.hp_artist_landing_social ul li a { display:block; font-size:20px; color:#fff; border-radius:10px; border:2px solid #fff; width:38px; height:38px; text-align:center; padding:4px 0; }
+.hp_artist_landing_social ul li a { display:block; font-size:16px; color:#fff; border-radius:10px; border:2px solid #fff; width:30px; height:30px; text-align:center; padding:0; }
 .hp_artist_landing_social ul li a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 
 .hp_artist_li_desktop { margin:130px 0 10px 0; }

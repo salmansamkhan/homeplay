@@ -93,7 +93,7 @@
 	.web_login_bg { margin-top:0; height:610px; }
 	.main_bg { padding:70px 0 0; }
 	.book_your_show_bg { padding:70px 0 0; }
-	.login_register_box { padding-top:120px; }
+	.lrb { padding-top:120px; }
 	.head_button { margin-left:0; }
 	.hp_main_text h2 { font-size:40px; }
 	.hp_main_text h3 { font-size:26px;}
@@ -255,7 +255,7 @@
 	.footer_tab h3 { margin-top:10px; }
 	.footer_tab ul li { margin:4px 0; }
 
-	.login_register_box { padding-top:40px; }
+	.lrb { padding-top:40px; }
 	.register_bg { padding:25px 15px; }
 	
 	.top_bar_right { text-align:center; }

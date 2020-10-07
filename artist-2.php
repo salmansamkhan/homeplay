@@ -61,9 +61,14 @@
         <div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="hp_main_bottom">
-						<a href="javascript:void(0)" class="goto" section_name="our_process"><img src="images/main_scroll.png" class="img-fluid"></a>
-					</div>
+					<a href="javascript:void(0)" class="goto" section_name="our_process">
+						<div class='scrolldown'>
+							<div class="chevrons">
+								<div class='chevrondown'></div>
+								<div class='chevrondown'></div>
+							</div>
+						</div>
+					</a>
 				</div>
 			</div>
 			<div class="row">

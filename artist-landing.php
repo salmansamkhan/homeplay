@@ -19,8 +19,8 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean maximus maximus varius. Praesent pharetra rutrum massa in accumsan. Vivamus tempor consectetur ex, eu malesuada leo tempus et. Fusce tempus, enim eget vestibulum viverra, justo eros auctor felis, et auctor est turpis ac ipsum. Phasellus sodales eleifend arcu sit amet vehicula. </p>
 					<div class="hp_al_social_btn">
 						<div class="hp_artist_landing_btn">
-							<a href="#"><img src="images/upcoming_events_icon.png" class="img-fluid">Biography</a>
-							<a href="#"><img src="images/featured_event_icon.png" class="img-fluid">Event Archive</a>
+							<a href="#"><img src="images/contact_icon.png" class="img-fluid">Biography</a>
+							<a href="#"><img src="images/booking_icon.png" class="img-fluid">Event Archive</a>
 						</div>
 						<div class="hp_artist_landing_social">
 							<ul>

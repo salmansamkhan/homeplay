@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-1 col-sm-1 col-xs-1"></div>
 			<div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-				<div class="login_register_box">
+				<div class="login_register_box lrb">
 					<div class="hp_login_register register_bg">
 						<h2>Viewer Registration</h2>
 						<div class="hp_login_regi_tab">
