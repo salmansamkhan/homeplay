@@ -22,8 +22,29 @@
 </div>
 <!--Web_Find_Events_BG-->
 
+<!--Web_Events_Page_Scroll-->
+<div class="web_event_page_scroll">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+				<div class="hp_event_page_scroll">
+					<a href="javascript:void(0)" class="goto" section_name="featured_events">
+						<div class='scrolldown'>
+							<div class="chevrons">
+								<div class='chevrondown'></div>
+								<div class='chevrondown'></div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Web_Events_Page_Scroll-->
+
 <!--Web_Featured_Events-->
-<div class="web_featured_events" >
+<div class="web_featured_events" id="featured_events">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
