@@ -293,7 +293,7 @@
 										</select>
 									</div>
 								</div>
-								<br/><br/>
+								<br/> 
 								<div class="mp_va_button">
 									<a href="#" class="btn_popup_save">Continue</a>
 								</div>

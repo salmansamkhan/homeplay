@@ -23,7 +23,7 @@
 	.event_common_tab p { font-size:16px; line-height:28px; margin-bottom:5px; }
 	.event_common_tab a.event_ct_btn { font-size:14px; padding:0 15px; }
 	.event_ct_bottom { margin:6px 20px; padding:5px 0; }
-	.hp_artist_landing_buttons ul li { margin-right: 12px; }
+	.hp_artist_landing_buttons ul li { margin-right:12px; }
 	.hp_artist_landing_buttons ul li a { font-size:18px; padding:6px 15px; }
 	
 	.ver_title h3 { margin:0 15%;}
@@ -96,6 +96,7 @@
 	.main_bg { padding:70px 0 0; }
 	.book_your_show_bg { padding:70px 0 0; }
 	.lrb { padding-top:120px; }
+	.login_register_top_box { width:100%; margin:120px auto 15px; }
 	.head_button { margin-left:0; }
 	.hp_main_text h2 { font-size:40px; }
 	.hp_main_text h3 { font-size:26px;}
@@ -261,6 +262,7 @@
 	.footer_tab ul li { margin:4px 0; }
 
 	.lrb { padding-top:40px; }
+	.login_register_top_box { width:100%; margin:40px auto 15px; }
 	.register_bg { padding:25px 15px; }
 	
 	.top_bar_right { text-align:center; }
@@ -288,11 +290,22 @@
 	.hp_artist_landing_buttons { display:none; }
 	
 	.yo_bg_one { padding:0 15px; }
-	.yo_bg_two { padding:0 15px; margin-left:0; }
+	.yo_bg_two { padding:0 15px; margin-left:0; background:transparent; }
+	.my_ap_head { margin-top:15px; }
+	.my_ap_head h2 { font-size:24px;}
+	.my_ap_head p { font-size:18px;}
+	.my_ap_head span.ct_line {width:70px; height:4px;}
+	.my_ap_head ul li { font-size:14px; margin:0 2px; }
+	.my_ap_head ul li img { width:15px; }
+	.my_va_title { padding:15px 0 0px 0; }
+	.mp_va_tab { margin:10px 0; }
+	.mp_va_check { margin:10px 0; }
 	.mp_checkout_tab label { display:block; width:100%; }
 	.mp_price_tav { display:block; width:100%; text-align:left; }
 	.mp_quntity { display:block; width:100%; }
 	.mp_checkout_tab span.date { float:none; }
-
+	.mp_checkout_tab { padding:10px 0; }
+	.mp_va_check label { font-size:14px; }
+	hr { margin-top:5px; margin-bottom:5px;}
 }
 /*****Bootstrap_Media_Queries*****/
