@@ -24,33 +24,35 @@
 								<h3>Register Your Live Virtual Event</h3>
 								<span class="ct_line"></span>
 								<ul>
-									<li><a href="#" class="active">Create Account</a></li>
+									<li><a href="#">Create Account</a></li>
 									<li><img src="images/arrow_icon.png" alt=""></li>
-									<li><a href="#">Event Info</a></li>
+									<li><a href="#" class="active">Event Info</a></li>
 								</ul>
 							</div>
 							<div class="event_register_tabs">
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Name">
+									<input type="text" name="name" placeholder="Event Name">
 								</div>
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Email">
+									<select>
+										<option default>Genre</option>
+										<option value="">Male</option>
+										<option value="">Hip-Hop/Rap</option>
+										<option value="">Country</option>
+										<option value="">Pop</option>
+										<option value="">R&B/soul</option>
+										<option value="">Classical</option>
+										<option value="">Rock</option>
+									</select>
 								</div>
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Password">
+									<input type="text" name="name" placeholder="Select a Date & Time">
 								</div>
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Confirm Password">
-								</div>
-								<div class="event_register_tab">
-									<textarea placeholder="Short Bio"></textarea>
-								</div>
-								<div class="event_register_check">
-									<input type="radio" id="event_reg_terms" name="terms" value="1">
-									<label for="event_reg_terms">I agree to HomePlays <a href="#">terms of services.</a></label>
+									<textarea placeholder="Event Description"></textarea>
 								</div>
 								<div class="event_register_button">
-									<a href="#">One Last Step</a>
+									<a href="#">Register</a>
 								</div>
 							</div>
 						</div>

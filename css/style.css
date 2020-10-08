@@ -3,8 +3,8 @@ body { margin:0; padding:0; width:100%; font-size:16px; color:#000; line-height:
 img { border:0 none; height:auto; max-width:100%; display:block; }
 h1, h2, h3, h4, h5, h6 { font-family:'Mukta', sans-serif; color:#000; font-weight:800; }
 
-a { text-decoration:none; color:#09b7f7; transition:0.5s; }
-a:focus, a:hover { text-decoration:none; color:#09b7f7; }
+a { text-decoration:none; color:#00d1ff; transition:0.5s; }
+a:focus, a:hover { text-decoration:none; color:#00d1ff; }
 .clear { clear:both; }
 
 /*****Common*****/
@@ -62,7 +62,7 @@ a:focus, a:hover { text-decoration:none; color:#09b7f7; }
 .head_button li a.btn_hb_text:hover { background-position:right center; }
 .head_button li a.btn_hb_search { font-size:18px; color:#FFF; padding-left:15px; }
 .active .head_button li a.btn_hb_search { color:#000; }
-.head_button li a.btn_hb_profile { font-size:18px; color:#09b7f7; padding:0; border:0; box-shadow:none; text-align:center; border-radius:40px; display:block; margin-left:15px; background-color:transparent !important; outline:none !important; box-shadow:0 !important; }
+.head_button li a.btn_hb_profile { font-size:18px; color:#09b7f7; padding:0; border:0; text-align:center; border-radius:40px; display:block; margin-left:15px; background-color:transparent !important; outline:none !important; box-shadow:none !important; }
 .head_button li a.btn_hb_profile img { width:70px; }
 .head_button li a.btn_hb_profile:hover, .head_button li a.btn_hb_profile:focus { background-color:transparent !important; outline:none; box-shadow:0 0 0 0.2rem #139cef; }
 .head_button .dropdown-toggle::after { display:none; }
@@ -107,7 +107,7 @@ a:focus, a:hover { text-decoration:none; color:#09b7f7; }
 
 .hp_main_buttons { margin-top:35px; }
 .hp_main_buttons img { width:auto; height:auto; display:inline-block; padding-right:10px; }
-.hp_main_buttons a { background:rgba(255,255,255,0.25); font-size:17px; color:#FFF; margin-right:15px; padding:5px 15px; display:inline-block; border-radius:50px; cursor:unset; }
+.hp_main_buttons a { background:rgba(255,255,255,0.25); font-size:17px; color:#FFF; margin-right:15px; padding:5px 15px; display:inline-block; border-radius:50px; }
 .hp_main_buttons a:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 
 .blink_homeplay { color:#48e5ff; font-weight:700; text-shadow:0 0 5px #10d6ff, 0 0 7px #48e5ff; }
@@ -126,7 +126,7 @@ a:focus, a:hover { text-decoration:none; color:#09b7f7; }
 span.hp_line { position:absolute; top:-3px; left:-64px; background:rgba(3,3,3,1); font-size:14px; line-height:25px; color:#FFF; text-transform:capitalize; padding:2px 10px; border-radius:5px; }
 span.hp_line::after { content:''; width:12px; height:12px; position:absolute; background:#000; top:8px; right:-4px; transform:rotate(45deg); }
 
-.web_book_your_show_bg { width:100%; background:url(../images/homepage_slider1.jpg) no-repeat; background-size:cover; height:100vh; margin-top:-114px; }
+.web_book_your_show_bg { width:100%; background:url(../images/artist_page_bg.jpg) no-repeat; background-size:cover; height:100vh; margin-top:-114px; }
 .book_your_show_bg { display:grid; height:100vh; }
 
 .scrolldown { --color:white; --sizeX:30px; --sizeY:50px; position:relative; width:var(--sizeX); height:var(--sizeY); border:calc(var(--sizeX) / 10) solid var(--color); border-radius:50px; box-sizing:border-box; margin:0 auto 30px auto; cursor:pointer; }
@@ -311,7 +311,7 @@ to { opacity:0.5; }
 .login_register_top_box p { font-size:20px; color:#FFF; text-align:center; margin:0; font-weight:500; }
 .login_register_top_box .blink_login { color:#00cffe; font-weight:700;  }
 .login_register_top_box a { }
-
+.nav-justified .nav-item { text-align:left; }
 .hp_login {}
 .register_bg { background:#FFF; border-radius:20px; padding:20px 30px 40px 30px; }
 
@@ -320,7 +320,7 @@ to { opacity:0.5; }
 .hp_login_regi_tab { margin:20px 0; }
 .hp_login_register h4 { margin-bottom:30px; font-size:24px; font-weight:600; }
 .hp_login_register h4::after { content:''; position:absolute; background:linear-gradient(90deg,#139cef,#00d1ff); width:70px; height:7px; left:auto; display:block; border-radius:15px; margin:10px 0; }
-.hp_login_regi_tab label { display:block; margin:0; font-size:18px; color:#a9a9a9; font-weight:700; letter-spacing:1px; }
+.hp_login_regi_tab label { display:block; margin:0; font-size:18px; color:#a9a9a9; font-weight:600; letter-spacing:1px; }
 .hp_login_regi_tab input[type="text"], input[type=email], input[type=password] { width:100%; height:48px; padding:10px 16px; font-size:18px; background:#f1f1f1; color:#000; border:1px solid #c7c7c7; border-radius:60px; font-weight:500; }
 .hp_login_regi_tab input[type="text"]:focus, input[type=email]:focus, input[type=password]:focus {  border:1px solid #00d1ff; }
 
@@ -359,8 +359,8 @@ to { opacity:0.5; }
 
 .hp_artist_landing_buttons { margin-top:50px; }
 .hp_artist_landing_buttons ul { margin:0; }
-.hp_artist_landing_buttons ul li { list-style:none; display:inline-block; margin-right:20px; }
-.hp_artist_landing_buttons ul li a { display:block; font-size:18px; color:#afafaf; letter-spacing:1px; font-weight:600; text-transform:capitalize; background:#eeeeee; border:1px solid #cacaca; padding:7px 30px; border-radius:40px;}
+.hp_artist_landing_buttons ul li { list-style:none; display:inline-block; margin-right:15px; }
+.hp_artist_landing_buttons ul li a { display:block; font-size:18px; color:#afafaf; letter-spacing:1px; font-weight:600; text-transform:capitalize; background:#eeeeee; border:1px solid #cacaca; padding:5px 20px; border-radius:40px;}
 .hp_artist_landing_buttons ul li a:hover, .hp_artist_landing_buttons ul li a:focus, .hp_artist_landing_buttons ul li a.active  { color:#FFF; background:linear-gradient(90deg,#00d1ff,#139cef); border:1px solid #FFF; box-shadow:0 0 30px rgba(0,0,0,.1); }
 
 .hp_artist_landing_info { }
@@ -431,10 +431,10 @@ to { opacity:0.5; }
 .hp_al_get_tickets h2 { font-size:32px; color:#000; border-bottom:1px solid #bcbcbc; padding:0 0 15px 0; }
 .hp_al_get_tickets h3 { font-size:24px; color:#000; border-bottom:1px solid #bcbcbc; padding:0 0 15px 0; }
 .hp_al_get_tickets span { font-size:18px; color:#fff; text-transform:capitalize; background:linear-gradient(90deg,#139cef,#00d1ff); padding:5px 20px; border-radius:50px; display:inline-block; transition:0.9s; float:right; }
-.hp_al_get_tickets a.alp_tag { font-size:24px; color:#fff; text-transform:capitalize; background:linear-gradient(90deg,#139cef,#00d1ff); padding:16px 35px; border-radius:50px; display:block; transition:0.9s; text-align:center; font-weight:800; margin-top:25px; }
+.hp_al_get_tickets a.alp_tag { font-size:22px; color:#fff; text-transform:capitalize; background:linear-gradient(90deg,#139cef,#00d1ff); padding:8px 15px; border-radius:50px; display:block; transition:0.9s; text-align:center; font-weight:700; margin-top:25px; }
 .hp_al_get_tickets a.alp_tag:hover { background:linear-gradient(90deg,#00d1ff,#139cef); }
 
-.hp_al_get_tickets a.alp_red_tag { font-size:24px; color:#fff; text-transform:capitalize; background:linear-gradient(90deg,#ef1413,#fe4040); padding:16px 35px; border-radius:50px; display:block; transition:0.9s; text-align:center; font-weight:800; margin-top:25px; }
+.hp_al_get_tickets a.alp_red_tag { font-size:22px; color:#fff; text-transform:capitalize; background:linear-gradient(90deg,#ef1413,#fe4040); padding:8px 15px; border-radius:50px; display:block; transition:0.9s; text-align:center; font-weight:700; margin-top:25px; }
 .hp_al_get_tickets a.alp_red_tag:hover { background:linear-gradient(90deg,#fe4040,#ef1413); }
 /*****Artist_Landing*****/
 
@@ -603,27 +603,49 @@ to { opacity:0.5; }
 .git_contect p { font-size:18px; line-height:30px; color:#8c8c99; }
 .git_contect ul { margin:35px 0 0 0; }
 .git_contect ul li { list-style:none; margin:15px 0; }
-.git_contect ul li img { display:inline-block; margin-right:15px; }
+.git_contect ul li img { display:inline-block; margin-right:15px; width:40px; }
 .git_contect ul li span { font-size:20px; font-weight:700; color:#000; }
 
-.virtual_event_register { background:rgba(255,255,255,0.3); border-radius:20px; padding:10px 15px; margin:0 15px; }
+.virtual_event_register { background:rgba(255,255,255,0.3); border-radius:20px; padding:20px 35px; margin:0 15px; }
 .ver_title { text-align:center; }
 .ver_title p {font-size:18px;color:#00c5fc;margin:0;}
-.ver_title h3 {font-size:32px;color:#FFF;text-transform:uppercase;margin:0 25%;}
+.ver_title h3 {font-size:32px;color:#FFF;text-transform:uppercase;margin:0 20%;}
 .ver_title span.ct_line { display:inline-block; width:100px; height:7px; background:linear-gradient(90deg,#139cef,#00d1ff); border-radius:20px; }
 .ver_title ul { margin:5px 0; }
 .ver_title ul li { display:inline-block; vertical-align:middle; margin:0 10px; }
 .ver_title ul li a { font-size:16px; color:#dcdcdc; text-transform:uppercase; }
+.ver_title ul li a.active { text-decoration:underline; }
 .ver_title ul li img {}
 
 .event_register_tabs {}
 .event_register_tab { margin:14px 0; }
-.event_register_tab input[type="text"] { width:100%; padding:10px 16px; font-size:18px; background:rgba(255,255,255,0.15);color:#FFF; border:0; border-radius:60px; font-weight:500; height:44px; }
-.event_register_tab textarea { width:100%; background:rgba(255,255,255,0.15); border:0; height:90px; padding:12px 25px; border-radius:20px; font-size:18px; color:#FFF; resize:none; }
+.event_register_tab input[type="text"] { width:100%; padding:10px 16px; font-size:16px; background:rgba(255,255,255,0.15);color:#dcdcdc; border:0; border-radius:60px; font-weight:500; height:44px; }
+.event_register_tab select { width:100%; padding:10px 16px; font-size:16px; background:rgba(255,255,255,0.15);color:#dcdcdc; border:0; border-radius:60px; font-weight:500; height:44px; }
+.event_register_tab textarea { width:100%; background:rgba(255,255,255,0.15); border:0; height:90px; padding:12px 16px; border-radius:20px; font-size:16px; color:#dcdcdc; resize:none; }
+
+.event_register_check { margin:14px 0; }
+.event_register_check input[type="radio"] { width:14px; height:14px; display:inline-block; vertical-align:middle; margin-right:10px; }
+.event_register_check label { font-size:18px; color:#c7c7c7; display:inline-block; vertical-align:middle; margin:0; }
+.event_register_check label a { text-decoration:underline #00d1ff; }
 
 .event_register_button { text-align:center; }
 .event_register_button a { display:inline-block; font-size:20px; color:#fff; letter-spacing:1px; font-weight:600; text-transform:capitalize; background:linear-gradient(90deg,#139cef,#00d1ff); padding:10px 15px; border-radius:40px; width:260px; text-align:center; }
 .event_register_button a:hover { color:#FFF; background:linear-gradient(90deg,#00d1ff,#139cef); }
+
+.event_register_tab input::-webkit-input-placeholder { color:#dcdcdc; }
+.event_register_tab input::-moz-placeholder { color:#dcdcdc; }
+.event_register_tab input:-ms-input-placeholder { color:#dcdcdc; }
+.event_register_tab input:-moz-placeholder { color:#dcdcdc; }
+
+.event_register_tab textarea::-webkit-input-placeholder { color:#dcdcdc; }
+.event_register_tab textarea::-moz-placeholder { color:#dcdcdc; }
+.event_register_tab textarea:-ms-input-placeholder { color:#dcdcdc; }
+.event_register_tab textarea:-moz-placeholder { color:#dcdcdc; }
+
+.event_register_tab select::-webkit-input-placeholder { color:#dcdcdc; }
+.event_register_tab select::-moz-placeholder { color:#dcdcdc; }
+.event_register_tab select:-ms-input-placeholder { color:#dcdcdc; }
+.event_register_tab select:-moz-placeholder { color:#dcdcdc; } 
 /*****Web_Get_In_Touch*****/
 
 /*****Web_Event_Video_Chat*****/
@@ -639,7 +661,7 @@ to { opacity:0.5; }
 .evc_user_img img { box-shadow:0 0 30px rgba(0,0,0,.1); border-radius:100%; }
 .evc_user_text { display:inline-block; vertical-align:middle; width:65%; }
 .evc_user_text h5 { font-size:20px; margin:0; }
-.evc_user_text p { margin:0; }
+.evc_user_text p { margin:0; color:#000; }
 
 .evc_artist_profile { float:right; }
 .evc_artist_profile span { background:#FFF; box-shadow:0 0 30px rgba(0,0,0,.1); padding:4px 35px 4px 15px; border-radius:50px; font-size:20px; color:#000; font-weight:700; margin-right:-20px; display:inline-block; vertical-align:middle; }
@@ -653,5 +675,5 @@ span.evc_chat_shape { width:150px; background:#f3f3f3; height:14px; display:bloc
 
 .evc_send { margin:15px 0; width:100%; background:rgb(247 247 247); border:1px solid #ddd; border-radius:60px; }
 .evc_send input[type="text"] { width:82%; padding:5px 20px; font-size:18px;  color:#000; font-weight:500; height:50px; vertical-align:middle; display:inline-block; background:transparent; border:0; }
-.evc_send a { display:inline-block; width:36px; height:36px; background:linear-gradient(90deg,#139cef,#00d1ff); vertical-align:middle; border-radius:70px; text-align:center; font-size:18px; color:#FFF; padding:4px 0; }
+.evc_send a { float:right; width:36px; height:36px; background:linear-gradient(90deg,#139cef,#00d1ff); vertical-align:middle; border-radius:70px; text-align:center; font-size:18px; color:#FFF; padding:4px 0; margin:7px 12px 0 0; }
 /*****Web_Event_Video_Chat*****/

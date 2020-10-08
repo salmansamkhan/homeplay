@@ -53,13 +53,15 @@
 				</div>
 				<div class="evc_profile_details">
 					<div class="evc_user_name">
-						<div class="evc_user_img">
-							<img src="images/user_profile.png" alt="" />
-						</div>
-						<div class="evc_user_text">
-							<h5>Show Name Here</h5>
-							<p>Kathleen Edwards</p>
-						</div>
+						<a href="#">
+							<div class="evc_user_img">
+								<img src="images/user_profile.png" alt="" />
+							</div>
+							<div class="evc_user_text">
+								<h5>Show Name Here</h5>
+								<p>Kathleen Edwards</p>
+							</div>
+						</a>
 					</div>
 					<div class="evc_artist_profile">
 						<a href="#" class=""><span>Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>

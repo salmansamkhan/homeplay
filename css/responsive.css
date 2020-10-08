@@ -25,6 +25,8 @@
 	.event_ct_bottom { margin:6px 20px; padding:5px 0; }
 	.hp_artist_landing_buttons ul li { margin-right: 12px; }
 	.hp_artist_landing_buttons ul li a { font-size:18px; padding:6px 15px; }
+	
+	.ver_title h3 { margin:0 15%;}
 }
 @media (max-width:1240px) {
 	.container { max-width:100%; }
@@ -228,6 +230,8 @@
 	
 	.git_contect ul li img { width:30px; }
 	.git_contect ul li span { font-size:18px; }
+	
+	.thank_you_video { margin-top:15px; }
 }
 
 @media (max-width:600px) {
@@ -279,6 +283,16 @@
 	.ep_left_btn a, .ep_right_btn a { display:inline-block; padding:2px 15px; }
 	.ep_number ul li { margin:0 5px; }
 	.ep_number ul li a { display:block; width:32px; height:32px; font-size:16px; padding:3px 0; }
+	
+	.evc_profile_details { display:none; }
+	.hp_artist_landing_buttons { display:none; }
+	
+	.yo_bg_one { padding:0 15px; }
+	.yo_bg_two { padding:0 15px; margin-left:0; }
+	.mp_checkout_tab label { display:block; width:100%; }
+	.mp_price_tav { display:block; width:100%; text-align:left; }
+	.mp_quntity { display:block; width:100%; }
+	.mp_checkout_tab span.date { float:none; }
 
 }
 /*****Bootstrap_Media_Queries*****/
