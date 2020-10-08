@@ -325,8 +325,8 @@ to { opacity:0.5; }
 .hp_login_register h4 { margin-bottom:30px; font-size:24px; font-weight:600; }
 .hp_login_register h4::after { content:''; position:absolute; background:linear-gradient(90deg,#139cef,#00d1ff); width:70px; height:7px; left:auto; display:block; border-radius:15px; margin:10px 0; }
 .hp_login_regi_tab label { display:block; margin:0; font-size:18px; color:#a9a9a9; font-weight:600; letter-spacing:1px; }
-.hp_login_regi_tab input[type="text"], input[type=email], input[type=password] { width:100%; height:48px; padding:10px 16px; font-size:18px; background:#f1f1f1; color:#000; border:1px solid #c7c7c7; border-radius:60px; font-weight:500; }
-.hp_login_regi_tab input[type="text"]:focus, input[type=email]:focus, input[type=password]:focus {  border:1px solid #00d1ff; }
+.hp_login_regi_tab input[type="text"],.hp_login_regi_tab input[type=email],.hp_login_regi_tab input[type=password] { width:100%; height:48px; padding:10px 16px; font-size:18px; background:#f1f1f1; color:#000; border:1px solid #c7c7c7; border-radius:60px; font-weight:500; }
+.hp_login_regi_tab input[type="text"]:focus,.hp_login_regi_tab input[type=email]:focus,.hp_login_regi_tab input[type=password]:focus { border:1px solid #00d1ff; }
 
 .hp_login_regi_tab input::-webkit-input-placeholder { color:#c6c6c6; }
 .hp_login_regi_tab input::-moz-placeholder { color:#c6c6c6; }
@@ -624,7 +624,7 @@ to { opacity:0.5; }
 
 .event_register_tabs {}
 .event_register_tab { margin:14px 0; }
-.event_register_tab input[type="text"] { width:100%; padding:10px 16px; font-size:16px; background:rgba(255,255,255,0.15);color:#dcdcdc; border:0; border-radius:60px; font-weight:500; height:44px; }
+.event_register_tab input[type="text"],.event_register_tab input[type="email"],.event_register_tab input[type="password"] { width:100%; padding:10px 16px; font-size:16px; background:rgba(255,255,255,0.15);color:#dcdcdc; border:0; border-radius:60px; font-weight:500; height:44px; }
 .event_register_tab select { width:100%; padding:10px 16px; font-size:16px; background:rgba(255,255,255,0.15);color:#dcdcdc; border:0; border-radius:60px; font-weight:500; height:44px; }
 .event_register_tab textarea { width:100%; background:rgba(255,255,255,0.15); border:0; height:90px; padding:12px 16px; border-radius:20px; font-size:16px; color:#dcdcdc; resize:none; }
 
@@ -650,7 +650,7 @@ to { opacity:0.5; }
 .event_register_tab select::-webkit-input-placeholder { color:#dcdcdc; }
 .event_register_tab select::-moz-placeholder { color:#dcdcdc; }
 .event_register_tab select:-ms-input-placeholder { color:#dcdcdc; }
-.event_register_tab select:-moz-placeholder { color:#dcdcdc; } 
+.event_register_tab select:-moz-placeholder { color:#dcdcdc; }
 /*****Web_Get_In_Touch*****/
 
 /*****Web_Event_Video_Chat*****/

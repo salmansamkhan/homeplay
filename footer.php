@@ -118,7 +118,6 @@
 							<div class="my_ap_tab">
 								<select>
 									<option default>Genre</option>
-									<option value="">Male</option>
 									<option value="">Hip-Hop/Rap</option>
 									<option value="">Country</option>
 									<option value="">Pop</option>
@@ -201,8 +200,8 @@
 									<input type="text" name="password" placeholder="Confirm Password *">
 								</div>
 								<div class="mp_va_check">
-									<input type="radio" id="male" name="gender" value="male">
-									<label for="male">I agree to HomePlays <a href="#"><u>terms of services.</u></a></label>
+									<input type="radio" id="terms_viewer_account" name="terms_viewer_account" value="1">
+									<label for="terms_viewer_account">I agree to HomePlays <a href="#"><u>terms of services.</u></a></label>
 								</div>
 								<div class="mp_va_button">
 									<a href="#" class="btn_popup_save">Continue</a>
@@ -293,7 +292,7 @@
 										</select>
 									</div>
 								</div>
-								<br/> 
+								<br/>
 								<div class="mp_va_button">
 									<a href="#" class="btn_popup_save">Continue</a>
 								</div>
@@ -380,6 +379,7 @@
 	    }
 	}
 
+	// add the event for mouseout
 	addEvent(document, "mouseout", function(e) {
 	    e = e ? e : window.event;
 	    var from = e.relatedTarget || e.toElement;
@@ -410,11 +410,11 @@
 
 		$(".fa-search").click(function() {
 		   $(".togglesearch").toggle();
-		   $("input[type='text']").focus();
+		   $("input[name='search']").focus();
 		});
 
 		// check uncheck terms
-		$('#reg_terms').on('click', function(e) {
+		$('#reg_terms, #terms_viewer_account, #event_reg_terms').on('click', function(e) {
 			let _checkVal = $(this).attr('checked');
 			if( _checkVal == 'checked' ) {
 				$(this).attr('checked', false).prop('checked', false);

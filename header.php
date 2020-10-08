@@ -80,7 +80,7 @@ $page = basename($_SERVER['PHP_SELF']);
 									<a href="javascript:void(0)" class="btn_hb_search">
 										<i class="fa fa-search"></i>
 										<div class="togglesearch">
-											<input type="text" placeholder=""/>
+											<input type="text" name="search" placeholder=""/>
 											<input type="button" value="Search"/>
 										</div>
 									</a>

@@ -34,13 +34,13 @@
 									<input type="text" name="name" placeholder="Name">
 								</div>
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Email">
+									<input type="email" name="name" placeholder="Email">
 								</div>
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Password">
+									<input type="password" name="name" autocomplete="new-password" placeholder="Password">
 								</div>
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Confirm Password">
+									<input type="password" name="name" placeholder="Confirm Password">
 								</div>
 								<div class="event_register_tab">
 									<textarea placeholder="Short Bio"></textarea>

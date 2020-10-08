@@ -36,7 +36,6 @@
 								<div class="event_register_tab">
 									<select>
 										<option default>Genre</option>
-										<option value="">Male</option>
 										<option value="">Hip-Hop/Rap</option>
 										<option value="">Country</option>
 										<option value="">Pop</option>
