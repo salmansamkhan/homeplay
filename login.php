@@ -19,10 +19,10 @@
 							<div class="hp_login_register">
 								<h4>Login to your HomePlay account to access your virtual events!</h4>
 								<div class="hp_login_regi_tab">
-									<input type="text" name="email" placeholder="Email *">
+									<input type="email" name="email" placeholder="Email *">
 								</div>
 								<div class="hp_login_regi_tab">
-									<input type="text" name="password" placeholder="Password *">
+									<input type="password" name="password" placeholder="Password *">
 								</div>
 								<div class="hp_login_regi_tab">
 									<p>Don't have view account <a href="#">Create One!</a></p>
@@ -36,10 +36,10 @@
 							<div class="hp_login_register">
 								<h4>Login to your HomePlay account to access your Artist Login!</h4>
 								<div class="hp_login_regi_tab">
-									<input type="text" name="email" placeholder="Email *">
+									<input type="email" name="email" placeholder="Email *">
 								</div>
 								<div class="hp_login_regi_tab">
-									<input type="text" name="password" placeholder="Password *">
+									<input type="password" name="password" placeholder="Password *">
 								</div>
 								<div class="hp_login_regi_tab">
 									<p>Don't have view account <a href="#">Artist One!</a></p>

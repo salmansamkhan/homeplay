@@ -23,8 +23,6 @@
 								<li><a href="javascript:void(0)"><span class="hp_line">home</span><img src="images/ringc.png" alt=""/></a></li>
 								<li><a href="javascript:void(0)" class="goto" section_name="featured_events" data-toggle="tooltip" data-placement="left" title="Featured Events"><img src="images/ringb.png" alt=""/></a></li>
 								<li><a href="javascript:void(0)" class="goto" section_name="upcoming_events" data-toggle="tooltip" data-placement="left" title="Upcoming Events"><img src="images/ringa.png" alt=""/></a></li>
-								<li><a href="javascript:void(0)"><img src="images/ringa.png" alt=""/></a></li>
-								<li><a href="javascript:void(0)"><img src="images/ringa.png" alt=""/></a></li>
 							</ul>
 						</div>
 					</div>

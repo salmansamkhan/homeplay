@@ -10,17 +10,17 @@
 					<div class="hp_login_register register_bg">
 						<h2>Viewer Registration</h2>
 						<div class="hp_login_regi_tab">
-							<input type="text" name="email" placeholder="Email *">
+							<input type="email" name="email" placeholder="Email *">
 						</div>
 						<div class="hp_login_regi_tab">
-							<input type="text" name="password" placeholder="Password *">
+							<input type="password" name="password" placeholder="Password *">
 						</div>
 						<div class="hp_login_regi_tab">
-							<input type="text" name="password" placeholder="Confirm Password *">
+							<input type="password" name="confirm_password" placeholder="Confirm Password *">
 						</div>
 						<div class="hp_login_regi_check">
-							<input type="radio" id="male" name="gender" value="male">
-							<label for="male">I agree to HomePlays <a href="#">terms of services.</a></label>
+							<input type="radio" id="reg_terms" name="terms" value="1">
+							<label for="reg_terms">I agree to HomePlays <a href="#">terms of services.</a></label>
 						</div>
 						<div class="hp_login_regi_button">
 							<a href="#">Login</a>

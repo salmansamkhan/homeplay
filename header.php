@@ -1,3 +1,6 @@
+<?php
+$page = basename($_SERVER['PHP_SELF']);
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -54,19 +57,19 @@
 					<img src="images/logo_white.png" class="logo_white" class="img-fluid">
 					<img src="images/logo_black.png" class="logo_black" class="img-fluid">
 				</a>
-				
+
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-controls="navbar">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar top-bar"></span>
 					<span class="icon-bar middle-bar"></span>
 					<span class="icon-bar bottom-bar"></span>
 				</button>
-				
+
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a></li>
-						<li class="nav-item"><a class="nav-link" href="find-events.php">Find Events</a></li>
-						<li class="nav-item"><a class="nav-link" href="support.php">Support</a></li>
+						<li class="nav-item <?php echo $page == 'index.php' ? 'active' : '' ?>"><a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a></li>
+						<li class="nav-item <?php echo $page == 'find-events.php' ? 'active' : '' ?>"><a class="nav-link" href="find-events.php">Find Events</a></li>
+						<li class="nav-item <?php echo $page == 'support.php' ? 'active' : '' ?>"><a class="nav-link" href="support.php">Support</a></li>
 						<li class="nav-item on_mobile"><a class="nav_button" href="#">Are You An Artist?</a></li>
 					</ul>
 					<div class="form-inline-desktop d-lg-block d-md-none d-sm-none">
@@ -74,7 +77,7 @@
 							<ul>
 								<li><a href="#" class="btn_hb_text">Are You An Artist?</a></li>
 								<li>
-									<a href="#" class="btn_hb_search">
+									<a href="javascript:void(0)" class="btn_hb_search">
 										<i class="fa fa-search"></i>
 										<div class="togglesearch">
 											<input type="text" placeholder=""/>
