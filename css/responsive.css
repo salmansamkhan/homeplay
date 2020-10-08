@@ -266,6 +266,10 @@
 	.evc_profile_details { display: none; }
 	.hp_artist_landing_buttons{display: none;}
 	.onlymobile { display: block !important; }
+	.hp_artist_landing_buttons{
+		margin-top: 0;
+		margin-bottom: 40px; 
+	}
 
 
 	.hp_main_search { width:100%; }

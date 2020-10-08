@@ -10,8 +10,8 @@
 							<h2>HomePlay Support<span class="blink_homeplay">.</span></h2>
 							<p>Looking to boost your viewership, listeners, followers, and more? Look no further than the HomePlay platform to prop you up and put you infront of thousands of paying viewers!</p>
 							<div class="hp_main_buttons">
-								<a href="#"><img src="images/call_icon.png" class="img-fluid">Contact Support</a>
-								<a href="#"><img src="images/faq_icon.png" class="img-fluid">Frequently Asked Questions</a>
+								<a href="javascript:void(0)" class="goto" section_name="getintouch"><img src="images/call_icon.png" class="img-fluid">Contact Support</a>
+								<a href="javascript:void(0)" class="goto" section_name="faq"><img src="images/faq_icon.png" class="img-fluid">Frequently Asked Questions</a>
 							</div>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 	<!--Web_Get_In_Touch-->
 
 	<!--Web_FAQ-->
-	<div class="web_faq">
+	<div class="web_faq" id="faq">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

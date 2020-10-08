@@ -11,9 +11,9 @@
 							<h3>Stream your favourite artists <span class="blink_homeplay">LIVE</span> from home.</h3>
 							<p>HomePlay is the live streaming platform to get your special events viewed by thousands of people at once. We put artists on your TV at home so you don’t have to leave the house to see the world’s absolute best.</p>
 							<div class="hp_main_buttons">
-								<a href="#"><img src="images/upcoming_events_icon.png" class="img-fluid">Upcoming Events</a>
-								<a href="#"><img src="images/featured_event_icon.png" class="img-fluid">Featured Events</a>
-								<a href="#"><img src="images/all_events_icon.png" class="img-fluid">All Events</a>
+								<a a href="javascript:void(0)" class="goto" section_name="upcoming_events"><img src="images/upcoming_events_icon.png" class="img-fluid">Upcoming Events</a>
+								<a href="javascript:void(0)" class="goto" section_name="featured_events"><img src="images/featured_event_icon.png" class="img-fluid">Featured Events</a>
+								<a href="find-events.php"><img src="images/all_events_icon.png" class="img-fluid">All Events</a>
 							</div>
 						</div>
 					</div>

@@ -24,7 +24,7 @@
 					<ul>
 						<li><a href="support.php">Support</a></li>
 						<li><a href="find-events.php">Find Events</a></li>
-						<li><a href="#">HomePlay For Venues</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#mp_Venue">HomePlay For Venues</a></li>
 						<li><a href="artist-landing.php">HomePlay For Artists</a></li>
 					</ul>
 				</div>
@@ -351,12 +351,56 @@
 </div>
 <!--Web_Model_Popup_Event_Checkout-->
 
+<!--Web_Model_Popup_Venue-->
+<div class="modal fade mp_get_notified_main" id="mp_Venue" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-md modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="mp_get_notified">
+					<img src="images/get_notified.jpg" alt=""/>
+					<div class="mp_get_notified_box">
+						
+						<h2>Are you a venue?</h2>
+						<span class="ct_line"></span>
+						
+						<div class="my_ap_tab">
+								<input type="text" placeholder="Name">
+						</div>
+						<div class="my_ap_tab">
+								<input type="text" placeholder="Phone*">
+						</div>
+						<div class="my_ap_tab">
+								<input type="text" placeholder="Email*">
+						</div>												
+						
+						<div class="my_ap_tab">
+								<textarea placeholder="Short Bio"></textarea>
+						</div>
+
+						<a href="#">submit</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Web_Model_Popup_Event_Checkout-->
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/smooth-scroll.js"></script>
+
+<script>
+  $(window).load(function() {
+    $('#loading').hide();
+  });
+</script>
 
 <script>
 	$(window).on("scroll", function() {
