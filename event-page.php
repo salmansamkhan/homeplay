@@ -19,7 +19,7 @@
 					</ul> 
 				</div>
 			</div>
-			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
 					<a href="#" class="alp_country_tag">Country / Pop</a>
 					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" data-toggle="modal" data-target="#my_artist_profile" class="alp_edit">Edit</a></h2>
@@ -46,6 +46,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="hp_artist_landing_buttons onlymobile">
+					<ul>
+						<li><a href="#">Event Info</a></li>
+						<li><a href="#">Artist Info</a></li>
+						<li><a href="#" class="active">Past Events</a></li>
+					</ul> 
+				</div>
 				<div class="common_title ct_left">
 					<h2>Past EVENTS</h2>
 					<span class="ct_line"></span>

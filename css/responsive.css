@@ -253,6 +253,10 @@
 	.video_section_button a { padding:8px 15px; }
 	.video_section_button span { font-size:16px; }
 	.event_common_tab { margin:15px 0;}
+	.evc_profile_details { display: none; }
+	.hp_artist_landing_buttons{display: none;}
+	.onlymobile { display: block !important; }
+
 
 	.hp_main_search { width:100%; }
 	.hp_main_search input[type="text"] { width:70%; font-size:17px; font-weight:500; }

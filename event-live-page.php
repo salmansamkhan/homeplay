@@ -9,7 +9,7 @@
 			<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_profile">
 					<div class="hp_alp_box"></div>
-					<a href="#" class="hp_artist_profile_plus"><span>Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>
+					<a href="#" class="hp_artist_profile_plus"><span class="evc_artist_profile_plus">Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>
 				</div>
 				<div class="hp_artist_landing_buttons">
 					<ul>
@@ -19,7 +19,7 @@
 					</ul> 
 				</div>
 			</div>
-			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="hp_artist_landing_info">
 					<a href="#" class="alp_red_country_tag">live</a>
 					<h2>Kathleen Edwards <span class="blink_homeplay">.</span> <a href="#" data-toggle="modal" data-target="#my_artist_profile" class="alp_edit">Edit</a></h2>
@@ -64,7 +64,7 @@
 						</a>
 					</div>
 					<div class="evc_artist_profile">
-						<a href="#" class=""><span>Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>
+						<a href="#" class=""><span class="evc_artist_profile_plus">Artist Profile <i class="fas fa-plus"></i></span><img src="images/artist_profile.png" alt=""/></a>
 					</div>
 				</div>
 			</div>
