@@ -433,6 +433,7 @@
 	});
 
 	$(document).ready(function() {
+
 		// toggle tooltips
 		$('[data-toggle="tooltip"]').tooltip();
 
@@ -447,10 +448,22 @@
 	        }, 1500 );
 		});
 
-		$(".fa-search").click(function() {
+		$(".fa-search").click(function(e) {
 		   $(".togglesearch").toggle();
 		   $("input[name='search']").focus();
+		   e.stopPropagation();
 		});
+		$(document).click(function(e) {
+		  $('.togglesearch').hide();
+		  e.stopPropagation();
+		})
+		/*$(document).on('click','body',function(e){
+			e.preventDefault();
+			console.log($(".togglesearch").hasClass('hide'));
+			if( $(".togglesearch").hasClass('hide') ) {
+				$(".togglesearch").css('display', 'none').removeClass('hide');
+			}
+		});*/
 
 		// check uncheck terms
 		$('#reg_terms, #terms_viewer_account, #event_reg_terms').on('click', function(e) {
@@ -505,10 +518,9 @@
 			owl.trigger('stop.owl.autoplay')
 		});
 
-	    $(window).on('load', function () {
-	        $("body").css('visibility','visible');
-	        $("#loader").fadeOut();
-	    });
+		// hide loader
+		$("body").css('visibility','visible');
+	    $("#loader").fadeOut();
 
 	});
 </script>

@@ -307,7 +307,7 @@ to { opacity:0.5; }
 .login_register_box { }
 .lrb { padding-top:200px; }
 .login_register_box .nav-tabs { border-bottom:0; }
-.login_register_box .nav-tabs .nav-link { border:1px solid transparent; border-top-left-radius:30px; border-top-right-radius:30px; font-size:20px; padding:12px 30px !important; font-weight:700; color:#b1b1b1 !important; background-color:#DDD; border-color:#ffffff #ffffff #ffffff; font-weight:800; }
+.login_register_box .nav-tabs .nav-link { border:1px solid transparent; border-top-left-radius:30px; border-top-right-radius:30px; font-size:20px; padding:12px 30px !important; font-weight:700; color:#b1b1b1 !important; background-color:#DDD; border-bottom-color:#ffffff; font-weight:800; }
 .login_register_box .nav-tabs .nav-link.nav-link-last { margin-left:5px; }
 .login_register_box .nav-tabs .nav-item:hover a::after{  display:none; }
 .login_register_box .nav-tabs .nav-item.show .nav-link, .login_register_box .nav-tabs .nav-link.active { color:#363636 !important; background-color:#fff; border-color:#ffffff #ffffff #ffffff; z-index:999; position:relative; }
@@ -687,8 +687,8 @@ span.evc_chat_shape { width:150px; background:#f3f3f3; height:14px; display:bloc
 /*****Web_Event_Video_Chat*****/
 
 /*****Loader*****/
-#loader { position:fixed; top:0;left:0;right:0;bottom:0;visibility:visible;  background:linear-gradient(90deg,#139cef,#00d1ff); z-index:6;display:flex;align-items:center;justify-content:center;}
-#loader span {display:block;width:8px;height:5px;background:#fff;animation:loader 1.5s ease-in-out infinite;margin:0 2px;border-radius:0.5rem;}
+#loader { position:fixed; top:0;left:0;right:0;bottom:0;visibility:visible; background:#fff; z-index:6;display:flex;align-items:center;justify-content:center;}
+#loader span {display:block;width:8px;height:5px;background:#139cef;animation:loader 1.5s ease-in-out infinite;margin:0 2px;border-radius:0.5rem;}
 #loader span:nth-child(2){animation-delay:.15s;}
 #loader span:nth-child(3){animation-delay:.3s;}
 #loader span:nth-child(4){animation-delay:.45s;}
