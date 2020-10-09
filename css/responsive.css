@@ -331,5 +331,7 @@
 	.modal-lg { max-width:100%; }
 	.ver_title h3 { font-size:25px; }
 	.my_ap_title h2 { font-size:24px; margin:0; }
+	.togglesearch { background:rgba(255,255,255,1); }
+	.togglesearch:before { border-bottom: 14px solid #FFF; }
 }
 /*****Bootstrap_Media_Queries*****/
