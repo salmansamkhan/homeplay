@@ -22,6 +22,8 @@ $page = basename($_SERVER['PHP_SELF']);
 
 </head>
 <body style="visibility: hidden;">
+	
+	<!--Loader-->
 	<div id="loader">
 	    <span></span>
 	    <span></span>
@@ -39,7 +41,8 @@ $page = basename($_SERVER['PHP_SELF']);
 	    <span></span>
 	    <span></span>
 	</div>
-
+	<!--Loader-->
+	
 	<!--Web_Header-->
     <div class="sticky-top">
 		<div class="top_bar">
@@ -55,6 +58,7 @@ $page = basename($_SERVER['PHP_SELF']);
 		</div>
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
+			
 				<div class="form-inline-mobile d-lg-none d-md-block d-sm-block">
 					<div class="head_button">
 						<ul>
@@ -70,11 +74,19 @@ $page = basename($_SERVER['PHP_SELF']);
 						</ul>
 					</div>
 				</div>
+				
 				<a class="navbar-brand" href="index.php">
 					<img src="images/logo_white.png" class="logo_white" class="img-fluid">
 					<img src="images/logo_black.png" class="logo_black" class="img-fluid">
 				</a>
-
+				
+				<div class="dropdown d-lg-none d-md-block d-sm-block btn_hb_profile_main">
+					<a class="dropdown-toggle btn_hb_profile" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/user_profile.png" alt=""></a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#" data-toggle="modal" data-target="#my_artist_profile">My Artist Profile</a>
+					</div>
+				</div>
+				
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-controls="navbar">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar top-bar"></span>

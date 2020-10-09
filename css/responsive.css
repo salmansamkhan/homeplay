@@ -1,12 +1,12 @@
 /*****Bootstrap_Media_Queries*****/
 @media (max-width:1600px) {
-	.ver_title h3 { font-size: 24px; margin: 0 12%; }
-	.event_register_tab { margin: 6px 0; }
-	.event_register_check { margin: 10px 0; }
-	.virtual_event_register { padding: 10px 35px; }
+	.ver_title h3 { font-size:24px; margin:0 12%; }
+	.event_register_tab { margin:6px 0; }
+	.event_register_check { margin:10px 0; }
+	.virtual_event_register { padding:10px 35px; }
 }
 @media (max-width:1440px) {
-	.ver_title h3 { font-size: 22px; }
+	.ver_title h3 { font-size:22px; }
 }
 @media (max-width:1400px) {
 	.hp_main_text h2 { font-size:46px;}
@@ -35,8 +35,8 @@
 	.hp_artist_landing_buttons ul li { margin-right:12px; }
 	.hp_artist_landing_buttons ul li a { font-size:18px; padding:6px 15px; }
 
-	.ver_title h3 { margin:0 8%; font-size: 24px;}
-	.virtual_event_register { padding: 10px 35px; }
+	.ver_title h3 { margin:0 8%; font-size:24px;}
+	.virtual_event_register { padding:10px 35px; }
 }
 @media (max-width:1240px) {
 	.container { max-width:100%; }
@@ -111,6 +111,7 @@
 	.hp_main_text h2 { font-size:40px; }
 	.hp_main_text h3 { font-size:26px;}
 	.web_main_box { margin:-320px 0 0 0; }
+	.web_artist_main_box { margin:-320px 0 0 0; }
 	.main_box { padding:20px 10px ;min-height:360px;}
 	.main_box h3 { font-size:20px; }
 	.main_box p { font-size:16px; line-height:28px; margin:0; }
@@ -166,15 +167,14 @@
 	.video_section_button { text-align:center; }
 
 	.hp_al_get_tickets { padding:20px 20px; }
-
-
+	.navbar-brand { margin:0 auto; }
 }
 @media (min-width:992px){
 .navbar-toggle { display:none; }
 }
 @media (max-width:767px){
 	.main_bg { padding:15px 0 0 0; }
-	.book_your_show_bg { padding:15px 0 0 0; }
+	.book_your_show_bg { padding:0; }
 	.hp_main_bottom { margin-top:0; }
 	span.hp_line { font-size:13px; }
 	.hp_main_nav::after { margin-left:18px; height:155px; }
@@ -182,7 +182,7 @@
 	.hp_main_buttons a { display:table; margin:10px 0; }
 	.main_box { padding:20px 10px; min-height:auto; margin:0 0 15px 0; }
 	.hp_main_search { width:90%; }
-	.navbar-brand { margin-right:0; }
+	.navbar-brand { margin-right:0; margin-left:auto; }
 	.login_register_box .nav-tabs .nav-link { padding:12px 20px !important; }
 	.hp_main_text h2 { font-size:34px; }
 	.hp_main_text h3 { font-size:22px; }
@@ -191,7 +191,7 @@
 	.web_artist_landing_bg { height:300px; }
 	.artist_landing_bg { margin-top:-100px; }
 	.al_ue_button { display:block; text-align:center; }
-
+	.btn_hb_profile_main.dropdown { margin-left:50px; }
 	.spacer { padding:0; }
 
 	.web_our_process { padding:50px 0 0 0; }
@@ -221,8 +221,9 @@
 	.event_register_tab { margin:8px 0; }
 	.event_register_tab input[type="text"] { height:46px; }
 	.hp_main_buttons { margin-top:15px; margin-bottom:15px; }
-	.ver_title h3 { font-size:30px; }
+	.ver_title h3 { font-size:30px; margin:0; }
 	.web_main_box { padding:40px 0; }
+	.web_artist_main_box { padding:40px 0; }
 	.web_event_page_scroll { padding:0; margin:-100px 0 30px 0; }
 	.hp_main_bottom { display:none; }
 	.evc_user_name { display:block; width:100%; }
@@ -263,17 +264,16 @@
 	.video_section_button a { padding:8px 15px; }
 	.video_section_button span { font-size:16px; }
 	.event_common_tab { margin:15px 0;}
-	.evc_profile_details { display: none; }
-	.hp_artist_landing_buttons{display: none;}
-	.onlymobile { display: block !important; }
-	.hp_artist_landing_buttons{
-		margin-top: 0;
-		margin-bottom: 40px; 
-	}
+	.evc_profile_details { display:none; }
+	.hp_artist_landing_buttons{display:none;}
+	.onlymobile { display:block !important; }
+	.hp_artist_landing_buttons{ margin-top:0; margin-bottom:40px; }
 	.web_main_box { padding:150px 0; }
-	.main_box { margin: 20px 0 15px 0; }
-
-
+	.web_artist_main_box { padding:0; margin:0; }
+	.web_artist_main_box .scrolldown { display:none; }
+	.main_box { margin:20px 0 15px 0; }
+	.virtual_event_register { margin:10px 0 0 0;}
+	.event_register_check label { font-size:16px; }
 	.hp_main_search { width:100%; }
 	.hp_main_search input[type="text"] { width:70%; font-size:17px; font-weight:500; }
 	.hp_main_search input[type="submit"] { width:28%; font-size:17px; font-weight:500; }
@@ -327,5 +327,7 @@
 	.mp_checkout_tab { padding:10px 0; }
 	.mp_va_check label { font-size:14px; }
 	hr { margin-top:5px; margin-bottom:5px;}
+	
+	.ver_title h3 { font-size:25px; }
 }
 /*****Bootstrap_Media_Queries*****/

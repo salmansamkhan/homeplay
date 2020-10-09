@@ -61,8 +61,8 @@
     </div>
 	<!--Web_Main_BG-->
 
-	<!--Web_Main_Box-->
-	<div class="web_main_box">
+	<!--Web_Artist_Main_Box-->
+	<div class="web_artist_main_box">
         <div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -101,7 +101,7 @@
 			</div>
 		</div>
     </div >
-	<!--Web_Main_Box-->
+	<!--Web_Artist_Main_Box-->
 
 	<!--Web_Our_Process-->
 	<div class="web_our_process" id="our_process">
