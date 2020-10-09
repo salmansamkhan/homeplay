@@ -21,8 +21,24 @@ $page = basename($_SERVER['PHP_SELF']);
 	<script src="https://kit.fontawesome.com/10d7817d70.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
-
+<body style="visibility: hidden;">
+	<div id="loader">
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	    <span></span>
+	</div>
 
 	<!--Web_Header-->
     <div class="sticky-top">

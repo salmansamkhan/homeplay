@@ -317,7 +317,7 @@
 							<input type="text" name="name" placeholder="Your Name*">
 						</div>
 						<div class="get_in_touch_tab">
-							<input type="text" name="name" placeholder="Your Email*">
+							<input type="email" name="name" placeholder="Your Email*">
 						</div>
 						<div class="get_in_touch_tab">
 							<textarea placeholder="Message..." ></textarea>

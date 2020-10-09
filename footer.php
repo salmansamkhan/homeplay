@@ -191,13 +191,13 @@
 									<hr/>
 								</div>
 								<div class="mp_va_tab">
-									<input type="text" name="name" placeholder="Email*">
+									<input type="email" name="name" placeholder="Email*">
 								</div>
 								<div class="mp_va_tab">
-									<input type="text" name="password" placeholder="Password *">
+									<input type="password" autocomplete="new-password" name="password" placeholder="Password *">
 								</div>
 								<div class="mp_va_tab">
-									<input type="text" name="password" placeholder="Confirm Password *">
+									<input type="password" name="password" placeholder="Confirm Password *">
 								</div>
 								<div class="mp_va_check">
 									<input type="radio" id="terms_viewer_account" name="terms_viewer_account" value="1">
@@ -341,7 +341,7 @@
 					<div class="mp_get_notified_box">
 						<h2>Get Notified!</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-						<input type="text" name="name" placeholder="Email*">
+						<input type="email" name="notify_email" placeholder="Email*">
 						<a href="#">submit</a>
 					</div>
 				</div>
@@ -362,10 +362,10 @@
 				<div class="mp_get_notified">
 					<img src="images/get_notified.jpg" alt=""/>
 					<div class="mp_get_notified_box">
-						
+
 						<h2>Are you a venue?</h2>
 						<span class="ct_line"></span>
-						
+
 						<div class="my_ap_tab">
 								<input type="text" placeholder="Name">
 						</div>
@@ -374,8 +374,8 @@
 						</div>
 						<div class="my_ap_tab">
 								<input type="text" placeholder="Email*">
-						</div>												
-						
+						</div>
+
 						<div class="my_ap_tab">
 								<textarea placeholder="Short Bio"></textarea>
 						</div>
@@ -463,6 +463,19 @@
 			}
 		});
 
+		$("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
+		  $(e.target)
+		    .prev()
+		    .find("i:last-child")
+		    .toggleClass("fa-minus fa-plus");
+		});
+		$("#accordion2").on("hide.bs.collapse show.bs.collapse", e => {
+		  $(e.target)
+		    .prev()
+		    .find("i:last-child")
+		    .toggleClass("fa-minus fa-plus");
+		});
+
 		var owl = $('.owl-carousel');
 		owl.owlCarousel({
 			items: 3,
@@ -487,34 +500,28 @@
 
 		$('.play').on('click', function() {
 			owl.trigger('play.owl.autoplay', [1000])
-		})
+		});
 		$('.stop').on('click', function() {
 			owl.trigger('stop.owl.autoplay')
-		})
-	})
+		});
+
+	    $(window).on('load', function () {
+	        $("body").css('visibility','visible');
+	        $("#loader").fadeOut();
+	    });
+
+	});
 </script>
 <script>
-$("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
-  $(e.target)
-    .prev()
-    .find("i:last-child")
-    .toggleClass("fa-minus fa-plus");
-});
-$("#accordion2").on("hide.bs.collapse show.bs.collapse", e => {
-  $(e.target)
-    .prev()
-    .find("i:last-child")
-    .toggleClass("fa-minus fa-plus");
-});
-(function() {
-  $(".card").on("show.bs.collapse hide.bs.collapse", function(e) {
-    if (e.type=='show'){
-      $(this).addClass('active');
-    }else{
-      $(this).removeClass('active');
-    }
-  });
-}).call(this);
+	(function() {
+	  	$(".card").on("show.bs.collapse hide.bs.collapse", function(e) {
+	    	if (e.type=='show'){
+	      		$(this).addClass('active');
+	    	} else {
+	      		$(this).removeClass('active');
+	    	}
+	  	});
+	}).call(this);
 </script>
 
 </body>
