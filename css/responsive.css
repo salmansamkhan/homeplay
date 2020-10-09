@@ -270,6 +270,8 @@
 		margin-top: 0;
 		margin-bottom: 40px; 
 	}
+	.web_main_box { padding:150px 0; }
+	.main_box { margin: 20px 0 15px 0; }
 
 
 	.hp_main_search { width:100%; }

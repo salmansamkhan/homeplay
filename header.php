@@ -23,14 +23,6 @@ $page = basename($_SERVER['PHP_SELF']);
 </head>
 <body>
 
-<div class="gooey" id="loading">
-  <span class="dot"></span>
-  <div class="dots">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
 
 	<!--Web_Header-->
     <div class="sticky-top">
