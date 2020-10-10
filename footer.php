@@ -449,14 +449,19 @@
 		});
 
 		$(".fa-search").click(function(e) {
-		   $(".togglesearch").toggle();
-		   $("input[name='search']").focus();
-		   e.stopPropagation();
+			$(".togglesearch").toggle();
+			$("input[name='search']").focus();
+			e.stopPropagation();
 		});
-		// $(document).click(function(e) {
-		//   $('.togglesearch').hide();
-		//   e.stopPropagation();
-		// })
+
+		$("input[name='search']").click(function(e) {
+			e.stopPropagation();
+		});
+
+		$(document).click(function(e) {
+			$('.togglesearch').hide();
+			e.stopPropagation();
+		});
 		/*$(document).on('click','body',function(e){
 			e.preventDefault();
 			console.log($(".togglesearch").hasClass('hide'));
