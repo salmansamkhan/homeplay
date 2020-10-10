@@ -454,7 +454,7 @@
 			e.stopPropagation();
 		});
 
-		$("input[name='search']").click(function(e) {
+		$(".togglesearch").click(function(e) {
 			e.stopPropagation();
 		});
 
