@@ -523,9 +523,12 @@
 			owl.trigger('stop.owl.autoplay')
 		});
 
-		// hide loader
-		$("body").css('visibility','visible');
-	    $("#loader").fadeOut();
+		setTimeout(function() {
+			// hide loader
+			$("body").css('visibility','visible');
+		    $("#loader").fadeOut();
+		}, 1000);
+
 
 	});
 </script>
