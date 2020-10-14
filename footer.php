@@ -523,11 +523,17 @@
 			owl.trigger('stop.owl.autoplay')
 		});
 
-		setTimeout(function() {
+		<?php if( basename($_SERVER['PHP_SELF'],".php") == 'index' ) { ?>
+			setTimeout(function() {
+				// hide loader
+				$("body").css('visibility','visible');
+			    $("#loader").fadeOut();
+			}, 1000);
+		<?php } else { ?>
 			// hide loader
 			$("body").css('visibility','visible');
 		    $("#loader").fadeOut();
-		}, 1000);
+		<?php } ?>
 
 
 	});
