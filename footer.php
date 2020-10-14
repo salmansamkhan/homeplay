@@ -523,18 +523,11 @@
 			owl.trigger('stop.owl.autoplay')
 		});
 
-		<?php if( basename($_SERVER['PHP_SELF'],".php") == 'index' ) { ?>
-			setTimeout(function() {
-				// hide loader
-				$("body").css('visibility','visible');
-			    $("#loader").fadeOut();
-			}, 1000);
-		<?php } else { ?>
+		setTimeout(function() {
 			// hide loader
 			$("body").css('visibility','visible');
 		    $("#loader").fadeOut();
-		<?php } ?>
-
+		}, 1000);
 
 	});
 </script>
