@@ -171,8 +171,10 @@
 }
 @media (min-width:992px){
 .navbar-toggle { display:none; }
+.web_pending_event_box { margin:-600px 0 30px 0;}
 }
-@media (max-width:767px){
+@media (max-width:768px){
+	.web_pending_event_box { margin:-400px 0 30px 0;}
 	.main_bg { padding:15px 0 0 0; }
 	.book_your_show_bg { padding:0; }
 	.hp_main_bottom { margin-top:0; }
@@ -334,5 +336,11 @@
 	.togglesearch { background:rgba(255,255,255,1); }
 	.togglesearch input[type="text"] { color: #000 !important; }
 	.togglesearch:before { border-bottom: 14px solid #FFF; }
+	.pending_event h3 { margin-bottom: -2%;}
+	.pending_event .mp_va_button {position: static !important; top: none; left: none; -ms-transform: translateY(none);
+    transform: translateY(none); margin: 20px 0 0 0; text-align: center;}
+    .web_pending_event_box { margin: -650px 0 30px 0;}
+    .mp_va_button a{ width: 60%; }
+    .load_more { margin-top: 50px; }
 }
 /*****Bootstrap_Media_Queries*****/

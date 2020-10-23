@@ -72,8 +72,7 @@
 	</div>
 </div>
 <!--Web_Footer-->
-
-<!--Web_Model_Popup_Artist_Profile-->
+<!--Web_Model_Popup_Rejction-->
 <div class="modal fade bd-example-modal-lg my_artist_profile_main" id="my_artist_profile" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 		<div class="modal-content">
@@ -115,20 +114,7 @@
 							<div class="my_ap_tab">
 								<input type="text" name="name" placeholder="Name">
 							</div>
-							<div class="my_ap_tab">
-								<select>
-									<option default>Genre</option>
-									<option value="">Hip-Hop/Rap</option>
-									<option value="">Country</option>
-									<option value="">Pop</option>
-									<option value="">R&B/soul</option>
-									<option value="">Classical</option>
-									<option value="">Rock</option>
-								</select>
-							</div>
-							<div class="my_ap_tab">
-								<textarea placeholder="Short Bio"></textarea>
-							</div>
+							
 							<div class="my_ap_title">
 								<h2>Streaming Links</h2>
 							</div>
@@ -149,6 +135,44 @@
 							</div>
 							<div class="my_ap_button">
 								<a href="#" class="btn_popup_save">Save</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Web_Model_Popup_Rejction-->
+
+<!--Web_Model_Popup_Artist_Profile-->
+<div class="modal fade bd-example-modal-lg my_artist_profile_main" id="rejection" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+			<div class="modal-body">
+				<div class="my_artist_profile">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="my_ap_title my_ap_title_centre">
+								<h2>Confirm Rejection</h2>
+							</div>
+							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							<div class="my_ap_title ">
+								<h3>Reason for Rejection:</h3>
+							</div>
+							<div class="my_ap_tab">
+								<textarea placeholder="" class="biography"></textarea>
+							</div>
+							
+							<div class="my_ap_button button_left">
+								<a href="#" class="btn_popup_save">Confirm</a>
 							</div>
 						</div>
 					</div>
@@ -339,8 +363,8 @@
 				<div class="mp_get_notified">
 					<img src="images/get_notified.jpg" alt=""/>
 					<div class="mp_get_notified_box">
-						<h2>Get Notified!</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+						<h2>GET NOTIFIED!</h2>
+						<p>We’ll send you news about new artists and performers to the platform as well as new and upcoming events so you don’t miss a thing!</p>
 						<input type="email" name="notify_email" placeholder="Email*">
 						<a href="#">submit</a>
 					</div>

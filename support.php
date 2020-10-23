@@ -7,8 +7,8 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="hp_main_text">
-							<h2>HomePlay Support<span class="blink_homeplay">.</span></h2>
-							<p>Looking to boost your viewership, listeners, followers, and more? Look no further than the HomePlay platform to prop you up and put you infront of thousands of paying viewers!</p>
+							<h2>HomePLAY Support<span class="blink_homeplay">.</span></h2>
+							<p>Homeplay is made up of various professional equipment, including that of amazing support staff. Our support staff is here to answer any questions you may have about watching or streaming a concert live.</p>
 							<div class="hp_main_buttons">
 								<a href="javascript:void(0)" class="goto" section_name="getintouch"><img src="images/call_icon.png" class="img-fluid">Contact Support</a>
 								<a href="javascript:void(0)" class="goto" section_name="faq"><img src="images/faq_icon.png" class="img-fluid">Frequently Asked Questions</a>
@@ -67,11 +67,11 @@
 				</div>
 				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 					<div class="git_contect">
-						<h5>LOREM IPSUM</h5>
-						<h2>Lorem Ipsum Dolor</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+						<h5>We’re Here to Assist You</h5>
+						<h2>CONTACT US TODAY</h2>
+						<p>We're happy to answer any and all of your questions or concerns! We always have somebody looking to tend to your specific needs. If you have any suggestions to make the Homeplay platform even better for your streaming needs, please fill out the form and let us know what we can do!<br/>If you have any general questions, try looking at our FAQ section located down below for a quick answer right away!</p>
 						<ul>
-							<li><a href="tel:+11234567890"><img src="images/icon_call.jpg" alt=""/> <span>+1 (123) 456-7890</span></a></li>
+							<li><a href="tel:+16137373378"><img src="images/icon_call.jpg" alt=""/> <span>+1 (613) 737 3378</span></a></li>
 							<li><a href="mailto:info@homeplay.live"><img src="images/icon_mail.jpg" alt=""/> <span>info@homeplay.live</span></a></li>
 						</ul>
 					</div>
@@ -88,7 +88,7 @@
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="common_title">
 						<h2>FAQs</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Read our most frequently asked questions.<br/> If you have a question that isn't answered, please do not hesitate to contact us directly.</p>
 						<span class="ct_line"></span>
 					</div>
 				</div>
@@ -98,7 +98,7 @@
 					<div id="accordion" class="faq_accordion">
 						<div class="card">
 							<div class="card-header" id="headingOne">
-								<button class="d-flex align-items-center justify-content-between faq_accordion_link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> Lorem ipsum dolor sit amet? <span class="fa-stack fa-sm"><i class="fa-stack-2x"></i><i class="fas fa-plus fa-stack-1x fa-inverse"></i></span></button>
+								<button class="d-flex align-items-center justify-content-between faq_accordion_link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> How do I stream? <span class="fa-stack fa-sm"><i class="fa-stack-2x"></i><i class="fas fa-plus fa-stack-1x fa-inverse"></i></span></button>
 							</div>
 							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 								<div class="card-body">
@@ -193,9 +193,9 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="common_title">
-						<h2>FEATURED EVENTS</h2>
+						<h2>Featured Events</h2>
 						<span class="ct_line"></span>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>The best online music concerts the internet has to offer.<br/> Below are Homplays most featured live events coming soon!</p>
 					</div>
 				</div>
 			</div>
@@ -260,8 +260,8 @@
 				<div class="row align-items-center">
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 						<div class="video_section_text">
-							<h3>Join thousands of people</h3>
-							<p>HomePlay.LIVE is building a strong viewership base where you have the ability to get your performance, your music, your show in front of thousands of people at once. Professionally presenting artists is an incredibly important task. Designed for your big screen at home, our focus is on the highest level of production quality for our artists, and viewers.</p>
+							<h3>Join Thousands of People</h3>
+							<p>Homeplay.LIVE is building a strong viewership base where you have the ability to get your performance, your music, your show in front of thousands of people at once. Professionally presenting artists is an incredibly important task. Designed for your big screen at home, our focus is on the highest level of production quality for our artists, and viewers.</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">

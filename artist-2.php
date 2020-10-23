@@ -9,7 +9,7 @@
 						<div class="hp_main_text">
 							<h2>Book Your Show Now<span class="blink_homeplay">.</span></h2>
 							<h3>Put Yourself Under The <span class="blink_homeplay">SpotLight</span></h3>
-							<p>Looking to boost your viewership, listeners, followers, and more? Look no further than the HomePlay platform to prop you up and put you infront of thousands of paying viewers!</p>
+							<p>Looking to stream your concert live to your audience? Look no further than the HomePlay platform to prop you up and put you in front of your viewers live and in HD.</p>
 							<div class="hp_main_buttons">
 								<a href="javascript:void(0)" class="goto" section_name="our_process"><img src="images/upcoming_events_icon.png" class="img-fluid">Our Process</a>
 								<a href="javascript:void(0)" class="goto" section_name="faq"><img src="images/faq_icon.png" class="img-fluid">Frequently Asked Questions</a>
@@ -20,8 +20,8 @@
 					<div class="col-lg-6 col-md-6 col-sm-6">
 						<div class="virtual_event_register">
 							<div class="ver_title">
-								<p>Lorem ipsum dolor sit amet</p>
-								<h3>Register Your Live Virtual Event</h3>
+								<p>Get started streaming today!</p>
+								<h3>REGISTER YOUR LIVE VIRTUAL EVENT</h3>
 								<span class="ct_line"></span>
 								<ul>
 									<li><a href="#" class="active">Create Account</a></li>
@@ -81,21 +81,21 @@
 					<div class="main_box">
 						<img src="images/Microphone-Icon.png" alt=""/>
 						<h3>Professional Artists</h3>
-						<p>HomePlay believes in providing our artists a platform to show off their talents and grow their reach without getting buried in technical responsibilities.</p>
+						<p>Homeplay Live believes in providing our artists with a platform to show off their talents and grow their reach without getting buried in technical responsibilities.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="main_box">
 						<img src="images/High-Def-Video-Icon.png" alt=""/>
 						<h3>High-Definition Video</h3>
-						<p>HomePlay has a strong relationship with the international high-quality webcasting/streaming experts at iSiLIVE. HD audio and video are a requirement that we will not compromise</p>
+						<p>Homeplay Live has a strong relationship with the international high-quality webcasting/streaming experts at iSiLIVE. HD audio and video are a requirement that we will not compromise.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<div class="main_box">
 						<img src="images/Payment-Icon.png" alt=""/>
 						<h3>Secure Payment</h3>
-						<p >HomePlay uses Stripes payment platform which is completely secure and means that none of your data or personal information passes through our servers.</p>
+						<p >Homeplay Live uses Stripes payment platform which is completely secure and means that none of your data or personal information passes through our servers.</p>
 					</div>
 				</div>
 			</div>
@@ -125,7 +125,7 @@
 							</div>
 							<div class="our_pt_text">
 								<h4>Register an Event</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								<p>Once a form is submitted by the artist, a HomePlay representative will review the artist and approve if everything checks out.</p>
 							</div>
 						</div>
 					</div>
@@ -137,7 +137,7 @@
 							</div>
 							<div class="our_pt_text">
 								<h4>Set a Date</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								<p>Once approved, the artist and Homeplay will agree upon a date and time the artist will begin and end their event.</p>
 							</div>
 						</div>
 					</div>
@@ -151,7 +151,7 @@
 							</div>
 							<div class="our_pt_text">
 								<h4>Preparing the Event</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								<p>An email will be sent out to the artist, prepping them on what to expect when preparing for the event.</p>
 							</div>
 						</div>
 					</div>
@@ -163,7 +163,7 @@
 							</div>
 							<div class="our_pt_text">
 								<h4>Start Promoting</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								<p>The artist should start self-promoting to their audience and their viewers, as well as HomePlay.</p>
 							</div>
 						</div>
 					</div>
@@ -176,8 +176,8 @@
 								<img src="images/our_process_icon1.png" alt=""/>
 							</div>
 							<div class="our_pt_text">
-								<h4>Go Live on HomePLay</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								<h4>Go LIVE</h4>
+								<p>Time to start streaming, the artist will start their event on the agreed-upon time and start jamming out!</p>
 							</div>
 						</div>
 					</div>
@@ -189,7 +189,7 @@
 							</div>
 							<div class="our_pt_text">
 								<h4>Your Event Archive</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+								<p>Once the event is complete, a video of the whole stream will be stored on the artist’s event archive on their personal page.</p>
 							</div>
 						</div>
 					</div>
@@ -328,11 +328,12 @@
 				</div>
 				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 					<div class="git_contect">
-						<h5>LOREM IPSUM</h5>
-						<h2>Lorem Ipsum Dolor</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+						<h5>We’re Here to Assist You</h5>
+						<h2>CONTACT US TODAY</h2>
+						<p>We're happy to answer any and all of your questions or concerns! We always have somebody looking to tend to your specific needs. If you have any suggestions to make the Homeplay platform even better for your streaming needs, please fill out the form and let us know what we can do!<br/>
+						If you have any general questions, try looking at our FAQ section located down below for a quick answer right away!</p>
 						<ul>
-							<li><a href="tel:+11234567890"><img src="images/icon_call.jpg" alt=""/> <span>+1 (123) 456-7890</span></a></li>
+							<li><a href="tel:+16137373378"><img src="images/icon_call.jpg" alt=""/> <span>+1 (613) 737 3378</span></a></li>
 							<li><a href="mailto:info@homeplay.live"><img src="images/icon_mail.jpg" alt=""/> <span>info@homeplay.live</span></a></li>
 						</ul>
 					</div>

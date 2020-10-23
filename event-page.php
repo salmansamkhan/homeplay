@@ -189,8 +189,8 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="common_title">
-						<h2>FEATURED EVENTS</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2>Featured Events</h2>
+						<p>The best online music concerts the internet has to offer.<br/> Below are Homplays most featured live events coming soon!</p>
 						<span class="ct_line"></span>
 					</div>
 				</div>
@@ -263,8 +263,8 @@
 				<div class="row align-items-center">
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 						<div class="video_section_text">
-							<h3>Join thousands of people</h3>
-							<p>HomePlay.LIVE is building a strong viewership base where you have the ability to get your performance, your music, your show in front of thousands of people at once. Professionally presenting artists is an incredibly important task. Designed for your big screen at home, our focus is on the highest level of production quality for our artists, and viewers.</p>
+							<h3>Join Thousands of People</h3>
+							<p>Homeplay.LIVE is building a strong viewership base where you have the ability to get your performance, your music, your show in front of thousands of people at once. Professionally presenting artists is an incredibly important task. Designed for your big screen at home, our focus is on the highest level of production quality for our artists, and viewers.</p>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">

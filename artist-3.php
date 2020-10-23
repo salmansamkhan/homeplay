@@ -329,11 +329,13 @@
 				</div>
 				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 					<div class="git_contect">
-						<h5>LOREM IPSUM</h5>
-						<h2>Lorem Ipsum Dolor</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+						<h5>We’re Here to Assist You</h5>
+						<h2>CONTACT US TODAY</h2>
+						<p>We're happy to answer any and all of your questions or concerns! We always have somebody looking to tend to your specific needs. If you have any suggestions to make the Homeplay platform even better for your streaming needs, please fill out the form and let us know what we can do!<br/>
+						If you have any general questions, try looking at our FAQ section located down below for a quick answer right away!</p>
+						
 						<ul>
-							<li><a href="tel:+11234567890"><img src="images/icon_call.jpg" alt=""/> <span>+1 (123) 456-7890</span></a></li>
+							<li><a href="tel:+16137373378"><img src="images/icon_call.jpg" alt=""/> <span>+1 (613) 737 3378</span></a></li>
 							<li><a href="mailto:info@homeplay.live"><img src="images/icon_mail.jpg" alt=""/> <span>info@homeplay.live</span></a></li>
 						</ul>
 					</div>

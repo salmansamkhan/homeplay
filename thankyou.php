@@ -9,7 +9,7 @@
 						<div class="hp_main_text">
 							<h2>Thank You for Booking<span class="blink_homeplay">.</span></h2>
 							<h3>Here is what happens <span class="blink_homeplay">NEXT</span></h3>
-							<p>Looking to boost your viewership, listeners, followers, and more? Look no further<br/> than the HomePlay platform to prop you up and put you infront<br/> of thousands of paying viewers!</p>
+							<p>Congratulations! You have officially registered your event to go live with Homeplay! The video to the right will go over your next steps to set up your streaming experience. If there are any questions after the video, please visit our support page and fill out a form, our support staff will make sure your question is addressed efficiently and effectively. </p>
 							<div class="hp_main_buttons">
 								<a href="support.php#getintouch"><img src="images/contact_icon.png" class="img-fluid">Contact Support</a>
 								<a href="support.php#faq" ><img src="images/faq_icon.png" class="img-fluid">Frequently Asked Questions</a>

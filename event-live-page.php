@@ -92,8 +92,8 @@
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="common_title">
-						<h2>FEATURED EVENTS</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h2>Featured Events</h2>
+						<p>The best online music concerts the internet has to offer.<br/> Below are Homplays most featured live events coming soon!</p>
 						<span class="ct_line"></span>
 					</div>
 				</div>
