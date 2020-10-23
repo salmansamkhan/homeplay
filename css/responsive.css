@@ -40,7 +40,7 @@
 }
 @media (max-width:1240px) {
 	.container { max-width:100%; }
-	.nav-link { font-size:20px; padding:0 25px !important; }
+	.navbar .nav-link { font-size:20px; padding:0 25px !important; }
 	.head_button li a.btn_hb_text { font-size:20px; }
 	.head_button li a.btn_hb_search { font-size:20px; }
 	.hp_main_text h2 { font-size:50px; margin:0 0 15px 0; }
@@ -101,7 +101,7 @@
 	.nav-item.active a { color:#000 !important; }
 	.navbar .nav-item { padding:8px 0; border-top:1px solid #DDD; }
 	.nav-tabs .nav-item { border-top:0; padding:0; }
-	.nav-link { color:#000 !important; font-size:18px; padding:5px 15px !important; }
+	.navbar .nav-link { color:#000 !important; font-size:18px; padding:5px 15px !important; }
 	.web_login_bg { margin-top:0; height:610px; }
 	.main_bg { padding:70px 0 0; }
 	.book_your_show_bg { padding:70px 0 0; }
@@ -160,6 +160,7 @@
 
 	.web_main_bg { margin-top:0; padding:40px 0; }
 	.web_book_your_show_bg { margin-top:0; padding:40px 0; height:auto; }
+	.web_artist_event_bg { margin-top:0; padding:40px 0; height:auto; }
 	.main_bg { display:block; height:auto; }
 	.book_your_show_bg { display:block; height:auto; }
 	.nav_button { font-size:18px; color:#fff !important; font-weight:700; text-transform:capitalize; text-align:center; padding:6px 25px; border-radius:50px; display:block; background:linear-gradient(90deg,#139cef,#00d1ff); }
@@ -168,10 +169,22 @@
 
 	.hp_al_get_tickets { padding:20px 20px; }
 	.navbar-brand { margin:0 auto; }
+	
+	.artist_event_main { margin-top:25px; }
+	.artist_event_content { margin:30px 0; }
+	.aec_text { padding:15px 0; }
+	.aec_text h2 { font-size:28px; }
+	.web_artist_event_space { height:40px; }
+	
+	.user_dash_upload input[type="file"] + label { width:180px; height:180px; padding:34px 0; }
+	.user_dash_upload input[type="file"] + label img { width:110px; }
+	.user_dash_tab { margin:15px 0; }
+	.user_dash_button { margin:15px 0 40px 0; }
+	.user_dash_infos { margin:0; }
 }
 @media (min-width:992px){
-.navbar-toggle { display:none; }
-.web_pending_event_box { margin:-600px 0 30px 0;}
+	.navbar-toggle { display:none; }
+	.web_pending_event_box { margin:-600px 0 30px 0;}
 }
 @media (max-width:768px){
 	.web_pending_event_box { margin:-400px 0 30px 0;}

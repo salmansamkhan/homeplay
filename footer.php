@@ -114,7 +114,6 @@
 							<div class="my_ap_tab">
 								<input type="text" name="name" placeholder="Name">
 							</div>
-
 							<div class="my_ap_title">
 								<h2>Streaming Links</h2>
 							</div>
@@ -159,7 +158,6 @@
 							<div class="my_ap_title my_ap_title_centre">
 								<h2>Confirm Rejection</h2>
 							</div>
-
 						</div>
 					</div>
 					<div class="row">
@@ -524,8 +522,7 @@
 		    .toggleClass("fa-minus fa-plus");
 		});
 
-		var owl = $('.owl-carousel');
-		owl.owlCarousel({
+		$('#owl_three_slide').owlCarousel({
 			items: 3,
 			navigation: true,
 			loop: true,
@@ -542,6 +539,27 @@
 				},
 				1000:{
 					items:3
+				}
+			}
+		});
+		
+		$('#owl_four_slide').owlCarousel({
+			items: 4,
+			navigation: true,
+			loop: true,
+			margin: 20,
+			autoplay: true,
+			autoplayTimeout: 2000,
+			autoplayHoverPause: true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				1000:{
+					items:4
 				}
 			}
 		});
