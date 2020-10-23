@@ -45,7 +45,7 @@
 									</select>
 								</div>
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Select a Date & Time">
+									<input type="text" name="name" placeholder="Select a Date & Time" id="datepicker-1">
 								</div>
 								<div class="event_register_tab">
 									<textarea placeholder="Event Description"></textarea>

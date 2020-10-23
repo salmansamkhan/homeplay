@@ -30,7 +30,7 @@
 						<span>1:00PM</span>
 					</div>
 					<div class="hp_al_get_tickets">
-						<h3>Price: <span class="gl_price">$109.99</span></h3>
+						<h3>Price: <span class="gl_price">$109.99</span><a href="#" data-toggle="modal" data-target="#my_artist_profile" class="alp_edit edit">Edit</a> </h3>
 						<a href="#" class="alp_tag">Get Tickets</a>
 					</div>
 				</div>
