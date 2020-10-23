@@ -45,7 +45,7 @@
 									</select>
 								</div>
 								<div class="event_register_tab">
-									<input type="text" name="name" placeholder="Select a Date & Time" id="datepicker-1">
+									<input type="text" name="event_date" class="datepicker" placeholder="Select a Date & Time" id="datepicker-1">
 								</div>
 								<div class="event_register_tab">
 									<textarea placeholder="Event Description"></textarea>
@@ -333,7 +333,7 @@
 						<h2>CONTACT US TODAY</h2>
 						<p>We're happy to answer any and all of your questions or concerns! We always have somebody looking to tend to your specific needs. If you have any suggestions to make the Homeplay platform even better for your streaming needs, please fill out the form and let us know what we can do!<br/>
 						If you have any general questions, try looking at our FAQ section located down below for a quick answer right away!</p>
-						
+
 						<ul>
 							<li><a href="tel:+16137373378"><img src="images/icon_call.jpg" alt=""/> <span>+1 (613) 737 3378</span></a></li>
 							<li><a href="mailto:info@homeplay.live"><img src="images/icon_mail.jpg" alt=""/> <span>info@homeplay.live</span></a></li>

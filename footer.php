@@ -114,7 +114,7 @@
 							<div class="my_ap_tab">
 								<input type="text" name="name" placeholder="Name">
 							</div>
-							
+
 							<div class="my_ap_title">
 								<h2>Streaming Links</h2>
 							</div>
@@ -159,7 +159,7 @@
 							<div class="my_ap_title my_ap_title_centre">
 								<h2>Confirm Rejection</h2>
 							</div>
-							
+
 						</div>
 					</div>
 					<div class="row">
@@ -170,7 +170,7 @@
 							<div class="my_ap_tab">
 								<textarea placeholder="" class="biography"></textarea>
 							</div>
-							
+
 							<div class="my_ap_button button_left">
 								<a href="#" class="btn_popup_save">Confirm</a>
 							</div>
@@ -419,7 +419,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/smooth-scroll.js"></script>
-<script src="js/datepicker.js"></script>
+<script src="js/bootstrap-datepicker.min.js"></script>
 
 
 <script>
@@ -458,6 +458,13 @@
 	});
 
 	$(document).ready(function() {
+
+		if( $('.datepicker').length ) {
+			$('.datepicker').datepicker({
+				clearBtn: true,
+    			autoclose: true
+			});
+		}
 
 		// toggle tooltips
 		$('[data-toggle="tooltip"]').tooltip();
