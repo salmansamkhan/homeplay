@@ -9,9 +9,9 @@
 						<div class="hp_main_text">
 							<h2>Your Go-To Live Event Platform<span class="blink_homeplay">.</span></h2>
 							<h3>Stream your favourite artists <span class="blink_homeplay">LIVE</span> from home.</h3>
-							<p>Homeplay Live is the live streaming platform to put your favourite artists on your TV at home so you don’t have to leave the house to see the world’s best <img src="images/upcoming_events_icon.png" class="img-fluid">Upcoming Events</a>music. We are able to broadcast any artist concerts live!</p>
+							<p>Homeplay Live is the live streaming platform to put your favourite artists on your TV at home so you don’t have to leave the house to see the world’s best music. We are able to broadcast any artist concerts live!</p>
 							<div class="hp_main_buttons">
-								<a a href="javascript:void(0)" class="goto" section_name="upcoming_events">
+								<a href="javascript:void(0)" class="goto" section_name="featured_events"><img src="images/upcoming_events_icon.png"" class="img-fluid">Upcoming Events</a>
 								<a href="javascript:void(0)" class="goto" section_name="featured_events"><img src="images/featured_event_icon.png" class="img-fluid">Featured Events</a>
 								<a href="find-events.php"><img src="images/all_events_icon.png" class="img-fluid">All Events</a>
 							</div>
