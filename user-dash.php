@@ -13,8 +13,8 @@
 							</div>
 							<div class="artist_event_tabber">
 								<ul class="nav nav-tabs" role="tablist">
-									<li class="nav-item"><a class="nav-link active" href="#user_profile" role="tab" data-toggle="tab">Profile</a></li>
-									<li class="nav-item"><a class="nav-link nav-link-last" href="#user_your_tickets" role="tab" data-toggle="tab">Your Tickets</a></li>
+									<li class="nav-item"><a class="nav-link active" href="javascript:void(0)" data-target="#user_profile" role="tab" data-toggle="tab">Profile</a></li>
+									<li class="nav-item"><a class="nav-link nav-link-last" href="javascript:void(0)" data-target="#user_your_tickets" role="tab" data-toggle="tab">Your Tickets</a></li>
 								</ul>
 								<div class="tab-content">
 									<div role="tabpanel" class="tab-pane active" id="user_profile">
@@ -28,10 +28,10 @@
 												</div>
 												<div class="col-md-5">
 													<div class="user_dash_tab">
-														<input type="name" name="" placeholder="First Name">
+														<input type="text" name="" placeholder="First Name">
 													</div>
 													<div class="user_dash_tab">
-														<input type="name" name="" placeholder="Last Name">
+														<input type="text" name="" placeholder="Last Name">
 													</div>
 													<div class="user_dash_tab">
 														<input type="text" name="" placeholder="Username *">
@@ -126,8 +126,8 @@
 													<div class="event_common_tab live">
 														<img src="images/event_img1.jpg" alt=""/>
 														<div class="event_ct_date">
-															<span class="ct_one">YOU'RE</span>
-															<span class="ct_two">LIVE!</span>
+															<span class="ct_one">STREAM</span>
+															<span class="ct_two">NOW</span>
 														</div>
 														<h4>Event Title Goes Here</h4>
 														<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>

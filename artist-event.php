@@ -13,8 +13,8 @@
 							</div>
 							<div class="artist_event_tabber">
 								<ul class="nav nav-tabs" role="tablist">
-									<li class="nav-item"><a class="nav-link active" href="#artist_profile" role="tab" data-toggle="tab">Profile</a></li>
-									<li class="nav-item"><a class="nav-link nav-link-last" href="#artist_events" role="tab" data-toggle="tab">Your Events</a></li>
+									<li class="nav-item"><a class="nav-link active" data-target="#artist_profile" href="javascript:void(0)" role="tab" data-toggle="tab">Profile</a></li>
+									<li class="nav-item"><a class="nav-link nav-link-last" data-target="#artist_events" href="javascript:void(0)" role="tab" data-toggle="tab">Your Events</a></li>
 								</ul>
 								<div class="tab-content">
 									<div role="tabpanel" class="tab-pane active" id="artist_profile">
